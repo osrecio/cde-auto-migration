@@ -1,0 +1,32 @@
+{
+  "type": "static",
+  "archetype": "accesibilidad",
+  "url": "https://www.caixaenginyers.com/accesibilidad",
+  "prototype": "stardust/prototypes/accesibilidad-proposed.html",
+  "css": ["stardust/prototypes/canon.css", "stardust/prototypes/accesibilidad.css"],
+  "js": ["stardust/prototypes/accesibilidad.js"],
+  "iterations": { "1440": 3, "360": 3 },
+  "gates": {
+    "1440": { "pixel": "0.32%", "heightDelta": 1, "contentDiff": "0 red / 0 nothing-lost / 2 advisory", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "within tolerance" },
+    "360": { "pixel": "0.71%", "heightDelta": 1, "contentDiff": "0 red / 0 nothing-lost / 2 advisory", "visualDiff": "0 flags", "clip": 0, "overflow": "ok", "chromeParity": "9 deltas, all inherited from the shared canon header/footer (same set as index-360 iter3); header crop 0.98%, footer crop 2.65%" }
+  },
+  "capProbe": "PASS",
+  "residuals": [
+    { "band": "360 header", "cause": "shared canon mobile header: live #banner region is 0-height (fixed chrome) vs 125px in flow; hidden search/menu items offset; Grup Caixa Enginyers padding 25px→0 — identical to index-360 iter3", "size": "header crop 0.98%", "permanent": false },
+    { "band": "360 footer y2446–2986", "cause": "shared canon mobile footer: ~1px vertical offsets, phone-icon gap in the 900 300 321 pill, .app-cta padding-top 22.857px vs live 0 (text lands at the same y)", "size": "footer crop 2.65%", "permanent": false },
+    { "band": "content-diff header/footer", "cause": "EDITABLE COUNT advisory 8 vs 9 (header) and 14 vs 15 (footer) — inherited chrome markup from index-proposed.html", "size": "advisory", "permanent": false },
+    { "band": "motion", "cause": "gtm-captacion-visible / scroll-mark class mutations are analytics triggers (GTM), not design — not implemented", "size": "n/a", "permanent": true }
+  ],
+  "motion": {
+    "observed": ["tab hover: li background + a color, 150ms transition", "tab click: r-tabs-state-active/default swap", "header scroll-morph dead", "#tab2 widget sample dead on live (no frame change)"],
+    "implemented": ["hover colors + color/background/border/box-shadow .15s ease-in-out transition on tab anchors", "tab click activation with (Seleccionat) + tabindex/aria-selected moves", "<768 accordion: starts collapsed (instrument-observed load state), title click toggles"],
+    "dead": ["header scroll-morph", "gtm-captacion-visible", "scroll-mark"]
+  },
+  "decisions": [
+    "Mobile accordion load state = all panels collapsed: that is what the gate's live capture shows (responsiveTabs startCollapsed:'accordion'); a later measure.mjs pass once saw panel 1 open — timing-dependent on live.",
+    "Header copied from index-proposed.html minus the hr-fundacio block (absent on this page's live header); section bullets omitted (home-only).",
+    "Hero slider play/pause/nav/dots kept in markup but display:none, as on live (#hiyr_-pause/play-slider {display:none}, owl-nav/dots disabled)."
+  ],
+  "canonBackports": [],
+  "passed": true
+}

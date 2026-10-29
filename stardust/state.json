@@ -1,0 +1,531 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-10-26T22:50:06Z",
+    "stardustVersion": "0.36.0"
+  },
+  "site": {
+    "originUrl": "https://www.caixaenginyers.com",
+    "deployUrl": null,
+    "extractedAt": "2026-10-26T17:21:56.894Z",
+    "pageCap": 10,
+    "totalDiscovered": 479,
+    "crawled": 10,
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-26T17:21:56.894Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.caixaenginyers.com/",
+      "title": "Caixa Enginyers",
+      "type": "landing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T17:19:59.180Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-26T18:25:40Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-26T18:25:41Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "accesibilidad",
+      "url": "https://www.caixaenginyers.com/accesibilidad",
+      "title": "Accessibilitat",
+      "type": "static",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T17:19:59.178Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-26T18:46:08Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-26T18:46:08Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/accesibilidad.json",
+      "prototypePath": "stardust/prototypes/accesibilidad-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "acceso-bo",
+      "url": "https://www.caixaenginyers.com/acceso-bo",
+      "title": "Acceso BO",
+      "type": "form",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T17:19:57.911Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-26T18:45:49Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-26T18:45:49Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/acceso-bo.json",
+      "prototypePath": "stardust/prototypes/acceso-bo-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "accidentes",
+      "url": "https://www.caixaenginyers.com/accidentes",
+      "title": "Assegurança d'accidents  - Caixa d'Enginyers",
+      "type": "program",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T17:20:18.159Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-26T18:55:38Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-26T18:55:38Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/accidentes.json",
+      "prototypePath": "stardust/prototypes/accidentes-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "administraciones-publicas",
+      "url": "https://www.caixaenginyers.com/administraciones-publicas",
+      "title": "Administracions Públiques - Caixa Enginyers",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T17:20:20.371Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-26T22:17:11Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-26T22:50:05Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/administraciones-publicas.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/administraciones-publicas/index.html"
+    },
+    {
+      "slug": "ahorro-vida",
+      "url": "https://www.caixaenginyers.com/ahorro-vida",
+      "title": "Estalvi vida - Caixa Enginyers",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T17:20:16.950Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-26T22:17:11Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-26T22:50:05Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ahorro-vida.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/ahorro-vida/index.html"
+    },
+    {
+      "slug": "asesoramiento-negocios",
+      "url": "https://www.caixaenginyers.com/asesoramiento-negocios",
+      "title": "Finançament empreses - Caixa d'Enginyers",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T17:20:31.514Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-26T22:17:11Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-26T22:50:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/asesoramiento-negocios.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/asesoramiento-negocios/index.html"
+    },
+    {
+      "slug": "asesoramiento-personalizado",
+      "url": "https://www.caixaenginyers.com/asesoramiento-personalizado",
+      "title": "Assessorament personalitzat - Caixa Enginyers",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T17:20:33.824Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-26T22:17:11Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-26T22:50:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/asesoramiento-personalizado.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/asesoramiento-personalizado/index.html"
+    },
+    {
+      "slug": "asseguranca-patinet-electric",
+      "url": "https://www.caixaenginyers.com/asseguranca-patinet-electric",
+      "title": "Assegurança de patinet elèctric",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T17:20:37.436Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-26T22:17:11Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-26T22:50:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/asseguranca-patinet-electric.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/asseguranca-patinet-electric/index.html"
+    },
+    {
+      "slug": "hipoteca-jove",
+      "url": "https://www.caixaenginyers.com/hipoteca-jove",
+      "title": "Hipoteca Jove - Caixa Enginyers",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T17:20:45.335Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-26T22:17:11Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-26T22:50:06Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/hipoteca-jove.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/hipoteca-jove/index.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-26T22:17:23Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/accesibilidad",
+        "outputPath": "accesibilidad/index.html",
+        "slug": "accesibilidad",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/acceso-bo",
+        "outputPath": "acceso-bo/index.html",
+        "slug": "acceso-bo",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/accidentes",
+        "outputPath": "accidentes/index.html",
+        "slug": "accidentes",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/administraciones-publicas",
+        "outputPath": "administraciones-publicas/index.html",
+        "slug": "administraciones-publicas",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/ahorro-vida",
+        "outputPath": "ahorro-vida/index.html",
+        "slug": "ahorro-vida",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/asesoramiento-negocios",
+        "outputPath": "asesoramiento-negocios/index.html",
+        "slug": "asesoramiento-negocios",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/asesoramiento-personalizado",
+        "outputPath": "asesoramiento-personalizado/index.html",
+        "slug": "asesoramiento-personalizado",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/asseguranca-patinet-electric",
+        "outputPath": "asseguranca-patinet-electric/index.html",
+        "slug": "asseguranca-patinet-electric",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/hipoteca-jove",
+        "outputPath": "hipoteca-jove/index.html",
+        "slug": "hipoteca-jove",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 106,
+    "bundledAssets": [
+      "accesibilidad.css",
+      "accesibilidad.js",
+      "acceso-bo.css",
+      "accidentes.css",
+      "canon.css",
+      "fonts/fontawesome-alloy.woff",
+      "fonts/lato-bold-webfont.woff",
+      "fonts/lato-bold-webfont.woff2",
+      "fonts/lato-light-webfont.woff",
+      "fonts/lato-light-webfont.woff2",
+      "fonts/lato-regular-webfont.woff",
+      "fonts/lato-regular-webfont.woff2",
+      "index.css",
+      "index.js",
+      "media/Logo-CI-web-400x76-ca.png",
+      "media/angle-down-blue.svg",
+      "media/angle-up-blue.svg",
+      "media/banca-mobil-ca.png",
+      "media/bg_ingenium_home_v2.jpg",
+      "media/blog-white.png",
+      "media/bullet-check.png",
+      "media/cabecera_accesibilidad_CAT-min.jpg",
+      "media/chat.png",
+      "media/copa-equos.png",
+      "media/doc/user/a8def29a-55d5-84bb-c8d4-c76653027946",
+      "media/favicon.ico",
+      "media/focus-lupa.png",
+      "media/focus.png",
+      "media/fundacio-white.png",
+      "media/hazte-socio-dark-blue.png",
+      "media/headphones.png",
+      "media/ico_asesoramiento.png",
+      "media/ico_bullets_seguridad_online.png",
+      "media/ico_entidad.png",
+      "media/ico_hipoteca.png",
+      "media/ico_mail.png",
+      "media/ico_movil.png",
+      "media/ico_phone_25x25.png",
+      "media/ico_prestamo.png",
+      "media/ico_tarjeta.png",
+      "media/ico_whats.png",
+      "media/icon-twitter-x.png",
+      "media/img_segmento_empresas.png",
+      "media/img_segmento_institucional.png",
+      "media/img_segmento_jovenes.png",
+      "media/img_segmento_particulares.png",
+      "media/img_segmento_profesionales.png",
+      "media/img_segmento_senior.png",
+      "media/instagram-white.png",
+      "media/marker-white.png",
+      "media/marker-yellow.png",
+      "media/marker.png",
+      "media/nav/1042114/layout_icon",
+      "media/nav/1043250/layout_icon",
+      "media/nav/1043424/layout_icon",
+      "media/nav/1043481/layout_icon",
+      "media/nav/1043791/layout_icon",
+      "media/nav/1043859/layout_icon",
+      "media/nav/1044041/layout_icon",
+      "media/nav/1044261/layout_icon",
+      "media/nav/1044375/layout_icon",
+      "media/nav/1044445/layout_icon",
+      "media/nav/1044584/layout_icon",
+      "media/nav/1044653/layout_icon",
+      "media/nav/1044775/layout_icon",
+      "media/nav/1044831/layout_icon",
+      "media/nav/1044889/layout_icon",
+      "media/nav/1045012/layout_icon",
+      "media/nav/1045083/layout_icon",
+      "media/nav/15316826/layout_icon",
+      "media/nav/15319854/layout_icon",
+      "media/nav/1750909/layout_icon",
+      "media/nav/3014341/layout_icon",
+      "media/nav/663250682/layout_icon",
+      "media/nav/664429372/layout_icon",
+      "media/nav/665492918/layout_icon",
+      "media/nav/665987972/layout_icon",
+      "media/nav/666025765/layout_icon",
+      "media/nav/666551751/layout_icon",
+      "media/nav/666551774/layout_icon",
+      "media/nav/666551780/layout_icon",
+      "media/nav/666551817/layout_icon",
+      "media/nav/666551829/layout_icon",
+      "media/nav/666551835/layout_icon",
+      "media/nav/666551908/layout_icon",
+      "media/nav/666770113/layout_icon",
+      "media/nav/667242000/layout_icon",
+      "media/nav/667279446/layout_icon",
+      "media/news-1.png",
+      "media/news-2.jpg",
+      "media/news-3.jpg",
+      "media/owl-video-play.png",
+      "media/phone.png",
+      "media/raya-separadora.png",
+      "media/rp-premier.png",
+      "media/rp-totsota.png",
+      "media/rp-vida.png",
+      "media/seg-acc-hero.jpg",
+      "media/slide-captacio-video.jpg",
+      "media/slide-focus.jpg",
+      "media/slide-fondiposit.jpg",
+      "media/slide1.jpg",
+      "media/slide2.jpg",
+      "media/slide3.jpg",
+      "media/trama_bg_segmentos.png",
+      "media/yellow-bullet.png"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 82
+      },
+      {
+        "slug": "accesibilidad",
+        "file": "stardust/migrated/accesibilidad/index.html",
+        "assetsBundled": 50
+      },
+      {
+        "slug": "acceso-bo",
+        "file": "stardust/migrated/acceso-bo/index.html",
+        "assetsBundled": 49
+      },
+      {
+        "slug": "accidentes",
+        "file": "stardust/migrated/accidentes/index.html",
+        "assetsBundled": 52
+      },
+      {
+        "slug": "administraciones-publicas",
+        "file": "stardust/migrated/administraciones-publicas/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "ahorro-vida",
+        "file": "stardust/migrated/ahorro-vida/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "asesoramiento-negocios",
+        "file": "stardust/migrated/asesoramiento-negocios/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "asesoramiento-personalizado",
+        "file": "stardust/migrated/asesoramiento-personalizado/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "asseguranca-patinet-electric",
+        "file": "stardust/migrated/asseguranca-patinet-electric/index.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "hipoteca-jove",
+        "file": "stardust/migrated/hipoteca-jove/index.html",
+        "assetsBundled": 1
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-26T22:17:23Z",
+      "rendered": [
+        "administraciones-publicas",
+        "ahorro-vida",
+        "asesoramiento-negocios",
+        "asesoramiento-personalizado",
+        "asseguranca-patinet-electric",
+        "hipoteca-jove"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

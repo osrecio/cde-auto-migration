@@ -1,0 +1,1066 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 10,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.caixaenginyers.com/o/webpublica-theme/images/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 10,
+    "pagesWithSameSiteData": 9,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "consent.cookiefirst.com",
+        "path": "/sites/caixaenginyers.com-{uuid}/version.json",
+        "query": [
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://consent.cookiefirst.com/sites/caixaenginyers.com-a931c1f3-5e66-45b8-888f-198e5408ec12/version.json",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "edge.cookiefirst.com",
+        "path": "/prod/location",
+        "query": [
+          "origin"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://edge.cookiefirst.com/prod/location",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "ae",
+          "apvc",
+          "dl",
+          "dma",
+          "dma_cps",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/ccm/collect",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "consent.cookiefirst.com",
+        "path": "/sites/caixaenginyers.com-{uuid}/lang-widget-ca.json",
+        "query": [
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://consent.cookiefirst.com/sites/caixaenginyers.com-a931c1f3-5e66-45b8-888f-198e5408ec12/lang-widget-ca.json",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "consent.cookiefirst.com",
+        "path": "/sites/caixaenginyers.com-{uuid}/styles.css",
+        "query": [
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://consent.cookiefirst.com/sites/caixaenginyers.com-a931c1f3-5e66-45b8-888f-198e5408ec12/styles.css",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "consent.cookiefirst.com",
+        "path": "/icons/default/common/fingerprint.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://consent.cookiefirst.com/icons/default/common/fingerprint.svg",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gcu",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pixels.spotify.com",
+        "path": "/v1/config/{hash}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://pixels.spotify.com/v1/config/05ad3e392f754d1a9208eb8417637283",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pixels.spotify.com",
+        "path": "/v1/ingest",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://pixels.spotify.com/v1/ingest",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/935470322/",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://analytics.google.com/g/collect",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_fv",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "cas.avalon.perfdrive.com",
+        "path": "/jsdata",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://cas.avalon.perfdrive.com/jsdata",
+        "pages": 7,
+        "examples": [
+          "ahorro-vida",
+          "accidentes",
+          "administraciones-publicas"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.caixaenginyers.com",
+        "path": "/o/dynamic-data-mapping-form-field-types",
+        "query": [
+          "p_auth"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.caixaenginyers.com/o/dynamic-data-mapping-form-field-types",
+        "pages": 6,
+        "examples": [
+          "accidentes",
+          "administraciones-publicas",
+          "asesoramiento-negocios"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.caixaenginyers.com",
+        "path": "/o/js_resolve_modules",
+        "query": [
+          "modules"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.caixaenginyers.com/o/js_resolve_modules",
+        "pages": 6,
+        "examples": [
+          "accidentes",
+          "administraciones-publicas",
+          "asesoramiento-negocios"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.hcaptcha.com",
+        "path": "/checksiteconfig",
+        "query": [
+          "host",
+          "sc",
+          "sitekey",
+          "spst",
+          "swa",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.hcaptcha.com/checksiteconfig",
+        "pages": 4,
+        "examples": [
+          "ahorro-vida",
+          "accidentes",
+          "administraciones-publicas"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bancaonline.caixaenginyers.com",
+        "path": "/{uuid}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://bancaonline.caixaenginyers.com/c99a4269-161c-4242-a3f0-28d44fa6ce24",
+        "pages": 3,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.cookiefirst.com",
+        "path": "/prod/consent",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.cookiefirst.com/prod/consent",
+        "pages": 3,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 3,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api2.hcaptcha.com",
+        "path": "/checksiteconfig",
+        "query": [
+          "host",
+          "r",
+          "sc",
+          "sitekey",
+          "spst",
+          "swa",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api2.hcaptcha.com/checksiteconfig",
+        "pages": 2,
+        "examples": [
+          "asesoramiento-personalizado",
+          "asseguranca-patinet-electric"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "5b8eef2687a9.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://5b8eef2687a9.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "ahorro-vida"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "7316b4656c32.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://7316b4656c32.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "ahorro-vida"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "82430408caca.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://82430408caca.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "accidentes"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "40b83490e253.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://40b83490e253.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "accidentes"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "eb4d37c544bd.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://eb4d37c544bd.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "administraciones-publicas"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c5e708530acb.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://c5e708530acb.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "administraciones-publicas"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "e09edd76b265.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://e09edd76b265.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "asesoramiento-negocios"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "78910f337905.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://78910f337905.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "asesoramiento-negocios"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "9b42fc6a775c.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://9b42fc6a775c.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "asesoramiento-personalizado"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "1e0f9819d656.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://1e0f9819d656.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "asesoramiento-personalizado"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "02ef9974c03f.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://02ef9974c03f.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "asseguranca-patinet-electric"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "866659603276.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://866659603276.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "asseguranca-patinet-electric"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "144097187d4d.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://144097187d4d.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "asseguranca-patinet-electric"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "b3915e6be96c.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://b3915e6be96c.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "asseguranca-patinet-electric"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "d517a6bca1c4.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://d517a6bca1c4.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "hipoteca-jove"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cc21b44bda8d.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://cc21b44bda8d.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "hipoteca-jove"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "host": "consent.cookiefirst.com",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "host": "tag.oniad.com",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "host": "track.adform.net",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "host": "www.opinator.com",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "host": "pixel.byspotify.com",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      },
+      {
+        "host": "hcaptcha.com",
+        "pages": 7,
+        "examples": [
+          "ahorro-vida",
+          "accidentes",
+          "administraciones-publicas"
+        ]
+      },
+      {
+        "host": "cdn.perfdrive.com",
+        "pages": 7,
+        "examples": [
+          "ahorro-vida",
+          "accidentes",
+          "administraciones-publicas"
+        ]
+      },
+      {
+        "host": "newassets.hcaptcha.com",
+        "pages": 6,
+        "examples": [
+          "ahorro-vida",
+          "accidentes",
+          "administraciones-publicas"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 10,
+        "examples": [
+          "acceso-bo",
+          "index",
+          "accesibilidad"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.caixaenginyers.com/accidentes",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_ehmP3nuynzl1_ddm$$Nom$aOwuOHfj$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_ehmP3nuynzl1_ddm$$Cognoms$Obj7jh1n$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_ehmP3nuynzl1_ddm$$DNINIECIFOPassaport$V5JooIno$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_ehmP3nuynzl1_ddm$$Email$4ishuwR6$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_ehmP3nuynzl1_ddm$$Telèfon$OgAD79Gq$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_ehmP3nuynzl1_ddm$$CodiPostal$kJRbxB7x$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_ehmP3nuynzl1_ddm$$Field33837297$Kx3AkwQe$0#fnMigrqr3267944jiqk371ItF$80Mf3J1A$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_ehmP3nuynzl1_ddm$$Field33837297$Kx3AkwQe$0#fnMigrqr3267944r4LWcrHpCJ$8uO9jRsY$0$$ca_ES_0",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_ehmP3nuynzl1_ddm$$OrigenDelFormulari$lCX09ypd$0$$ca_ES"
+        ],
+        "pages": 1,
+        "examples": [
+          "accidentes"
+        ]
+      },
+      {
+        "action": "https://www.caixaenginyers.com/administraciones-publicas",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_4OZSFCzTH1I1_ddm$$Nom$TlBfPmQY$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_4OZSFCzTH1I1_ddm$$Cognom$V8GTy7WJ$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_4OZSFCzTH1I1_ddm$$DNINIECIFOPassaport$TLr5lpBM$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_4OZSFCzTH1I1_ddm$$Email$h8pnhwBS$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_4OZSFCzTH1I1_ddm$$Telèfon$D6yPTZw3$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_4OZSFCzTH1I1_ddm$$CodiPostal$gIC1DVVH$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_4OZSFCzTH1I1_ddm$$Field72098599$Qt9mPuKS$0#fnMigrqr662818533NRfRn0VdQm$uFPtRH0R$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_4OZSFCzTH1I1_ddm$$Field72098599$Qt9mPuKS$0#fnMigrqr662818533CA84WFVg0h$CsUlDkj5$0$$ca_ES_0",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_4OZSFCzTH1I1_ddm$$OrigenDelFormulari$GiSZNtLP$0$$ca_ES"
+        ],
+        "pages": 1,
+        "examples": [
+          "administraciones-publicas"
+        ]
+      },
+      {
+        "action": "https://www.caixaenginyers.com/asesoramiento-negocios",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_iXwmWWTEEV7t_ddm$$Nom$hrSGOA9p$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_iXwmWWTEEV7t_ddm$$Cognoms$WDOUAd4K$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_iXwmWWTEEV7t_ddm$$DNINIECIFOPassaport$dLpfopFJ$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_iXwmWWTEEV7t_ddm$$Email$Mdtu9JXy$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_iXwmWWTEEV7t_ddm$$Telèfon$6H6fUpKR$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_iXwmWWTEEV7t_ddm$$CodiPostal$vaeSCVKQ$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_iXwmWWTEEV7t_ddm$$Field33837297$GcBoVrLI$0#fnMigrqr3267944jiqk371ItF$1T4Sn0aQ$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_iXwmWWTEEV7t_ddm$$Field33837297$GcBoVrLI$0#fnMigrqr3267944r4LWcrHpCJ$RZXqSwxT$0$$ca_ES_0",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_iXwmWWTEEV7t_ddm$$OrigenDelFormulari$acw3KDn2$0$$ca_ES"
+        ],
+        "pages": 1,
+        "examples": [
+          "asesoramiento-negocios"
+        ]
+      },
+      {
+        "action": "https://www.caixaenginyers.com/asesoramiento-personalizado",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_B7SauutYBcDO_ddm$$Nom$em7xedP2$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_B7SauutYBcDO_ddm$$Cognoms$8h28mr6Z$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_B7SauutYBcDO_ddm$$DNINIECIFOPassaport$bcEGXDf9$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_B7SauutYBcDO_ddm$$Email$M2TOiuZ2$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_B7SauutYBcDO_ddm$$Telèfon$YKGyyw4G$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_B7SauutYBcDO_ddm$$CodiPostal$BUX58vgJ$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_B7SauutYBcDO_ddm$$Field33837297$KyovgQLc$0#fnMigrqr3267944jiqk371ItF$vCWaQzGI$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_B7SauutYBcDO_ddm$$Field33837297$KyovgQLc$0#fnMigrqr3267944r4LWcrHpCJ$df564it9$0$$ca_ES_0",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_B7SauutYBcDO_ddm$$OrigenDelFormulari$TIxlBpsm$0$$ca_ES"
+        ],
+        "pages": 1,
+        "examples": [
+          "asesoramiento-personalizado"
+        ]
+      },
+      {
+        "action": "https://www.caixaenginyers.com/asseguranca-patinet-electric",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_Imq2lO3B4qH7_ddm$$Nom$VAq2XhH0$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_Imq2lO3B4qH7_ddm$$Cognoms$Hrb6louG$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_Imq2lO3B4qH7_ddm$$DNINIECIFOPassaport$cCTuJMks$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_Imq2lO3B4qH7_ddm$$Email$Lj4WMnvE$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_Imq2lO3B4qH7_ddm$$Telèfon$5UyfIheT$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_Imq2lO3B4qH7_ddm$$CodiPostal$OeuxVMsY$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_Imq2lO3B4qH7_ddm$$Field33837297$VVqv0Mhf$0#fnMigrqr3267944jiqk371ItF$SkVFsesB$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_Imq2lO3B4qH7_ddm$$Field33837297$VVqv0Mhf$0#fnMigrqr3267944r4LWcrHpCJ$kysunEIi$0$$ca_ES_0",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_Imq2lO3B4qH7_ddm$$OrigenDelFormulari$nLRyupU2$0$$ca_ES"
+        ],
+        "pages": 1,
+        "examples": [
+          "asseguranca-patinet-electric"
+        ]
+      },
+      {
+        "action": "https://www.caixaenginyers.com/hipoteca-jove",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_HV1r3dJLSkA1_ddm$$PreuDeCompra$GRcF90r3$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_HV1r3dJLSkA1_ddm$$ImportDeLaHipoteca$w1JCmmdg$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_HV1r3dJLSkA1_ddm$$TerminiDeDevolució$tjuvTc3f$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_HV1r3dJLSkA1_ddm$$Nom$v7fET2P6$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_HV1r3dJLSkA1_ddm$$Cognoms$inv1IjxH$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_HV1r3dJLSkA1_ddm$$DNINIECIFOPassaport$sr5XHaK8$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_HV1r3dJLSkA1_ddm$$Email$qGksspnJ$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_HV1r3dJLSkA1_ddm$$Telèfon$5uIAQDfo$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_HV1r3dJLSkA1_ddm$$CodiPostal$2bfuSjQW$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_HV1r3dJLSkA1_ddm$$Field95438120$h1ECdXDs$0#fnMigrqr663043066umGQrFgWAt$gytnrkyt$0$$ca_ES",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_HV1r3dJLSkA1_ddm$$Field95438120$h1ECdXDs$0#fnMigrqr663043066Q62ildGFZ9$fg8BkXUH$0$$ca_ES_0",
+          "_com_liferay_dynamic_data_mapping_form_web_portlet_DDMFormPortlet_INSTANCE_HV1r3dJLSkA1_ddm$$OrigenDelFormulari$78tlVxlX$0$$ca_ES"
+        ],
+        "pages": 1,
+        "examples": [
+          "hipoteca-jove"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "rendered page with header, hero, content and footer; no consent wall or bot page"
+    },
+    {
+      "slug": "accesibilidad",
+      "verdict": "ok",
+      "notes": "rendered page with header, hero, content and footer; no consent wall or bot page"
+    },
+    {
+      "slug": "acceso-bo",
+      "verdict": "ok",
+      "notes": "rendered page with header, hero, content and footer; no consent wall or bot page"
+    },
+    {
+      "slug": "accidentes",
+      "verdict": "ok",
+      "notes": "rendered page with header, hero, content and footer; no consent wall or bot page"
+    },
+    {
+      "slug": "administraciones-publicas",
+      "verdict": "ok",
+      "notes": "rendered page with header, hero, content and footer; no consent wall or bot page"
+    },
+    {
+      "slug": "ahorro-vida",
+      "verdict": "ok",
+      "notes": "rendered page with header, hero, content and footer; no consent wall or bot page"
+    },
+    {
+      "slug": "asesoramiento-negocios",
+      "verdict": "ok",
+      "notes": "rendered page with header, hero, content and footer; no consent wall or bot page"
+    },
+    {
+      "slug": "asesoramiento-personalizado",
+      "verdict": "ok",
+      "notes": "rendered page with header, hero, content and footer; no consent wall or bot page"
+    },
+    {
+      "slug": "asseguranca-patinet-electric",
+      "verdict": "ok",
+      "notes": "rendered page with header, hero, content and footer; no consent wall or bot page"
+    },
+    {
+      "slug": "hipoteca-jove",
+      "verdict": "ok",
+      "notes": "rendered page with header, hero, content and footer; no consent wall or bot page"
+    }
+  ],
+  "siblingCandidates": []
+}

@@ -1,0 +1,62 @@
+{
+  "writtenBy": "stardust C0 foundation",
+  "writtenAt": "2026-10-26",
+  "runtime": "vanilla aem-boilerplate (scripts/aem.js untouched)",
+  "blockWrapperClass": "<name>-wrapper",
+  "sectionContainerClass": "<name>-container",
+  "buttons": {
+    "decorator": "scripts.js decorateButtons — author-formatted links only",
+    "wrapper": "p.button-wrapper",
+    "classes": { "strong": "a.button.primary (.btn-primary)", "em": "a.button.secondary (.btn)", "strong+em": "a.button.accent (= primary paint)" }
+  },
+  "fonts": {
+    "file": "styles/fonts.css (loaded by loadFonts)",
+    "faces": [
+      { "family": "latoregular", "files": ["fonts/lato-regular-webfont.woff2", "fonts/lato-regular-webfont.woff"], "fallback": "lato-fallback", "license": "SIL OFL 1.1" },
+      { "family": "latobold", "files": ["fonts/lato-bold-webfont.woff2", "fonts/lato-bold-webfont.woff"], "fallback": "lato-bold-fallback", "license": "SIL OFL 1.1" },
+      { "family": "latolight", "files": ["fonts/lato-light-webfont.woff2", "fonts/lato-light-webfont.woff"], "fallback": "lato-light-fallback", "license": "SIL OFL 1.1" },
+      { "family": "fontawesome-alloy", "files": ["fonts/fontawesome-alloy.woff"], "fallback": null, "license": "Font Awesome 3 (SIL OFL 1.1), Liferay alloy build" }
+    ],
+    "note": "faces declared font-weight: normal like the source; weight 700 on latoregular synthesises bold as live does. Use var(--ce-font) / var(--ce-font-bold) / var(--ce-font-light) / var(--ce-font-icon)."
+  },
+  "tokens": {
+    "colors": ["--ce-blue", "--ce-blue-link", "--ce-blue-hover", "--ce-navy", "--ce-navy-deep", "--ce-ink", "--ce-tab", "--ce-yellow", "--ce-orange", "--ce-grey-bg", "--ce-card-bg", "--ce-dot", "--ce-btn-hover", "--ce-focus-ink"],
+    "fonts": ["--ce-font", "--ce-font-bold", "--ce-font-light", "--ce-font-icon", "--body-font-family", "--heading-font-family"],
+    "type": ["--body-font-size", "--body-line-height", "--heading-font-size-h1", "--heading-font-size-h2", "--heading-font-size-h3"],
+    "layout": ["--ce-container", "--max-width", "--ce-gutter", "--footer-gap", "--nav-height"]
+  },
+  "breakpoints": { "mobile": "(width <= 991px)", "small": "(width <= 480px)", "note": "source theme steps 1200 / 991 / 767 / 575 / 480" },
+  "container": {
+    "maxWidth": "1148px (--ce-container, DESIGN.json extensions.breakpoints module cap)",
+    "rule": "main > .section > div { max-width: var(--max-width); margin: 0 auto }",
+    "fullBleedEscape": "section style full-bleed -> main > .section.full-bleed > div { max-width: none }; blocks may also escape at their own wrapper",
+    "mainShell": "main { margin-top: 5px } ; <=991: main { margin-top: 0; padding: 0 15px }",
+    "sectionStyles": ["grey", "navy", "light", "full-bleed"]
+  },
+  "chrome": {
+    "header": {
+      "doc": "/nav (content/nav.html), overridable per page via metadata nav",
+      "block": "blocks/header",
+      "root": "header .header .banner#banner",
+      "reservation": "--nav-height 205px (>=992) / 134px (<=991)",
+      "sections": ["brand (logo img + home link)", "actions ul (Accés -> login modal, Dona't d'alta)", "login modal (h2, accessible link, banca-online iframe link, ul, texts, strong CTA)", "utility ul (Oficines, Seguretat, Grup, Fundació)", "languages ul (es -> source /es/<path>, ca -> current path)", "main nav nested ul (3 levels; 2nd-level item with a nested ul = mega panel toggle)", "search p link (results page base; submits to <base>search/<q>?)"],
+      "hooks": {
+        "body.home or path '/' or metadata header-fundacio=show": "shows the Fundació button (hidden on every other page, as live)",
+        "metadata nav-selected=<top label>": "selects that top-level nav item (default: first, Particulars)",
+        ".banner.opened-menu": "mobile drawer open state",
+        ".banner.is-home": "home variant class"
+      }
+    },
+    "footer": {
+      "doc": "/footer (content/footer.html), overridable per page via metadata footer",
+      "block": "blocks/footer",
+      "root": "footer .footer .footer-inner",
+      "sections": ["columns (h2 hidden + h3/ul pairs)", "legal ul (desktop)", "contact (title p, ul, strong tel CTA)", "social (title p, ul)", "legal ul (mobile)", "app CTA p + copyright p"],
+      "hooks": {
+        "--footer-gap": "footer top margin; 40px default, 30px on body.accidentes / body.program (product templates); a template sets it on body"
+      }
+    }
+  },
+  "favicon": "/favicon.ico (source favicon)",
+  "martech": "scripts/martech.js + consent-check.js + consented.js scaffolded, disabled"
+}

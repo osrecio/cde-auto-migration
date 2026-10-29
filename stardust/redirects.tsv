@@ -1,0 +1,2 @@
+# Source	Destination
+# No rows: every in-scope source path equals its delivered EDS path (extensionless, root served by /index); no spec knowledge of legacy redirects in scope.

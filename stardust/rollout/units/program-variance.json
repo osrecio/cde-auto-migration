@@ -1,0 +1,587 @@
+{
+  "archetype": "https://www.caixaenginyers.com/accidentes",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".slider",
+    "box": ".box",
+    "portlet": ".journal-content-article"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "hero": {
+        "sel": ".slider",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 500
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(67, 67, 67)",
+          "padding": "0px 0px 0px 0px",
+          "font": "latoregular 16px/22.8571px 400",
+          "borderRadius": "0px",
+          "heading": "h1 latoregular 60px/66px 500 rgb(67, 67, 67)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Reproduir Control lliscant PausaControl lliscant Assegurança"
+      },
+      "box": {
+        "sel": ".box",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 559,
+            "h": 220
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(248, 248, 248)",
+          "color": "rgb(67, 67, 67)",
+          "padding": "20px 20px 20px 20px",
+          "font": "latoregular 16px/22.8571px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Modalitat A Cobertura per mort per accident 50.000 euros Cob"
+      },
+      "portlet": {
+        "sel": ".journal-content-article",
+        "count": 16,
+        "first": {
+          "rect": {
+            "w": 405,
+            "h": 86
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(67, 67, 67)",
+          "padding": "0px 0px 0px 0px",
+          "font": "latoregular 16px/22.8571px 400",
+          "borderRadius": "0px",
+          "heading": "h1 latoregular 60px/0px 500 rgb(67, 67, 67)",
+          "image": {
+            "w": 400,
+            "h": 76
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 8,
+        "text": ""
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.caixaenginyers.com/administraciones-publicas",
+      "findings": [
+        {
+          "kind": "MISSING",
+          "probe": "hero",
+          "msg": "\".slider\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "box",
+          "msg": "2 → 6 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "box",
+          "msg": "1 → 3 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "box",
+          "msg": "rect{w 559 → 368, h 220 → 200}; backgroundColor rgb(248, 248, 248) → rgb(236, 236, 236); padding 20px 20px 20px 20px → 0px 0px 0px 0px; image null → [object Object]"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "portlet",
+          "msg": "16 → 24 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "portlet",
+          "msg": "8 → 13 distinct style families among matches (a second visual family = a variant class)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".slider",
+            "count": 0
+          },
+          "box": {
+            "sel": ".box",
+            "count": 6,
+            "first": {
+              "rect": {
+                "w": 368,
+                "h": 200
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(236, 236, 236)",
+              "color": "rgb(67, 67, 67)",
+              "padding": "0px 0px 0px 0px",
+              "font": "latoregular 16px/22.8571px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 368,
+                "h": 200
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": ""
+          },
+          "portlet": {
+            "sel": ".journal-content-article",
+            "count": 24,
+            "first": {
+              "rect": {
+                "w": 405,
+                "h": 86
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(67, 67, 67)",
+              "padding": "0px 0px 0px 0px",
+              "font": "latoregular 16px/22.8571px 400",
+              "borderRadius": "0px",
+              "heading": "h1 latoregular 60px/0px 500 rgb(67, 67, 67)",
+              "image": {
+                "w": 400,
+                "h": 76
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 13,
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.caixaenginyers.com/ahorro-vida",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "heading h1 latoregular 60px/66px 500 rgb(67, 67, 67) → h3 latoregular 36px/39.6px 500 rgb(67, 67, 67)"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "box",
+          "msg": "\".box\" matches 2 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "portlet",
+          "msg": "16 → 20 matches"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".slider",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 500
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(67, 67, 67)",
+              "padding": "0px 0px 0px 0px",
+              "font": "latoregular 16px/22.8571px 400",
+              "borderRadius": "0px",
+              "heading": "h3 latoregular 36px/39.6px 500 rgb(67, 67, 67)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Reproduir Control lliscant PausaControl lliscant Indicador d"
+          },
+          "box": {
+            "sel": ".box",
+            "count": 0
+          },
+          "portlet": {
+            "sel": ".journal-content-article",
+            "count": 20,
+            "first": {
+              "rect": {
+                "w": 405,
+                "h": 86
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(67, 67, 67)",
+              "padding": "0px 0px 0px 0px",
+              "font": "latoregular 16px/22.8571px 400",
+              "borderRadius": "0px",
+              "heading": "h1 latoregular 60px/0px 500 rgb(67, 67, 67)",
+              "image": {
+                "w": 400,
+                "h": 76
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 8,
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.caixaenginyers.com/asesoramiento-negocios",
+      "findings": [
+        {
+          "kind": "CLUSTERS",
+          "probe": "box",
+          "msg": "1 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "box",
+          "msg": "rect{w 559 → 1148, h 220 → 659}; backgroundColor rgb(248, 248, 248) → rgb(255, 255, 255); heading null → h2 latoregular 45px/49.5px 500 rgb(67, 67, 67); image null → [object Object]"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "portlet",
+          "msg": "8 → 9 distinct style families among matches (a second visual family = a variant class)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".slider",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 500
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(67, 67, 67)",
+              "padding": "0px 0px 0px 0px",
+              "font": "latoregular 16px/22.8571px 400",
+              "borderRadius": "0px",
+              "heading": "h1 latoregular 60px/66px 500 rgb(67, 67, 67)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Reproduir Control lliscant PausaControl lliscant Finançament"
+          },
+          "box": {
+            "sel": ".box",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1148,
+                "h": 659
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(67, 67, 67)",
+              "padding": "20px 20px 20px 20px",
+              "font": "latoregular 16px/22.8571px 400",
+              "borderRadius": "0px",
+              "heading": "h2 latoregular 45px/49.5px 500 rgb(67, 67, 67)",
+              "image": {
+                "w": 56,
+                "h": 5
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Avantatges que t'oferim: Permet fer front a les inversions n"
+          },
+          "portlet": {
+            "sel": ".journal-content-article",
+            "count": 16,
+            "first": {
+              "rect": {
+                "w": 405,
+                "h": 86
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(67, 67, 67)",
+              "padding": "0px 0px 0px 0px",
+              "font": "latoregular 16px/22.8571px 400",
+              "borderRadius": "0px",
+              "heading": "h1 latoregular 60px/0px 500 rgb(67, 67, 67)",
+              "image": {
+                "w": 400,
+                "h": 76
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 9,
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.caixaenginyers.com/asesoramiento-personalizado",
+      "findings": [
+        {
+          "kind": "COUNT",
+          "probe": "box",
+          "msg": "2 → 4 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "box",
+          "msg": "1 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "box",
+          "msg": "rect{w 559 → 1148, h 220 → 114}; backgroundColor rgb(248, 248, 248) → rgba(0, 0, 0, 0)"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "portlet",
+          "msg": "16 → 14 matches"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".slider",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 500
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(67, 67, 67)",
+              "padding": "0px 0px 0px 0px",
+              "font": "latoregular 16px/22.8571px 400",
+              "borderRadius": "0px",
+              "heading": "h1 latoregular 60px/66px 500 rgb(67, 67, 67)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Reproduir Control lliscant PausaControl lliscant Assessorame"
+          },
+          "box": {
+            "sel": ".box",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 1148,
+                "h": 114
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(67, 67, 67)",
+              "padding": "20px 20px 20px 20px",
+              "font": "latoregular 16px/22.8571px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "El Grup Caixa Enginyers, com a grup financer i assegurador, "
+          },
+          "portlet": {
+            "sel": ".journal-content-article",
+            "count": 14,
+            "first": {
+              "rect": {
+                "w": 405,
+                "h": 86
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(67, 67, 67)",
+              "padding": "0px 0px 0px 0px",
+              "font": "latoregular 16px/22.8571px 400",
+              "borderRadius": "0px",
+              "heading": "h1 latoregular 60px/0px 500 rgb(67, 67, 67)",
+              "image": {
+                "w": 400,
+                "h": 76
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 8,
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.caixaenginyers.com/asseguranca-patinet-electric",
+      "findings": [
+        {
+          "kind": "MISSING",
+          "probe": "hero",
+          "msg": "\".slider\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "box",
+          "msg": "\".box\" matches 2 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "portlet",
+          "msg": "16 → 29 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "portlet",
+          "msg": "8 → 13 distinct style families among matches (a second visual family = a variant class)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".slider",
+            "count": 0
+          },
+          "box": {
+            "sel": ".box",
+            "count": 0
+          },
+          "portlet": {
+            "sel": ".journal-content-article",
+            "count": 29,
+            "first": {
+              "rect": {
+                "w": 405,
+                "h": 86
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(67, 67, 67)",
+              "padding": "0px 0px 0px 0px",
+              "font": "latoregular 16px/22.8571px 400",
+              "borderRadius": "0px",
+              "heading": "h1 latoregular 60px/0px 500 rgb(67, 67, 67)",
+              "image": {
+                "w": 400,
+                "h": 76
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 13,
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.caixaenginyers.com/hipoteca-jove",
+      "findings": [
+        {
+          "kind": "MISSING",
+          "probe": "hero",
+          "msg": "\".slider\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "box",
+          "msg": "\".box\" matches 2 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "portlet",
+          "msg": "16 → 18 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "portlet",
+          "msg": "8 → 11 distinct style families among matches (a second visual family = a variant class)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".slider",
+            "count": 0
+          },
+          "box": {
+            "sel": ".box",
+            "count": 0
+          },
+          "portlet": {
+            "sel": ".journal-content-article",
+            "count": 18,
+            "first": {
+              "rect": {
+                "w": 405,
+                "h": 86
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(67, 67, 67)",
+              "padding": "0px 0px 0px 0px",
+              "font": "latoregular 16px/22.8571px 400",
+              "borderRadius": "0px",
+              "heading": "h1 latoregular 60px/0px 500 rgb(67, 67, 67)",
+              "image": {
+                "w": 400,
+                "h": 76
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 11,
+            "text": ""
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 6,
+    "varying": 6,
+    "probesVarying": [
+      "hero",
+      "box",
+      "portlet"
+    ]
+  }
+}

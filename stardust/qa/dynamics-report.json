@@ -1,0 +1,83 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-10-27T00:31:17.124Z",
+  "origin": "https://main--3a4f1d39--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "Header Accés popup (banca online login dialog) + menus",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "click-dialog",
+   "pass": true,
+   "detail": "dialog 1440px · heading \"Entrada socis\" · 0 fields · iframe · Escape closes: true",
+   "thirdParty": "bancaonline.caixaenginyers.com:302×1 bancaonline.caixaenginyers.com:200×14",
+   "ms": 5096,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Header Accés popup (banca online login dialog) + menus",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × header .nav-top > li.nav-item (min 1)",
+   "thirdParty": "",
+   "ms": 2729,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Header site search",
+   "id": "chrome-search",
+   "class": "S",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header form.search[action*=\"general-search\"] (min 1)",
+   "thirdParty": "",
+   "ms": 2813,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Product request form (name, surname, NIF, email, phone, postcode, consent)",
+   "id": "request-form",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "11 × .request-form form.request-form-form input (min 5)",
+   "thirdParty": "",
+   "ms": 2587,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Online-banking sign-in form (/acceso-bo)",
+   "id": "sign-in",
+   "class": "X",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "12 × .login-form form[method=\"post\"][action*=\"bancaonline.caixaenginyers.com\"] input (min 2)",
+   "thirdParty": "",
+   "ms": 2580,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (1 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6370,
+   "environmentLimit": null
+  }
+ ]
+}
