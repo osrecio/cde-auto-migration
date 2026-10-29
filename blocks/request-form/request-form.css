@@ -1,0 +1,440 @@
+/* request-form: "Sol·licita'l ara" head + Liferay DDM form recreation (col-md-8) + contact
+   aside (col-md-4). Values: the gated prototype (live computed styles, clay.css, main.css). */
+.request-form {
+  --request-form-spacer: 32.857px;
+  --request-form-ink: #415465;
+  --request-form-line: #cdced9;
+
+  margin-bottom: 10px;
+}
+
+.request-form .request-form-config,
+.request-form .request-form-hidden-submit {
+  display: none;
+}
+
+/* head: spacer line, h2, spacer paragraph (source .request__head) */
+.request-form .request-form-head {
+  display: flow-root;
+  padding: 22.857px 0 var(--request-form-spacer);
+  text-align: center;
+}
+
+.request-form .request-form-head h2 {
+  margin: 20px 0 10px;
+}
+
+.request-form .request-form-cols {
+  display: flex;
+}
+
+.request-form .request-form-form {
+  flex: 0 0 66.6667%;
+  max-width: 66.6667%;
+  padding-right: 15px;
+  color: var(--request-form-ink);
+}
+
+.request-form .request-form-aside {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: calc(2 * var(--request-form-spacer)) 0 var(--request-form-spacer) 15px;
+}
+
+/* intro (lfr-ddm page header description + rule) */
+.request-form .request-form-intro {
+  margin: 0 0 32px;
+  border-bottom: 1px solid var(--request-form-line);
+}
+
+.request-form .request-form-intro p {
+  margin: 0;
+  color: #6b6c7e;
+  line-height: 32px;
+}
+
+/* required mark (clay .reference-mark asterisk) */
+.request-form .request-form-grid label::after,
+.request-form .request-form-consent p::after {
+  content: '\200b';
+  display: inline-block;
+  width: 16px;
+  height: 17.143px;
+  font-size: 12px;
+  line-height: 17.143px;
+  vertical-align: -4px;
+  background: url('asterisk.svg') 7px 0 / 8px 8px no-repeat;
+}
+
+/* text fields: 2 per row (col-ddm padding 15 + form-group 12) */
+.request-form .request-form-grid ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  padding: 0;
+  list-style: none;
+}
+
+.request-form .request-form-grid li {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 16px;
+  padding: 0 27px;
+}
+
+.request-form .request-form-grid label {
+  display: inline-block;
+  margin: 0 0 8px;
+  color: var(--request-form-ink);
+  font-family: var(--ce-font-bold);
+}
+
+.request-form .request-form-grid input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px 25px;
+  border: 1px solid #d9d9d9;
+  border-radius: 0;
+  background: #fff;
+  color: var(--request-form-ink);
+  font: 16px/24px var(--ce-font);
+}
+
+.request-form .request-form-group {
+  margin-top: 17px;
+  padding: 0 12px;
+}
+
+.request-form .request-form-consent p {
+  display: inline-block;
+  margin: 0 0 8px;
+}
+
+/* consent checkbox */
+.request-form .request-form-check-control {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  min-height: 50px;
+  margin: 0 0 16px;
+  color: #717171;
+  font-family: var(--ce-font-bold);
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.request-form .request-form-check-control input {
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  margin: 4px 0 0;
+  border: 1px solid var(--request-form-line);
+  border-radius: 4px;
+  background: #fff;
+  appearance: none;
+}
+
+.request-form .request-form-check-control input:checked {
+  border-color: var(--ce-blue);
+  background: var(--ce-blue);
+}
+
+.request-form .request-form-check-text p {
+  margin: 0;
+}
+
+/* marketing toggle (clay toggle-switch) */
+.request-form .request-form-switch {
+  display: flow-root;
+  padding: 0 0 48px;
+}
+
+.request-form .request-form-switch-legend p {
+  margin: 10px 0;
+  color: var(--request-form-ink);
+  font-family: var(--ce-font-bold);
+}
+
+.request-form .request-form-switch-control {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 8px;
+  color: var(--request-form-ink);
+  cursor: pointer;
+}
+
+.request-form .request-form-switch-control input[role='switch'] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.request-form .request-form-switch-bar {
+  position: relative;
+  flex: 0 0 58px;
+  height: 25px;
+}
+
+.request-form .request-form-switch-bar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 25px;
+  border: 1px solid var(--request-form-line);
+  border-radius: 13px;
+  background: #fff;
+  transition: background-color 0.1s ease-in;
+}
+
+.request-form .request-form-switch-handle {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: var(--request-form-line);
+  transition: left 0.1s ease-in;
+}
+
+.request-form .request-form-switch-control input:checked + .request-form-switch-bar::before {
+  border-color: var(--ce-blue);
+  background: var(--ce-blue);
+}
+
+.request-form .request-form-switch-control input:checked + .request-form-switch-bar
+  .request-form-switch-handle {
+  left: 29px;
+  background: #fff;
+}
+
+.request-form .request-form-switch-control input:focus-visible
+  + .request-form-switch-bar::before {
+  outline: 2px solid var(--ce-blue);
+  outline-offset: 2px;
+}
+
+.request-form .request-form-switch-label {
+  flex: 1 1 auto;
+  line-height: 16px;
+}
+
+.request-form .request-form-switch-label p {
+  margin: 0;
+}
+
+.request-form .request-form-submit {
+  padding: 20px 12px 0;
+}
+
+.request-form .request-form-submit-control {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 12px 18px;
+  border: 2px solid var(--ce-blue);
+  border-radius: 25px;
+  background-color: var(--ce-blue);
+  color: #fff;
+  font-family: var(--ce-font-bold);
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.request-form .request-form-submit-control:hover,
+.request-form .request-form-submit-control:focus-visible {
+  border-color: var(--ce-blue-hover);
+  background-color: var(--ce-blue-hover);
+  color: var(--ce-navy);
+}
+
+.request-form .request-form-submit-control p {
+  margin: 0;
+}
+
+.request-form .request-form-status {
+  display: none;
+  margin: 0 12px 20px;
+  padding: 12px 16px;
+  border-left: 4px solid var(--ce-yellow);
+  background: var(--ce-card-bg);
+  color: var(--ce-ink);
+}
+
+.request-form .request-form-status.is-visible {
+  display: block;
+}
+
+/* contact aside: .row (centred) > .col-md-1 | .col-md-2 icon | .col-md-9 text */
+.request-form .request-form-channel {
+  display: flex;
+  margin: 0 -15px;
+  text-align: center;
+}
+
+.request-form .request-form-channel + .request-form-channel {
+  margin-top: var(--request-form-spacer);
+}
+
+.request-form .request-form-channel-pad,
+.request-form .request-form-channel-icon,
+.request-form .request-form-channel-text {
+  padding: 0 15px;
+}
+
+.request-form .request-form-channel-pad {
+  flex: 0 0 8.3333%;
+  max-width: 8.3333%;
+  min-height: 22.857px;
+}
+
+.request-form .request-form-channel-icon {
+  flex: 0 0 16.6667%;
+  max-width: 16.6667%;
+}
+
+.request-form .request-form-channel-text {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.request-form .request-form-channel-icon p {
+  margin: 0;
+}
+
+.request-form .request-form-channel-text p:has(a) {
+  font-size: 18px;
+}
+
+.request-form .request-form-channel-text a:any-link {
+  font-family: var(--ce-font-bold);
+}
+
+.request-form .request-form-channel-number .request-form-channel-text p:has(a) {
+  font-size: 24px;
+}
+
+.request-form .request-form-channel-icon img {
+  position: relative;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.request-form .request-form-channel-icon img:hover {
+  top: -10px;
+  animation: request-form-tada 0.5s;
+}
+
+@keyframes request-form-tada {
+  0% { transform: scale(1); }
+
+  10%,
+  20% { transform: scale(0.9) rotate(-3deg); }
+
+  30%,
+  50%,
+  70%,
+  90% { transform: scale(1.1) rotate(3deg); }
+
+  40%,
+  60%,
+  80% { transform: scale(1.1) rotate(-3deg); }
+  100% { transform: scale(1) rotate(0); }
+}
+
+@media (width <= 767px) {
+  .request-form .request-form-cols,
+  .request-form .request-form-channel {
+    flex-wrap: wrap;
+  }
+
+  .request-form .request-form-form,
+  .request-form .request-form-aside {
+    flex-basis: 100%;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .request-form .request-form-grid li,
+  .request-form .request-form-channel-pad,
+  .request-form .request-form-channel-icon,
+  .request-form .request-form-channel-text {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ---- program sibling variants (additive; /accidentes uses none of these classes) ---- */
+
+/* selects (source DDM select field: same box as the text inputs, chevron on the right) */
+.request-form .request-form-grid select {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px 25px;
+  border: 1px solid #d9d9d9;
+  border-radius: 0;
+  background: #fff url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 10"><path fill="%23415465" d="M4 0 8 4H0zm0 10L0 6h8z"/></svg>') calc(100% - 12px) 50% / 8px 10px no-repeat;
+  color: var(--request-form-ink);
+  font: 16px/24px var(--ce-font);
+  appearance: none;
+}
+
+/* three per line (source col-md-4) */
+.request-form .request-form-grid-thirds li {
+  flex-basis: 33.333%;
+  max-width: 33.333%;
+}
+
+/* left: band title set left at 30px (source h2 30px / h3 26px bold) */
+.request-form.left .request-form-head {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+.request-form.left .request-form-head h2 {
+  margin: 20px 15px 10px;
+  font-size: 30px;
+}
+
+.request-form.left .request-form-head h3 {
+  margin: 60px 0 40px;
+  font-family: var(--ce-font-bold);
+  font-size: 26px;
+}
+
+/* plain: the patinet form band (title as text, no backdrop) */
+.request-form.plain .request-form-head {
+  padding: 78px 0 57px;
+}
+
+/* title as text (source p 28px light bold, centred) */
+/* stylelint-disable-next-line no-descending-specificity */
+.request-form .request-form-head > p {
+  margin: 0 15px;
+  color: #000;
+  font-family: var(--ce-font-light);
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media (width <= 767px) {
+  .request-form .request-form-grid-thirds li {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}

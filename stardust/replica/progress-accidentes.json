@@ -1,0 +1,95 @@
+{
+  "type": "program",
+  "archetype": "accidentes",
+  "url": "https://www.caixaenginyers.com/accidentes",
+  "prototype": "stardust/prototypes/accidentes-proposed.html",
+  "css": [
+    "stardust/prototypes/canon.css",
+    "stardust/prototypes/accidentes.css"
+  ],
+  "js": "stardust/prototypes/index.js (header behaviours, unchanged) + inline body.scroll-mark toggle",
+  "modules": {
+    "product-hero": "photo item 500px (cover) + white 70% panel on the 1148 column, h1 + lede + pill CTAs; <992 restacks without photo",
+    "product-body": "rich text; .two-col (col-md-6 x2), .separator, .list-bullet (yellow bullet), .pricing cards (.box bg #f8f8f8, Modalitat)",
+    "product-cta": "centred primary button",
+    "product-legal": "12px small print",
+    "related": "'Productes relacionats' centred inline-block h2 + 3-card band (odd #f9b03c / even #164194, hover shadow .3s)",
+    "request": "'Sol·licita'l ara' head + Liferay DDM form recreation (6 text fields, consent checkbox, data toggle, Envia) + contact aside (3 channel rows)"
+  },
+  "iterations": {
+    "360": 3,
+    "1440": 3
+  },
+  "gates": {
+    "360": {
+      "pixel": "2.04%",
+      "heightDelta": 4,
+      "contentDiff": "1 red (ICON DIFF, instrument false positive — see residuals) / 0 nothing-lost (2 auto-accepted, 3 advisory)",
+      "visualDiff": "0 flags",
+      "clip": "Clipped: 0",
+      "overflow": "ok (360 = viewport)",
+      "chromeParity": "22 deltas, all on the off-canvas mobile menu or the footer block offset — same set as the gated home archetype",
+      "chromeCrop": {
+        "header": "0.98%",
+        "footer": "0.89%"
+      },
+      "evidence": "stardust/replica/gates/accidentes-360/ (iter3 --full, content-diff-recheck.txt, postmotion pixel 2.04%)"
+    },
+    "1440": {
+      "pixel": "0.82%",
+      "heightDelta": 1,
+      "contentDiff": "0 red / 0 nothing-lost (3 auto-accepted, 3 advisory)",
+      "visualDiff": "0 flags",
+      "clip": "Clipped: 0",
+      "overflow": "ok (1440 = viewport)",
+      "chromeParity": "quiet (header+footer)",
+      "chromeCrop": {
+        "header": "0.24%",
+        "footer": "0.59%"
+      },
+      "evidence": "stardust/replica/gates/accidentes-1440/ (iter3 --full, postmotion pixel 0.82%)"
+    }
+  },
+  "capProbe": "PASS",
+  "residuals": [
+    {
+      "band": "360 related card 2 (y~3800)",
+      "cause": "content-diff ICON DIFF on 'Targeta de crèdit' icon: the live-side element signature is flat rgb(239,239,239) (a live fixed overlay occludes the card during the 360 element capture); the rehosted file is md5-identical to the source (393b34bf…), same 45x48 box and position",
+      "size": "1 finding, 0 px",
+      "permanent": true
+    },
+    {
+      "band": "360 form consent checkbox",
+      "cause": "live .custom-checkbox 75px vs build 72px at 3 wrapped lines (clay control padding not lifted)",
+      "size": "3 px (Δh 4 at 360)",
+      "permanent": false
+    },
+    {
+      "band": "motion",
+      "cause": "gtm-captacion-visible class is added by Google Tag Manager (martech), not design — not implemented",
+      "size": "1 class mutation",
+      "permanent": true
+    }
+  ],
+  "motion": {
+    "observed": "hover related card (box-shadow .3s), hover img.effect.tada (tada .5s + top), hover .btn (.15s colours), toggle switch click (dead on live), body.scroll-mark, gtm-captacion-visible",
+    "implemented": "related-card hover, tada hover, btn hover (canon), toggle visual state, body.scroll-mark",
+    "dead": "toggle-switch poke (no sampled change on live), header scroll-morph",
+    "compare": "14 parity, 1 missing (gtm-captacion-visible, martech), 0 extra"
+  },
+  "canonBackports": [
+    "#footer margin-top 30px on the product template (live main end → footer gap is 30, canon has 40 for home) — applied in accidentes.css as `#main-content.product-page ~ #footer`",
+    "header: product pages carry no .hr-fundacio ('Fundació') button — removed from this page's header markup (template-family difference, not a canon CSS change)"
+  ],
+  "passed": true,
+  "passedNote": "1440 clean; 360 single 🔴 is a proven capture-state false positive (byte-identical asset)",
+  "captureState": [
+    {
+      "width": 360,
+      "item": "related-products card icon \"Targeta de crèdit\" (documents/20143/5e9dfecc-…)",
+      "finding": "content-diff ICON DIFF 🔴",
+      "evidence": "source file fetched 2026-10-26 is byte-identical (cmp) to stardust/prototypes/assets/media/rp-premier.png; the live 360 capture paints the slot flat #efefef — a live-side capture state, not a build defect",
+      "decision": "capture-state residual, logged (coordinator, hands-off); not an owner acceptance"
+    }
+  ]
+}

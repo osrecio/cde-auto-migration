@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-10-27T00:37:47.985Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.caixaenginyers.com/",
+    "liveHost": "main--3a4f1d39--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 10,
+    "prototyped": 10,
+    "deployed": 10,
+    "optimised": 10
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 0,
+    "optimised": 10
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "accesibilidad",
+      "path": "/accesibilidad",
+      "stage": "optimised",
+      "templateId": "accesibilidad",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "acceso-bo",
+      "path": "/acceso-bo",
+      "stage": "optimised",
+      "templateId": "acceso-bo",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "accidentes",
+      "path": "/accidentes",
+      "stage": "optimised",
+      "templateId": "accidentes",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "administraciones-publicas",
+      "path": "/administraciones-publicas",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "ahorro-vida",
+      "path": "/ahorro-vida",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "asesoramiento-negocios",
+      "path": "/asesoramiento-negocios",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "asesoramiento-personalizado",
+      "path": "/asesoramiento-personalizado",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "asseguranca-patinet-electric",
+      "path": "/asseguranca-patinet-electric",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "hipoteca-jove",
+      "path": "/hipoteca-jove",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "accesibilidad",
+      "archetype": "accesibilidad",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "acceso-bo",
+      "archetype": "acceso-bo",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "accidentes",
+      "archetype": "accidentes",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "program",
+      "archetype": "administraciones-publicas",
+      "pageCount": 6,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 6
+      }
+    }
+  ],
+  "blocks": {
+    "total": 16,
+    "converted": 16
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      100,
+      100,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {},
+    "byAutofix": {}
+  }
+}

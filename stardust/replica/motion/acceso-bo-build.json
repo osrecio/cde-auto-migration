@@ -1,0 +1,350 @@
+{
+  "url": "http://localhost:8791/acceso-bo-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 804,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 804,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".owl-dot:nth-child(2)",
+      "frames": [
+        {
+          "t": 8968.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 9178.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 9394.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 9606.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".pause-slider",
+      "frames": [
+        {
+          "t": 10636.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 10856.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 11084.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 11316.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".btn-inv",
+      "changed": [
+        "self.color",
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(15, 77, 130)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(16, 33, 55)",
+          "background": "rgb(141, 210, 245)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".owl-video-play-icon",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(67, 67, 67)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.1s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(67, 67, 67)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.1s"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "fadeOut",
+        "el": "div.slider > div.owl-carousel > div.owl-stage-outer > div.owl-stage > div.owl-item.animated.owl-animated-out",
+        "txt": "",
+        "y": 300
+      }
+    ],
+    "transitions": [],
+    "classMutations": [
+      {
+        "added": [
+          "animated",
+          "owl-animated-out",
+          "fadeOut"
+        ],
+        "el": "div.slider > div.owl-carousel > div.owl-stage-outer > div.owl-stage > div.owl-item.animated.owl-animated-out",
+        "y": 500
+      },
+      {
+        "added": [
+          "animated",
+          "owl-animated-out",
+          "fadeOut"
+        ],
+        "el": "div.slider > div.owl-carousel > div.owl-stage-outer > div.owl-stage > div.owl-item.animated.owl-animated-out",
+        "y": 500
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.slider > div.owl-carousel > div.owl-stage-outer > div.owl-stage > div.owl-item.active",
+        "y": 500
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "section.ce-hero > div.slider > div.owl-carousel > div.owl-dots > button.owl-dot.active",
+        "y": 500
+      },
+      {
+        "added": [
+          "paused"
+        ],
+        "el": "html > body > main.cdi-1-col-sinmargen > section.ce-hero > div.slider.paused",
+        "y": 767
+      }
+    ]
+  }
+}

@@ -1,20 +1,477 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* footer — caixaenginyers.com #footer (canon.css § FOOTER): grey link columns + navy contact */
+
+/* stylelint-disable no-descending-specificity */
+
+footer .footer {
+  font-size: 16px;
+  line-height: var(--body-line-height);
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer .footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 footer .footer p {
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+footer .footer .footer-inner {
+  display: flow-root;
+}
+
+footer .footer .hide-accessible {
+  position: absolute;
+  left: -999999px;
+}
+
+/* ---- left: grey link columns */
+footer .footer .footer-left {
+  position: relative;
+  float: left;
+  box-sizing: content-box;
+  width: 784px;
+  height: 351.219px;
+  padding: 0 0 70px var(--ce-gutter);
+  background: var(--ce-grey-bg);
+}
+
+footer .footer .footer-left-top {
+  position: relative;
+  margin: 50px 0 70px;
+}
+
+footer .footer .footer-cols {
+  display: flex;
+  margin: 0 -15px;
+}
+
+footer .footer .footer-col {
+  flex: 0 0 25%;
+  padding: 0 15px;
+}
+
+footer .footer .footer-col ul {
+  padding-left: 5px;
+}
+
+footer .footer .footer-col h3 {
+  margin: 20px 0 10px;
+  padding-left: 5px;
+  color: var(--ce-ink);
+  font-family: var(--ce-font-bold);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+}
+
+footer .footer .footer-col a {
+  display: block;
+  margin-left: -5px;
+  padding-left: 5px;
+  color: var(--ce-ink);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+footer .footer .footer-left-bottom {
+  position: absolute;
+  right: 15px;
+  bottom: 24px;
+  font-size: 16px;
+  line-height: 22.857px;
+  text-align: right;
+}
+
+footer .footer .footer-left-bottom li {
+  display: inline;
+}
+
+footer .footer .footer-left-bottom .sr-only {
+  padding: 25px 0;
+  font-size: 45px;
+  line-height: 1.4286;
+}
+
+footer .footer .footer-left-bottom li + li::before {
+  content: '·';
+  padding: 0 9.5px 0 11px;
+  color: var(--ce-ink);
+  font-size: 14px;
+}
+
+footer .footer .footer-left-bottom a {
+  padding: 5px 5px 5px calc(5px + 0.193em);
+  color: var(--ce-ink);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+footer .footer .footer-left-bottom li:first-child a {
+  padding-left: 5px;
+}
+
+/* ---- right: navy contact panel */
+footer .footer .footer-right {
+  position: relative;
+  float: left;
+  box-sizing: content-box;
+  width: 364px;
+  height: 351.219px;
+  padding: 0 var(--ce-gutter) 70px 0;
+  background: var(--ce-navy);
+  color: #fff;
+}
+
+footer .footer .contact-footer {
+  padding: 50px 0 0 20px;
+}
+
+footer .footer .contact-info {
+  width: 253px;
+}
+
+footer .footer .contact-info .title {
+  display: block;
+  margin: 0 0 10px;
+  color: #fff;
+  font-family: var(--ce-font-bold);
+  font-size: 14px;
+  line-height: 14px;
+}
+
+footer .footer .contact-block,
+footer .footer .social-block {
+  margin: 25px 0 0;
+}
+
+footer .footer .contact-info a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+footer .footer .contact-block li a {
+  display: inline-block;
+  margin-left: -5px;
+  padding: 5px 5px 5px 26px;
+  background: 5px 50% no-repeat;
+}
+
+footer .footer .contact-block li.contact a {
+  background-image: url('icons/headphones.png');
+}
+
+footer .footer .contact-block li.offices a {
+  display: block;
+  background-image: url('icons/marker.png');
+}
+
+/* the phone CTA: floated right of the contact column on desktop, full-width on mobile */
+footer .footer .contact-block .call {
+  position: absolute;
+  top: 105px;
+  right: var(--ce-gutter);
+}
+
+footer .footer .contact-info .call a {
+  display: block;
+  height: 50px;
+  padding: 12px 18px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+footer .footer .call .call-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.193em;
+  vertical-align: middle;
+}
+
+/* social networks */
+footer .footer .social-networks {
+  display: flex;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+
+footer .footer .social-networks > li {
+  flex-shrink: 0;
+}
+
+footer .footer .social-networks a {
+  display: inline-block;
+  padding: 5px;
+  color: #fff;
+}
+
+footer .footer .social-networks li:not(.blog) a {
+  font-size: 0;
+}
+
+footer .footer .social-networks .social-label {
+  display: none;
+}
+
+footer .footer .social-networks li:not(.blog) a::before {
+  display: inline-block;
+  height: 22px;
+  margin: 0 3px 0 0;
+  font-family: var(--ce-font-icon);
+  font-size: 22px;
+  font-style: normal;
+  line-height: 22px;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+}
+
+footer .footer .social-networks li:not(.blog) a::after {
+  content: '\00a0';
+  display: inline-block;
+  margin-left: -3px;
+  font-family: var(--ce-font-icon);
+  font-size: 22px;
+  line-height: 22px;
+  vertical-align: middle;
+}
+
+footer .footer .social-networks .facebook a::before {
+  content: '\f09a';
+}
+
+footer .footer .social-networks .linkedin a::before {
+  content: '\f0e1';
+}
+
+footer .footer .social-networks .youtube a::before {
+  content: '\f16a';
+}
+
+footer .footer .social-networks .instagram a::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url('icons/instagram-white.png') 0 0 no-repeat;
+}
+
+footer .footer .social-networks .twitter-x a::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  background: url('icons/icon-twitter-x.png') 0 0 / contain no-repeat;
+}
+
+footer .footer .social-networks .blog {
+  display: flex;
+}
+
+footer .footer .social-networks .blog::before {
+  content: '';
+  width: 1px;
+  height: 20px;
+  margin: 7px 12px 0;
+  background: rgb(255 255 255 / 60%);
+}
+
+footer .footer .social-networks .blog a::before {
+  content: '';
+  display: inline-block;
+  width: 19px;
+  height: 20px;
+  margin-right: 3px;
+  background: url('icons/blog-white.png') 0 0 no-repeat;
+  vertical-align: -4px;
+}
+
+footer .footer .legal-mobile {
+  display: none;
+}
+
+footer .footer .app-cta {
+  clear: both;
+  margin: 50px 0 0;
+}
+
+footer .footer .app-cta a {
+  margin-left: -5px;
+  padding: 5px;
+  color: #fff;
+  font-family: var(--ce-font-bold);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+footer .footer .copyright {
+  position: absolute;
+  bottom: 21px;
+  left: 20px;
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* ---- mobile < 992: grey column block hidden, navy panel full width, centred */
+@media (width <= 991px) {
+  footer .footer .footer-left {
+    float: none;
+    width: auto;
+    height: 0;
+    padding: 0;
+  }
+
+  footer .footer .footer-left-top,
+  footer .footer .footer-left-bottom {
+    display: none;
+  }
+
+  footer .footer .footer-right {
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 10px 15px;
+    text-align: center;
+  }
+
+  footer .footer .contact-footer {
+    padding: 10px 0;
+  }
+
+  footer .footer .contact-info {
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    line-height: 22.857px;
+  }
+
+  footer .footer .contact-block,
+  footer .footer .social-block {
+    margin: 0;
+  }
+
+  footer .footer .contact-block ul {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  footer .footer .contact-block .title,
+  footer .footer .contact-block li.offices {
+    display: none;
+  }
+
+  footer .footer .contact-block .call {
+    position: static;
+    display: block;
+    width: 100%;
+    margin: 0 0 25px;
+  }
+
+  /* live 360: the phone icon sits 8px before the digits (img margin + a space) */
+  footer .footer .call .call-icon {
+    margin-right: calc(5px + 0.193em);
+  }
+
+  footer .footer .contact-info .call a {
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  footer .footer .social-networks {
+    display: block;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  footer .footer .social-networks > li {
+    display: inline-block;
+    margin: 0 0 10px;
+    vertical-align: top;
+  }
+
+  footer .footer .social-networks > li:first-child {
+    margin-left: -5px;
+  }
+
+  /* live 360: icon links are inline-blocks on a 14/22 line, separated by a space; each glyph
+     <i> carries a trailing no-break space in the icon font (no font-size 0 collapse) */
+  footer .footer .social-networks > li:not(.blog) {
+    margin-right: 0.193em;
+  }
+
+  footer .footer .social-networks li:not(.blog) a {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  footer .footer .social-networks li:not(.blog) a::after {
+    content: none;
+  }
+
+  footer .footer .social-networks > li.youtube {
+    margin-right: 0;
+  }
+
+  footer .footer .social-networks li.twitter-x a::before {
+    margin: 0;
+  }
+
+  footer .footer .social-networks .facebook a::before {
+    content: '\f09a\00a0';
+  }
+
+  footer .footer .social-networks .linkedin a::before {
+    content: '\f0e1\00a0';
+  }
+
+  footer .footer .social-networks .youtube a::before {
+    content: '\f16a\00a0';
+  }
+
+  footer .footer .social-networks .blog {
+    display: block;
+    margin: 0;
+  }
+
+  footer .footer .social-networks .blog::before {
+    display: none;
+  }
+
+  footer .footer .social-networks .blog a {
+    display: block;
+  }
+
+  footer .footer .legal-mobile {
+    display: block;
+    clear: both;
+    margin: 0 0 25px;
+  }
+
+  footer .footer .legal-mobile li {
+    margin-bottom: 10px;
+    font-family: var(--ce-font-bold);
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  footer .footer .legal-mobile a {
+    color: #fff;
+  }
+
+  footer .footer .app-cta {
+    margin: 0 0 10px;
+    padding-top: 22.857px;
+  }
+
+  footer .footer .copyright {
+    position: relative;
+    bottom: auto;
+    left: auto;
   }
 }

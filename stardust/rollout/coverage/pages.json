@@ -1,0 +1,454 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-26T18:59:21.979Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-27T00:36:20.221Z",
+  "pages": [
+    {
+      "slug": "accesibilidad",
+      "path": "/accesibilidad",
+      "title": "Accessibilitat",
+      "templateId": "accesibilidad",
+      "source": {
+        "migratedHtml": "stardust/migrated/accesibilidad/index.html",
+        "metaJson": "stardust/migrated/accesibilidad/_meta.json",
+        "sourceHash": "sha256:a3f3936076868c6c193383df0dbfa5be8bb43ed711c394e6251fbd7bd6178d9d",
+        "sourceUrl": "https://www.caixaenginyers.com/accesibilidad"
+      },
+      "blocks": [
+        "page-hero",
+        "accessibility-tabs",
+        "contact-band"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3a4f1d39--aemcoder.aem.page/accesibilidad",
+        "deployedAt": "2026-10-26T20:41:31.599Z",
+        "verifiedAt": "2026-10-27T00:36:20.221Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.62,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 12,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-27T00:31:39.912Z"
+        }
+      }
+    },
+    {
+      "slug": "acceso-bo",
+      "path": "/acceso-bo",
+      "title": "Acceso BO",
+      "templateId": "acceso-bo",
+      "source": {
+        "migratedHtml": "stardust/migrated/acceso-bo/index.html",
+        "metaJson": "stardust/migrated/acceso-bo/_meta.json",
+        "sourceHash": "sha256:f0fe286fb3f42a70d248589ea6e95f57874caf3313b660f8f24175769bf1e062",
+        "sourceUrl": "https://www.caixaenginyers.com/acceso-bo"
+      },
+      "blocks": [
+        "login-intro",
+        "login-form",
+        "hero-carousel"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3a4f1d39--aemcoder.aem.page/acceso-bo",
+        "deployedAt": "2026-10-26T20:29:06.258Z",
+        "verifiedAt": "2026-10-27T00:36:20.221Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 13.11,
+          "heightDelta": -120,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 13.11% > 10%",
+            "Δh -120px > 5% of 1874"
+          ],
+          "override": "carousel-slide",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-27T00:31:39.912Z"
+        }
+      }
+    },
+    {
+      "slug": "accidentes",
+      "path": "/accidentes",
+      "title": "Assegurança d'accidents&nbsp; - Caixa d'Enginyers",
+      "templateId": "accidentes",
+      "source": {
+        "migratedHtml": "stardust/migrated/accidentes/index.html",
+        "metaJson": "stardust/migrated/accidentes/_meta.json",
+        "sourceHash": "sha256:53f1629f1aa3d2b2f5a1076b965003df1fdc5c359ffe99d02509a2622b1da779",
+        "sourceUrl": "https://www.caixaenginyers.com/accidentes"
+      },
+      "blocks": [
+        "product-hero",
+        "product-body",
+        "product-legal",
+        "related-products",
+        "request-form"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3a4f1d39--aemcoder.aem.page/accidentes",
+        "deployedAt": "2026-10-26T20:54:33.113Z",
+        "verifiedAt": "2026-10-27T00:36:20.221Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.85,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 19,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-27T00:31:39.912Z"
+        }
+      }
+    },
+    {
+      "slug": "administraciones-publicas",
+      "path": "/administraciones-publicas",
+      "title": "Administracions Públiques - Caixa Enginyers",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:5dea10502dec0f4f86003629bbfa390cab992b191905d3ba3330638ce549740c",
+        "currentStatePath": "stardust/current/pages/administraciones-publicas.json",
+        "sourceUrl": "https://www.caixaenginyers.com/administraciones-publicas"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3a4f1d39--aemcoder.aem.page/administraciones-publicas",
+        "deployedAt": "2026-10-26T23:49:30.316Z",
+        "verifiedAt": "2026-10-27T00:36:20.221Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.33,
+          "heightDelta": 68,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-27T00:31:39.912Z"
+        }
+      }
+    },
+    {
+      "slug": "ahorro-vida",
+      "path": "/ahorro-vida",
+      "title": "Estalvi vida - Caixa Enginyers",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:39e213121a16a58a8082469df6946858ea888740f67e1610e4e48d12b074f831",
+        "currentStatePath": "stardust/current/pages/ahorro-vida.json",
+        "sourceUrl": "https://www.caixaenginyers.com/ahorro-vida"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3a4f1d39--aemcoder.aem.page/ahorro-vida",
+        "deployedAt": "2026-10-26T23:49:30.412Z",
+        "verifiedAt": "2026-10-27T00:36:20.221Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 29.27,
+          "heightDelta": -124,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 21,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 29.27% > 10%"
+          ],
+          "override": "carousel-slide",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-27T00:31:39.912Z"
+        }
+      }
+    },
+    {
+      "slug": "asesoramiento-negocios",
+      "path": "/asesoramiento-negocios",
+      "title": "Finançament empreses - Caixa d'Enginyers",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:08b7728b8f28a1529a99dadcb6b4e58b1ac84405d19a9fe45e66d3e3313b3334",
+        "currentStatePath": "stardust/current/pages/asesoramiento-negocios.json",
+        "sourceUrl": "https://www.caixaenginyers.com/asesoramiento-negocios"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3a4f1d39--aemcoder.aem.page/asesoramiento-negocios",
+        "deployedAt": "2026-10-26T22:50:06.243Z",
+        "verifiedAt": "2026-10-27T00:36:20.221Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.95,
+          "heightDelta": 40,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 21,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-27T00:31:39.912Z"
+        }
+      }
+    },
+    {
+      "slug": "asesoramiento-personalizado",
+      "path": "/asesoramiento-personalizado",
+      "title": "Assessorament personalitzat - Caixa Enginyers",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:473eca46b7dc34c2286ec456bb444ba7d34db27e0fef62fec90c04bf3bbd4448",
+        "currentStatePath": "stardust/current/pages/asesoramiento-personalizado.json",
+        "sourceUrl": "https://www.caixaenginyers.com/asesoramiento-personalizado"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3a4f1d39--aemcoder.aem.page/asesoramiento-personalizado",
+        "deployedAt": "2026-10-26T22:50:06.428Z",
+        "verifiedAt": "2026-10-27T00:36:20.221Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.88,
+          "heightDelta": -9,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 21,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-27T00:31:39.912Z"
+        }
+      }
+    },
+    {
+      "slug": "asseguranca-patinet-electric",
+      "path": "/asseguranca-patinet-electric",
+      "title": "Assegurança de patinet elèctric",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2e3db3cb83ad7f4219ac49d877ac44f0da8b38d4dbcbe0c12d5d74a4ec09dd64",
+        "currentStatePath": "stardust/current/pages/asseguranca-patinet-electric.json",
+        "sourceUrl": "https://www.caixaenginyers.com/asseguranca-patinet-electric"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3a4f1d39--aemcoder.aem.page/asseguranca-patinet-electric",
+        "deployedAt": "2026-10-26T23:49:30.505Z",
+        "verifiedAt": "2026-10-27T00:36:20.221Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.61,
+          "heightDelta": 43,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-27T00:31:39.912Z"
+        }
+      }
+    },
+    {
+      "slug": "hipoteca-jove",
+      "path": "/hipoteca-jove",
+      "title": "Hipoteca Jove - Caixa Enginyers",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:eddcdaa83eab2ce1e3d07dd22ab9b3f3362bf7aa79c4a6091603733b944307ac",
+        "currentStatePath": "stardust/current/pages/hipoteca-jove.json",
+        "sourceUrl": "https://www.caixaenginyers.com/hipoteca-jove"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3a4f1d39--aemcoder.aem.page/hipoteca-jove",
+        "deployedAt": "2026-10-26T22:50:06.778Z",
+        "verifiedAt": "2026-10-27T00:36:20.221Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.75,
+          "heightDelta": 7,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 3,
+            "hiddenButtons": 0,
+            "findings": 3,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-27T00:31:39.912Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Caixa Enginyers",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:f73e7bfa4fe08c27e7bd4789aa2b54aca1c2dc84a605e77952af4e15208449ac",
+        "sourceUrl": "https://www.caixaenginyers.com/"
+      },
+      "blocks": [
+        "hero-carousel",
+        "quick-access",
+        "solutions",
+        "alta-band",
+        "ingenium",
+        "news"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--3a4f1d39--aemcoder.aem.page/",
+        "deployedAt": "2026-10-26T21:25:32.020Z",
+        "verifiedAt": "2026-10-27T00:36:20.221Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 45.43,
+          "heightDelta": 124,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 24,
+            "variable": []
+          },
+          "reasons": [
+            "pixel 45.43% > 10%"
+          ],
+          "override": "carousel-slide",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-10-27T00:31:39.912Z"
+        }
+      }
+    }
+  ]
+}

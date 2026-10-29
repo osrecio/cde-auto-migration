@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ca-ES" dir="ltr">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-10-26T18:58:56Z
+  page:             Assegurança d'accidents - Caixa d'Enginyers
+  slug:             accidentes
+  pagePath:         migrated/accidentes/index.html
+  renderBranch:     A
+  sourceProposed:   stardust/prototypes/accidentes-proposed.html
+  sourceCurrent:    stardust/current/pages/accidentes.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: 9e6f16c2ea26)
+  designJson:       DESIGN.json (sha: f96b124b2d3a)
+  canonShas:        header:60ba6327ad07 footer:e8b64ea4bd26 css:9dc32436c0b9
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 81
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --ce-blue: #164194;        /* .btn-primary bg, child-menu bar, link-blue headings */
+  --ce-blue-link: #4568aa;   /* a, news-date */
+  --ce-navy: #1b2443;        /* heading-right, footer-right */
+  --ce-navy-deep: #071e47;   /* award badge */
+  --ce-ink: #434343;         /* body text */
+  --ce-tab: #415465;         /* inactive top tabs */
+  --ce-yellow: #fab03b;      /* Accés, step numbers */
+  --ce-orange: #fd9f20;      /* .botonsocio */
+  --ce-grey-bg: #ededed;     /* footer-left */
+  --ce-card-bg: #f8f8f8;     /* news-item */
+  --ce-dot: #dbdbdb;         /* owl dots, btn-secondary border */
+  --ce-focus-ink: #102137;   /* Focus card */
+  --ce-container: 1148px;
+  --ce-gutter: max(15px, calc((100vw - 1148px) / 2));   /* 146px at 1440: the 1148 content column's side gutter */
+  --ce-font: 'latoregular', sans-serif;
+  --ce-font-bold: 'latobold', sans-serif;
+  --ce-font-light: latolight, Verdana;
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Assegurança d'accidents&nbsp; - Caixa d'Enginyers","description":"Aconsegueix cobertures econòmiques quan no puguis seguir desenvolupant la teva activitat laboral, a causa d'accidents que et provoquin invalidesa o mort.","url":"https://www.caixaenginyers.com/accidentes"}</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assegurança d'accidents&nbsp; - Caixa d'Enginyers</title>
+<meta name="description" content="Aconsegueix cobertures econòmiques quan no puguis seguir desenvolupant la teva activitat laboral, a causa d'accidents que et provoquin invalidesa o mort.">
+<link rel="icon" href="../assets/media/favicon.ico">
+<link rel="stylesheet" href="../assets/canon.css">
+<link rel="stylesheet" href="../assets/accidentes.css">
+</head>
+<body>
+<svg class="sprite" aria-hidden="true" style="display:none"><symbol id="angle-right" viewBox="0 0 512 512"><path d="M375.2,239.2L173.3,37c-23.6-23-59.9,11.9-36,35.1l183,183.9L137.4,439.8c-24,23.5,12.5,58.2,36.1,35.2l201.7-202.1C385.4,262.8,384.5,248.5,375.2,239.2z"/></symbol><symbol id="search" viewBox="0 0 512 512"><path d="M499.2,455.5L377.7,333.4c146-241.1-148.1-435.8-318.2-274c-165.1,185.9,41.6,460.6,273.4,319l121.5,118.8C489.5,535.8,534.4,490.8,499.2,455.5z M206.2,63.6c191.9,0,198.1,289,0,289C13.3,352.6,18.8,63.6,206.2,63.6z"/></symbol><symbol id="times" viewBox="0 0 512 512"><path d="M301.3,256l137.4-137.4c12.5-12.5,12.5-32.8,0-45.3s-32.8-12.5-45.3,0L256,210.7L118.6,73.3c-12.5-12.5-32.8-12.5-45.3,0s-12.5,32.8,0,45.3L210.7,256L73.3,393.4c-12.5,12.5-12.5,32.8,0,45.3s32.8,12.5,45.3,0L256,301.3l137.4,137.4c12.5,12.5,32.8,12.5,45.3,0s12.5-32.8,0-45.3L301.3,256z"/></symbol><symbol id="order-arrow-left" viewBox="0 0 512 512"><path d="M114.4,233.4l192-192c12.5-12.5,32.8-12.5,45.3,0s12.5,32.8,0,45.3L182.6,256l169.4,169.4c12.5,12.5,12.5,32.8,0,45.3s-32.8,12.5-45.3,0l-192-192C102,266.1,102,245.9,114.4,233.4z"/></symbol><symbol id="warning-full" viewBox="0 0 512 512"><path d="M256,32L0,480h512L256,32z M288,416h-64v-64h64V416z M288,320h-64V192h64V320z"/></symbol><symbol id="info-circle" viewBox="0 0 512 512"><path d="M256,0C114.6,0,0,114.6,0,256s114.6,256,256,256s256-114.6,256-256S397.4,0,256,0z M288,384h-64V224h64V384z M256,192c-17.7,0-32-14.3-32-32s14.3-32,32-32s32,14.3,32,32S273.7,192,256,192z"/></symbol><symbol id="asterisk" viewBox="0 0 512 512"><path d="M323.6,190l102.4-58.9l-32-55.4L291.6,134.6V16h-64v118.6L125.2,75.7l-32,55.4L195.6,190L93.2,248.9l32,55.4l102.4-58.9V364h64V245.4l102.4,58.9l32-55.4L323.6,190z"/></symbol></svg>
+<header id="banner" role="banner">
+  <div class="heading-left">
+    <span class="pt-hidden">Logo Caja de Ingenieros</span>
+    <h1 class="site-title"><a href="../index.html"><img src="../assets/media/Logo-CI-web-400x76-ca.png" width="400" height="76" alt="Caixa Enginyers. Anar a l'inici"></a></h1>
+    <div class="online-partner">
+      <a class="hamburguer" href="javascript:void(0)" aria-expanded="false"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+      <div class="online">
+        <span class="pt-hidden">Botón acceso banca online</span>
+        <div class="cecaTrigger" role="button" tabindex="0" aria-label="Accedeix a Banca Online. (Obre una finestra modal)" aria-haspopup="dialog">
+          <span class="header-button"><img class="button-icon" src="../assets/media/doc/user/a8def29a-55d5-84bb-c8d4-c76653027946" alt=""> <span class="button-text">Accés</span></span>
+        </div>
+        <div class="modal modalCeca" id="ceca-modal" role="dialog" aria-modal="true" aria-labelledby="loginHeading" hidden>
+          <div class="modal-dialog modal-sm"><div class="modal-content">
+            <button class="close" type="button" aria-label="Tancar el diàleg" title="Tancar la finestra">×</button>
+            <div class="lightbox-header">
+              <h2 class="title" id="loginHeading">Entrada socis</h2>
+              <p><a href="../acceso-bo/index.html" aria-label="Entrada de forma accesible">Entrar de forma accessible</a></p>
+            </div>
+            <div class="lightbox-login">
+              <span class="pt-hidden">Caja Ingenieros Login CECA</span>
+              <div class="lightbox-login-ceca"><iframe loading="lazy" src="https://bancaonline.caixaenginyers.com/BEWeb/3025/6025/CABEm_0_fusionRestyling.action?DEDONDE=GENE&amp;IDIOMA=02&amp;">El navegador no admet iframes inserits o està configurat per no mostrar-los. El contingut es pot veure a la pàgina d'origen: https://bancaonline.caixaenginyers.com/BEWeb/3025/6025/CABEm_0_fusionRestyling.action?DEDONDE=GENE&IDIOMA=02&.</iframe></div>
+              <div class="lightbox-login-footer"><ul><li><a href="../recuperacion-clave-acceso/index.html" data-broken-link="true">Has oblidat la teva clau d'accés?</a></li></ul></div>
+            </div>
+            <div class="lightbox-footer">
+              <div><p>No sóc soci de</p><p>Caixa Enginyers</p></div>
+              <div><p><a class="btn btn-primary" href="../ca/soci-cooperatiu/index.html" role="button" aria-label="enllaç a pàgina Fes-te Soci" data-broken-link="true">M'interessa</a></p></div>
+            </div>
+          </div></div>
+        </div>
+      </div>
+      <div class="partner">
+        <span class="pt-hidden">Botón hazte socio</span>
+        <a class="header-button" href="../soci-cooperatiu/index.html" data-broken-link="true"><i class="hc-icon hc-icon--socio"></i> <span class="button-text">Dona't d'alta</span></a>
+      </div>
+    </div>
+  </div>
+  <div class="heading-right">
+    <a class="close-menu" href="javascript:void(0)"><span>TancaMenú</span></a>
+    <div class="hr-offices">
+      <span class="pt-hidden">Oficinas y cajeros</span>
+      <a class="header-button" href="../oficinas-y-cajeros/index.html" data-broken-link="true"><i class="hc-icon hc-icon--marker"></i> <span class="button-text">Oficines i caixers</span></a>
+    </div>
+    <div class="hr-top-right">
+      <div class="hr-contact">
+        <span class="pt-hidden">Seguretat Online botón cabecera</span>
+        <a class="header-button" href="../seguretat/index.html" data-broken-link="true"><span class="button-text">Seguretat Online</span></a>
+      </div>
+      <div class="languages" id="languages">
+        <span class="sr-only pt">Selector d'idioma</span>
+        <button class="lang-toggle" id="languagesDropdownMenuButton" type="button" aria-haspopup="true" aria-expanded="false"><span>ca</span></button>
+        <ul class="lang-menu">
+          <li><a href="#" lang="es" title="Llengua
+español">es</a></li>
+          <li><a href="#" lang="ca" title="Llengua
+català">ca</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="hr-group">
+      <span class="pt-hidden">Botón Grupo Caja de Ingenieros</span>
+      <a class="header-button rounded-borders" href="../web/grupo/index.html" data-broken-link="true"><span class="button-text">Grup Caixa Enginyers</span></a>
+      <span class="pt-hidden">Botón Grupo Caja de Ingenieros RESPONSIVE</span>
+      <a class="header-button rounded-borders group-mobile" href="../ca/web/grupo/index.html" data-broken-link="true"><span class="button-text"><span>Grup Caixa Enginyers</span></span></a>
+    </div>
+  </div>
+  <nav id="navigation" role="navigation">
+<ul aria-label="Pàgines del lloc"><li class="selected opened"><a href="../particulars/index.html" data-broken-link="true"><span class="icon"></span><span class="text"> Particulars</span></a><span class="icon-plus"></span><ul class="child-menu"><li><a href="../families-particulars/index.html" data-broken-link="true"><span class="icon"></span><span class="text">Families&amp;Particulars</span></a></li>
+<li><a href="../joves/index.html" data-broken-link="true"><span class="icon"></span><span class="text">Joves</span></a></li>
+<li><a href="../seniors/index.html" data-broken-link="true"><span class="icon"></span><span class="text">Sènior</span></a></li>
+<li><a href="../professionals/index.html" data-broken-link="true"><span class="icon"></span><span class="text">Professionals</span></a></li>
+<li><a href="javascript:void(0)" class="has-children"><span class="icon"><img src="../assets/media/nav/666551817/layout_icon" alt=""></span><span class="text">Productes i serveis</span></a><span class="icon-plus"></span><ul class="grandchild-menu"><li><a href="../el-teu-dia/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/666551751/layout_icon" alt=""></span><span class="text"> El teu dia a dia</span></a></li>
+<li><a href="../hipoteques-i-prestecs/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/666551835/layout_icon" alt=""></span><span class="text"> Hipoteques i préstecs</span></a></li>
+<li><a href="../estalvi-inversio/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/666551908/layout_icon" alt=""></span><span class="text"> Estalvi i inversió</span></a></li>
+<li><a href="../assegurances-i-riscos/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/666551774/layout_icon" alt=""></span><span class="text"> Assegurances</span></a></li>
+<li><a href="../bolsa-y-mercados/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/666551780/layout_icon" alt=""></span><span class="text"> Mercats</span></a></li>
+<li><a href="../les-meves-finances/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/667242000/layout_icon" alt=""></span><span class="text"> Les meves finances</span></a></li>
+<li><a href="../ceapropa/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/666551829/layout_icon" alt=""></span><span class="text"> CEApropa</span></a></li>
+<li><a href="../ingenium/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1042114/layout_icon" alt=""></span><span class="text"> Ingenium Shopping</span></a></li>
+<li><a href="../ingenium-renting/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/666770113/layout_icon" alt=""></span><span class="text"> Renting</span></a></li></ul></li></ul></li>
+<li><a href="../banca-personal/index.html" data-broken-link="true"><span class="icon"></span><span class="text"> Personal&amp;Premium</span></a><span class="icon-plus"></span><ul class="child-menu"><li><a href="javascript:void(0)" class="has-children"><span class="icon"></span><span class="text">El teu dia a dia</span></a><span class="icon-plus"></span><ul class="grandchild-menu"><li><a href="../tarjetas1/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1044375/layout_icon" alt=""></span><span class="text"> Targetes</span></a></li>
+<li><a href="../servicios-digitales1/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1044445/layout_icon" alt=""></span><span class="text"> Serveis digitals</span></a></li>
+<li><a href="../ingenium1/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1044584/layout_icon" alt=""></span><span class="text"> Ingenium Shopping</span></a></li></ul></li>
+<li><a href="javascript:void(0)" class="has-children"><span class="icon"></span><span class="text">Assessorament</span></a><span class="icon-plus"></span><ul class="grandchild-menu"><li><a href="https://www.caixaenginyers.com/asesoramiento-personalizado" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1044653/layout_icon" alt=""></span><span class="text"> Assessorament personalitzat</span></a></li>
+<li><a href="../publicaciones/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1750909/layout_icon" alt=""></span><span class="text"> Focus</span></a></li>
+<li><a href="../tallers-i-trobades/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1044775/layout_icon" alt=""></span><span class="text"> Tallers i trobades</span></a></li></ul></li>
+<li><a href="javascript:void(0)" class="has-children"><span class="icon"></span><span class="text">Inversions</span></a><span class="icon-plus"></span><ul class="grandchild-menu"><li><a href="../sgdc/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1044831/layout_icon" alt=""></span><span class="text"> Gestió de Carteres</span></a></li>
+<li><a href="../web/fondosinversion/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1044889/layout_icon" alt=""></span><span class="text"> Fons d'inversió</span></a></li>
+<li><a href="../planes-de-pensiones1/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/15316826/layout_icon" alt=""></span><span class="text"> Plans de Pensions</span></a></li>
+<li><a href="../bolsa-y-mercados1/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/3014341/layout_icon" alt=""></span><span class="text"> Mercats</span></a></li></ul></li>
+<li><a href="javascript:void(0)" class="has-children"><span class="icon"></span><span class="text">Hipoteques i préstecs</span></a><span class="icon-plus"></span><ul class="grandchild-menu"><li><a href="../hipotecas1/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1045012/layout_icon" alt=""></span><span class="text"> Hipoteques</span></a></li>
+<li><a href="../prestamos/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1045083/layout_icon" alt=""></span><span class="text"> Préstecs</span></a></li></ul></li>
+<li><a href="../assessorament-assegurances/index.html" data-broken-link="true"><span class="icon"></span><span class="text">Assegurances</span></a></li></ul></li>
+<li><a href="../empreses/index.html" data-broken-link="true"><span class="icon"></span><span class="text"> Empreses</span></a><span class="icon-plus"></span><ul class="child-menu"><li><a href="javascript:void(0)" class="has-children"><span class="icon"></span><span class="text">El teu dia a dia</span></a><span class="icon-plus"></span><ul class="grandchild-menu"><li><a href="../targetes-professionals/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/667279446/layout_icon" alt=""></span><span class="text"> Targetes Professionals</span></a></li>
+<li><a href="../servicios-digitales/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1043250/layout_icon" alt=""></span><span class="text"> Serveis Digitals</span></a></li>
+<li><a href="../ingenium-pro_ca/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1043424/layout_icon" alt=""></span><span class="text"> Ingenium Shopping PRO</span></a></li></ul></li>
+<li><a href="javascript:void(0)" class="has-children"><span class="icon"></span><span class="text">Finançament</span></a><span class="icon-plus"></span><ul class="grandchild-menu"><li><a href="https://www.caixaenginyers.com/asesoramiento-negocios" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1043481/layout_icon" alt=""></span><span class="text"> Assessorament</span></a></li>
+<li><a href="../renting/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1043791/layout_icon" alt=""></span><span class="text"> Renting</span></a></li>
+<li><a href="../prestec-eco-pro/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/665987972/layout_icon" alt=""></span><span class="text"> Préstec ECO Professionals</span></a></li></ul></li>
+<li><a href="javascript:void(0)" class="has-children"><span class="icon"></span><span class="text">Estalvi i inversió</span></a><span class="icon-plus"></span><ul class="grandchild-menu"><li><a href="../web/fondosinversion/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1043859/layout_icon" alt=""></span><span class="text"> Fons d'inversió</span></a></li>
+<li><a href="../planes-de-pensiones/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/15319854/layout_icon" alt=""></span><span class="text"> Plans de pensions</span></a></li>
+<li><a href="../pla-autcat-futur-autonoms-ppos/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/665492918/layout_icon" alt=""></span><span class="text"> Pla Autònoms, PPOS</span></a></li>
+<li><a href="../previsio-social-empresarial/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/664429372/layout_icon" alt=""></span><span class="text"> Previsió</span></a></li>
+<li><a href="../bolsa-y-mercados2/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1044041/layout_icon" alt=""></span><span class="text"> Mercats</span></a></li></ul></li>
+<li><a href="javascript:void(0)" class="has-children"><span class="icon"></span><span class="text">Assegurances</span></a><span class="icon-plus"></span><ul class="grandchild-menu"><li><a href="../seguros-negocios/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/1044261/layout_icon" alt=""></span><span class="text"> Assessorament en assegurances</span></a></li>
+<li><a href="../ciberseguro/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/663250682/layout_icon" alt=""></span><span class="text"> Ciberassegurança</span></a></li>
+<li><a href="../asseguranca-proteccio-autonoms/index.html" data-broken-link="true"><span class="icon"><img src="../assets/media/nav/666025765/layout_icon" alt=""></span><span class="text"> Seguro Protección Autónomos</span></a></li></ul></li></ul></li>
+<li><a href="../institucions/index.html" data-broken-link="true"><span class="icon"></span><span class="text"> Institucions</span></a><span class="icon-plus"></span><ul class="child-menu"><li><a href="https://www.caixaenginyers.com/administraciones-publicas" data-broken-link="true"><span class="icon"></span><span class="text">Administracions Públiques</span></a></li>
+<li><a href="../banca-institucional/index.html" data-broken-link="true"><span class="icon"></span><span class="text">Banca Institucional</span></a></li></ul></li></ul>
+    <div class="search-container">
+      <a class="search-launcher" id="globalSearchButton" href="javascript:void(0)" role="button" title="Cerca"><svg aria-hidden="true" viewBox="0 0 512 512"><path d="M503.254 467.861l-133.645-133.645c27.671-35.13 44.344-79.327 44.344-127.415 0-113.784-92.578-206.362-206.362-206.362s-206.362 92.578-206.362 206.362 92.578 206.362 206.362 206.362c47.268 0 90.735-16.146 125.572-42.969l133.851 133.851c5.002 5.002 11.554 7.488 18.106 7.488s13.104-2.486 18.106-7.488c10.004-10.003 10.004-26.209 0.029-36.183zM52.446 206.801c0-85.558 69.616-155.173 155.173-155.173s155.174 69.616 155.174 155.173-69.616 155.173-155.173 155.173-155.173-69.616-155.173-155.173z"></path></svg><span class="sr-only">Inicia Cerca</span></a>
+      <form class="search" action="https://www.caixaenginyers.com/" method="get"><span class="sr-only pt">General search Portlet</span><input class="field" type="text" placeholder="Cerca" title="Cerca amb almenys 3 caràcters"><span class="search-submit" title="Cerca"><a href="javascript:;"><svg aria-hidden="true" focusable="false"><use href="#search"></use></svg><span class="hide-accessible sr-only">Cerca</span></a></span></form>
+    </div>
+  </nav>
+</header>
+<main id="main-content" class="cdi-1-col-sinmargen product-page" role="main" data-template="accidentes">
+  <!-- product-hero: photo hero (shared by product pages) -->
+  <section class="product-hero" data-section="1">
+    <span class="sr-only">Slider Seguro Accidentes</span>
+    <div class="product-hero__slider" role="contentinfo" aria-label="Carrousel">
+    <a class="play-slider" href="javascript:void(0)" role="button"><span class="ctl-glyph ctl-glyph--play" aria-hidden="true"></span><span class="hide-accessible"> Reproduir Control lliscant </span></a>
+    <a class="pause-slider" href="javascript:void(0)" role="button"><span class="ctl-glyph ctl-glyph--pause" aria-hidden="true"></span><span class="hide-accessible"> PausaControl lliscant </span></a>
+    <div class="product-hero__item" style="background-image:url('../assets/media/seg-acc-hero.jpg')">
+      <div class="product-hero__panel">
+        <div class="product-hero__bg"></div>
+        <div class="product-hero__text">
+          <h1>Assegurança d'Accidents</h1>
+          <p>&nbsp;</p>
+          <p class="fs22">Perquè la vida és imprevisible,<strong> garanteix la teva estabilitat econòmica i la dels teus.</strong></p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p class="product-hero__ctas"><a class="btn btn-primary" href="#formulario" role="button" aria-label="contratar ahora este producto">Contractar ara</a>&nbsp; &nbsp;&nbsp;<a class="btn btn-secondary" href="../soci-cooperatiu/index.html" role="button" aria-label="quiero hacerme socio" data-broken-link="true">Encara no ets soci?</a></p>
+          <div class="product-hero__contents"></div>
+        </div>
+      </div>
+    </div>
+    <div class="owl-nav disabled"><button class="owl-prev" role="presentation" type="button"><span aria-label="Previous">‹</span></button><button class="owl-next" role="presentation" type="button"><span aria-label="Next">›</span></button></div>
+    <div class="owl-dots disabled"><button class="owl-dot active" role="button"><span></span></button></div>
+    </div>
+  </section>
+
+  <!-- product-body: rich text with two-column rows, separator, pricing cards (Modalitat) -->
+  <section class="product-body" data-section="2">
+    <span class="sr-only">Contenido Seguro Accidentes</span>
+    <p>&nbsp;</p>
+    <p class="fs22">L'Assegurança d'Accidents de Caixa Enginyers <strong>proporciona cobertures econòmiques tant per a tu com per als teus beneficiaris quan no puguis continuar desenvolupant la teva activitat laboral</strong>, a causa d'accidents que et provoquin invalidesa o mort.</p>
+    <p>&nbsp;</p>
+    <div class="two-col">
+      <div class="two-col__head"><p><span class="hl"><strong>Per què contractar cobertures davant d'accidents?</strong></span></p></div>
+      <div class="two-col__body">
+        <p>La funció de les assegurances d'accidents és la de rescabalar l’assegurat o els seus beneficiaris de les conseqüències econòmiques desfavorables que un accident i les seves lesions puguin ocasionar, com són la pèrdua d'ingressos i un possible augment de les despeses derivades d'una invalidesa.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <p>&nbsp;</p>
+    <div><p><img class="separator" src="../assets/media/raya-separadora.png" alt=""></p></div>
+    <p>&nbsp;</p>
+    <div class="two-col">
+      <div class="two-col__head"><p><span class="hl"><strong>Avantatges de l'Assegurança d'Accidents</strong></span></p></div>
+      <div class="two-col__body">
+        <p>Contractant la nostra Assegurança d'Accidents, tant si és complementant la teva Assegurança de Vida com si és de forma independent, tens la certesa que les teves necessitats financeres i les dels teus beneficiaris queden cobertes davant d'accidents que et causin invalidesa o, esperem que no sigui el cas, mort.</p>
+        <ul class="list-bullet">
+          <li>Garanteix el benestar econòmic de la teva família o beneficiaris.</li>
+          <li>Afronta les possibles atencions presents i futures que puguis necessitar.</li>
+          <li>Cobreix la impossibilitat de mantenir una font d'ingressos per a tu i per als teus.</li>
+        </ul>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <p>&nbsp;</p>
+    <p class="fs22">Pel fet de ser soci de Caixa Enginyers, gaudiràs de la mateixa tarifa fixa des dels 0 fins als 64 anys, sense necessitat de reconeixement mèdic. La teva tranquil·litat té un preu molt econòmic, tria el teu.</p>
+    <p>&nbsp;</p>
+    <div class="pricing">
+      <div class="pricing__card">
+        <p class="center"><span class="hl"><strong>Modalitat A</strong></span></p>
+        <p>Cobertura per mort per accident <span class="pricing__val" style="margin-left:193px">50.000 euros</span></p>
+        <p>Cobertura per invalidesa permanent absoluta <span class="pricing__val" style="margin-left:110px">50.000 euros</span></p>
+        <p class="center"><strong><span class="pricing__amount">30,56&nbsp;</span><span class="hl">euros anuals</span></strong></p>
+      </div>
+      <div class="pricing__card">
+        <p class="center"><span class="hl"><strong>Modalitat B</strong></span></p>
+        <p>Cobertura per mort per accident <span class="pricing__val" style="margin-left:188px">100.000 euros</span></p>
+        <p>Cobertura per invalidesa permanent absoluta <span class="pricing__val" style="margin-left:105px">100.000 euros</span></p>
+        <p class="center"><strong><span class="pricing__amount">50,94&nbsp;</span><span class="hl">euros anuals</span></strong></p>
+      </div>
+    </div>
+    <p>Sempre que no s'exerceixi una professió o esport de risc.</p>
+    <p>&nbsp;</p>
+    <p class="fs22 center"><strong>Els teus i tu us mereixeu les cobertures més completes i el servei més professional.</strong></p>
+    <p>&nbsp;</p>
+  </section>
+
+  <!-- product-cta: centred primary button -->
+  <div class="product-cta" data-section="3"><span class="sr-only">Aplicacions anidades</span><span class="sr-only">Botón Contratar Ahora</span><p><a class="btn btn-primary" href="#formulario">Contractar ara</a></p></div>
+
+  <!-- product-legal: small-print footnotes -->
+  <section class="product-legal" data-section="4">
+    <span class="sr-only">Pie Seguro Accidentes</span>
+    <p class="fs12">Informació i tarifes vigents el mes de juny&nbsp;de 2022, les quals poden canviar des de la data indicada fins a la seva contractació. Prèvia autorització de Caixa Enginyers.</p>
+    <p><span class="fs12">Assegurança contractada amb Helvetia Seguros, i amb la intermediació de Caixa Enginyers, Operador de Bancassegurances Vinculat, SLU, inscrit en el registre de mediadors de la DGSFP amb el codi OV0052. Pots consultar les <strong><a href="../web/grupo/detalle-grupo/index.html#bancaseguros" data-broken-link="true">companyies amb les quals Caixa Enginyers, Operador de Bancassegurances Vinculat, té contracte d'agència</a></strong>. Tarifes vàlides a Gener de 2021&nbsp;i subjectes a modificacions segons tarifes vigents en el moment de la contractació. </span></p>
+    <p><span class="fs12">Per contractar aquest producte <strong>és necessari ser soci de Caixa Enginyers</strong>. En obrir el teu compte, adquireixes un títol cooperatiu per un import de 9,01 €, en concepte de part&nbsp;del capital social de la Cooperativa de Consumidors i Usuaris.</span></p>
+  </section>
+
+  <!-- related-products: 3-card band (shared by product pages) -->
+  <section class="related" data-section="5">
+    <span class="sr-only">Titulo Productos relacionados</span>
+    <div class="related__head"><h2 class="related__title">Productes relacionats</h2></div>
+    <span class="sr-only">Publicador de continguts</span>
+    <div class="related__grid">
+      <div class="related__card" tabindex="0" role="link" title=" Assegurances i riscos" onclick="location.href=\'/seguro-vida\'">
+        <span class="related__sub">Assegurances i riscos <span class="icon-angle-right related__arrow"></span></span>
+        <span class="related__icon"><img src="../assets/media/rp-vida.png" alt=""></span>
+        <h3 class="related__name"><span class="top">Assegurança</span> <span class="bottom">Vida</span></h3>
+      </div>
+      <div class="related__card" tabindex="0" role="link" title=" Targeta de crèdit" onclick="location.href=\'/tarjeta-premier\'">
+        <span class="related__sub">Targeta de crèdit <span class="icon-angle-right related__arrow"></span></span>
+        <span class="related__icon"><img src="../assets/media/rp-premier.png" alt=""></span>
+        <h3 class="related__name"><span class="top">Targeta</span> <span class="bottom">Premier</span></h3>
+      </div>
+      <div class="related__card" tabindex="0" role="link" title=" TOTSOTACONTROL" onclick="location.href=\'/todobajocontrol\'">
+        <span class="related__sub">TOTSOTACONTROL <span class="icon-angle-right related__arrow"></span></span>
+        <span class="related__icon"><img src="../assets/media/rp-totsota.png" alt=""></span>
+        <h3 class="related__name"><span class="top">Pla</span> <span class="bottom"><span class="fs53">Assegurances</span></span></h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- request-form: "Sol·licita'l ara" form + contact aside (shared by product pages) -->
+  <section class="request" data-section="6">
+    <span class="sr-only">Aplicacions anidades</span>
+    <div class="request__head">
+      <span class="sr-only">Título cuadro formulario</span>
+      <p>&nbsp;&nbsp;</p>
+      <p><a id="formulario"></a></p>
+      <div class="center"><h2>Sol·licita'l ara</h2></div>
+      <p>&nbsp;</p>
+    </div>
+    <div class="request__cols">
+      <form class="request__form" action="#" onsubmit="return false">
+        <span class="sr-only">Formulario Multiidioma</span><span class="sr-only">Formulari</span>
+        <div class="ddm-hidden"><div role="alert"><span><svg viewBox="0 0 512 512"><use href="#warning-full"/></svg></span><strong>Avís:</strong>No teniu permís per accedir als camps de càrrega d'aquest formulari. Contacteu amb el propietari del formulari o l'administrador del portal per sol·licitar l'accés.</div></div>
+        <div class="ddm-hidden"><div role="alert"><span><svg viewBox="0 0 512 512"><use href="#info-circle"/></svg></span><strong>Info</strong>Les vostres respostes seran visibles per a tots els que responguin l'enquesta del formulari. No introduïu dades personals o sensibles.<button class="btn btn-primary" type="button">Entès</button></div><button class="close" aria-label="Close" type="button"><svg viewBox="0 0 512 512"><use href="#times"/></svg></button></div>
+        <button class="ddm-hidden" type="button"><svg viewBox="0 0 512 512"><use href="#order-arrow-left"/></svg>Vés enrere</button>
+        <div class="request__intro">
+          <div class="request__title">Formulari Més informació</div>
+          <span class="request__desc">Emplena el formulari i contactarem amb tu el més aviat possible. Tots els camps marcats amb * són obligatoris.</span>
+          <div class="request__line"></div>
+        </div>
+        <p class="request__req"><span class="req-mark"><svg viewBox="0 0 512 512" aria-hidden="true"><use href="#asterisk"/></svg></span>Indica els camps obligatoris</p>
+        <div class="request__grid">
+          <div class="field"><label for="f-nom">Nom<span class="req-mark"><svg viewBox="0 0 512 512" aria-hidden="true"><use href="#asterisk"/></svg></span></label><input id="f-nom" type="text" required></div>
+          <div class="field"><label for="f-cog">Cognoms<span class="req-mark"><svg viewBox="0 0 512 512" aria-hidden="true"><use href="#asterisk"/></svg></span></label><input id="f-cog" type="text" required></div>
+          <div class="field"><label for="f-dni">DNI, NIE, CIF o Passaport<span class="req-mark"><svg viewBox="0 0 512 512" aria-hidden="true"><use href="#asterisk"/></svg></span></label><input id="f-dni" type="text" placeholder="DNI, NIE o CIF" required><span class="sr-only">DNI, NIE, CIF o Passaport<br>Obligatori</span></div>
+          <div class="field"><label for="f-mail">Email<span class="req-mark"><svg viewBox="0 0 512 512" aria-hidden="true"><use href="#asterisk"/></svg></span></label><input id="f-mail" type="text" required></div>
+          <div class="field"><label for="f-tel">Telèfon<span class="req-mark"><svg viewBox="0 0 512 512" aria-hidden="true"><use href="#asterisk"/></svg></span></label><input id="f-tel" type="text" required></div>
+          <div class="field"><label for="f-cp">Codi postal<span class="req-mark"><svg viewBox="0 0 512 512" aria-hidden="true"><use href="#asterisk"/></svg></span></label><input id="f-cp" type="text" required></div>
+        </div>
+        <div class="request__group">
+          <div class="field field--consent">
+            <p class="consent__label">Deure d’informació. Protecció de dades. De conformitat amb el RGPD i la LOPDGDD, GRUPO CAIXA DE CRÈDIT DELS ENGINYERS-CAJA DE CRÉDITO DE LOS INGENIEROS, S. COOP. DE CRÉDITO, tractarà les dades facilitades amb la finalitat de tramitar la seva petició i contactar amb vostè per facilitar la informació sol·licitada i sempre que ens autoritzi, per mantenir-lo informat dels serveis i productes oferts pel Grup. Podrà exercir, si així ho desitja, els drets d’accés, rectificació, supressió, o retirar el consentiment prestat i d’altres reconeguts en la normativa mencionada en qualsevol moment de conformitat amb allò disposat en la nostra Política de privacitat, així com obtenir informació ampliada sobre el tractament de les seves dades.<span class="req-mark"><svg viewBox="0 0 512 512" aria-hidden="true"><use href="#asterisk"/></svg></span></p>
+            <label class="check"><input type="checkbox" required><span class="check__text"><span>Dono el consentiment perquè les meves dades personals siguin tractades i declaro com a llegits els </span><a href="javascript:void(0)">termes i condicions </a></span></label>
+            <span class="sr-only">Deure d’informació. Protecció de dades. De conformitat amb el RGPD i la LOPDGDD, GRUPO CAIXA DE CRÈDIT DELS ENGINYERS-CAJA DE CRÉDITO DE LOS INGENIEROS, S. COOP. DE CRÉDITO, tractarà les dades facilitades amb la finalitat de tramitar la seva petició i contactar amb vostè per facilitar la informació sol·licitada i sempre que ens autoritzi, per mantenir-lo informat dels serveis i productes oferts pel Grup. Podrà exercir, si així ho desitja, els drets d’accés, rectificació, supressió, o retirar el consentiment prestat i d’altres reconeguts en la normativa mencionada en qualsevol moment de conformitat amb allò disposat en la nostra Política de privacitat, així com obtenir informació ampliada sobre el tractament de les seves dades.<br>Obligatori</span>
+          </div>
+          <div class="field field--switch" role="group">
+            <p class="switch__legend">Tractament de dades personals:</p>
+            <label class="switch"><input type="checkbox" role="switch"><span class="switch__bar"><span class="switch__handle"></span></span><span class="switch__label">Entenc i accepto el tractament de les meves dades personals amb la finalitat de rebre informació comercial relacionada amb els serveis i productes oferts pel Grup CAIXA DE CRÈDIT DELS ENGINYERS-CAJA DE CRÉDITO DE LOS INGENIEROS, S. COOP. DE CRÉDITO.</span></label>
+            <span class="sr-only">Tractament de dades personals:</span>
+          </div>
+          <span class="sr-only">Fields Group</span>
+        </div>
+        <div class="request__submit"><button class="btn btn-primary" id="ddm-form-submit" type="submit">Envia</button></div>
+      </form>
+      <aside class="request__aside">
+        <span class="sr-only">Canales contacto</span>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <div class="channel">
+          <div class="channel__pad">&nbsp;</div>
+          <div class="channel__icon"><img class="effect tada" src="../assets/media/marker-yellow.png" alt="localitzador oficines"></div>
+          <div class="channel__text">
+            <p>Vine a visitar-nos</p>
+            <p class="channel__link channel__link--sm"><a href="../oficinas-y-cajeros/index.html" data-broken-link="true"><strong>Localitza una oficina</strong></a></p>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <div class="channel">
+          <div class="channel__pad">&nbsp;</div>
+          <div class="channel__icon"><img class="effect tada" src="../assets/media/phone.png" alt="teléfono de contacto"></div>
+          <div class="channel__text">
+            <p>Truca'ns</p>
+            <p class="channel__link"><strong><a href="tel:+34900300321">900 300 321</a></strong></p>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+        <div class="channel">
+          <div class="channel__pad">&nbsp;</div>
+          <div class="channel__icon"><img class="effect tada" src="../assets/media/chat.png" alt="whatsapp"></div>
+          <div class="channel__text">
+            <p>Envía'ns un WhatsApp</p>
+            <p class="channel__link"><strong><a href="https://api.whatsapp.com/send?phone=34646420384">646 420 384</a></strong></p>
+          </div>
+        </div>
+        <p>&nbsp;</p>
+      </aside>
+    </div>
+  </section>
+</main>
+<footer id="footer" role="contentinfo">
+  <div class="footer-left">
+    <div class="footer-left-top">
+      <span class="pt-hidden">Footer</span>
+      <h2 class="hide-accessible">Menú peu de pàgina</h2>
+      <div class="footer-cols">
+        <div><h3 class="title">Informació corporativa</h3><ul>
+          <li><a href="../ca/web/grupo/quienes-somos/index.html" data-broken-link="true">Qui som</a></li>
+          <li><a href="../ca/web/fundacion/salut-financera/index.html" data-broken-link="true">Salut financera</a></li>
+          <li><a href="../ca/web/grupo/10-principios-banca-cooperativa/index.html" data-broken-link="true">Banca Cooperativa</a></li>
+          <li><a href="../ca/web/grupo/trabaja-con-nosotros/index.html" data-broken-link="true">Treballa amb nosaltres</a></li></ul></div>
+        <div><h3 class="title">Accessibilitat i seguretat</h3><ul>
+          <li><a href="../seguretat/index.html" data-broken-link="true">Seguretat online</a></li>
+          <li><a href="../faqs-otp/index.html" data-broken-link="true">Accés segur</a></li>
+          <li><a href="../accesibilidad/index.html">Accessibilitat</a></li></ul></div>
+        <div><h3 class="title">Et pot interessar</h3><ul>
+          <li><a href="../testamentaria/index.html" data-broken-link="true">Tramitació d'herència</a></li>
+          <li><a href="../tallers-i-trobades/index.html" data-broken-link="true">Tallers i trobades</a></li></ul></div>
+        <div><h3 class="title">Eines</h3><ul>
+          <li><a href="../calcula-hipoteca/index.html" data-broken-link="true">Calcula Hipoteca</a></li>
+          <li><a href="../simulador-prestamos/index.html" data-broken-link="true">Simulador Préstecs</a></li>
+          <li><a href="../empreses/index.html" data-broken-link="true">Empreses</a></li>
+          <li><a href="../les-meves-finances/index.html" data-broken-link="true">Les meves finances</a></li></ul></div>
+      </div>
+    </div>
+    <div class="footer-left-bottom">
+      <span class="sr-only pt">Mapa del lloc</span>
+      <ul><li><a href="https://cajaingenieros.integrityline.com/"> Canal denúncies</a></li><li><a href="../iso/index.html" data-broken-link="true"> ISO</a></li><li><a href="https://apimarket.caixaenginyers.com"> Api Market</a></li><li><a href="../politica-de-cookies/index.html" data-broken-link="true"> Política de cookies</a></li><li><a href="../privacidad/index.html" data-broken-link="true"> Privacitat</a></li><li><a href="../aviso-legal/index.html" data-broken-link="true"> Avís legal</a></li><li><a href="../tablon-de-anuncios/index.html" data-broken-link="true"> Tauler d'anuncis</a></li></ul>
+    </div>
+  </div>
+  <div class="footer-right">
+    <div class="contact-footer">
+      <span class="pt-hidden">Contacte i xarxes socials</span>
+      <a class="btn btn-primary call-btn" href="tel:+34900300321"><img src="../assets/media/ico_phone_25x25.png" width="25" height="25" alt=""> 900 300 321</a>
+      <ul class="contact-info">
+        <li><span class="title">Contacte</span>
+          <ul>
+            <li><a class="contact" href="../ca/contactar/index.html" data-broken-link="true">Contacte</a></li>
+            <li><a class="offices" href="../ca/oficinas-y-cajeros/index.html" data-broken-link="true">Oficines i caixers</a></li>
+            <li><a class="btn btn-primary call-mobile" href="tel:+34900300321"><img src="../assets/media/ico_phone_25x25.png" width="25" height="25" alt=""> 900 300 321</a></li>
+          </ul>
+        </li>
+        <li><span class="title">Troba'ns a</span>
+          <ul class="social-networks">
+            <li><a href="https://www.facebook.com/caixadenginyers" aria-label="Segueix-nos a Facebook" title="Segueix-nos a Facebook"><i class="icon-facebook" title="Facebook">&nbsp;</i></a></li>
+            <li><a href="https://www.instagram.com/caixaenginyers" aria-label="Síguenos en Instagram" title="Síguenos en instagram"><i class="icon-instagram" title="instagram">&nbsp;</i></a></li>
+            <li><a href="https://twitter.com/caixaenginyers" aria-label="Segueix-nos a Twitter" title="Segueix-nos a Twitter"><i class="icon-twitter-x" title="Twitter">&nbsp;</i></a></li>
+            <li><a href="http://www.linkedin.com/company/grupo-caja-de-ingenieros" aria-label="Segueix-nos a Linkedin" title="Segueix-nos a Linkedin"><i class="icon-linkedin" title="Linkedin">&nbsp;</i></a></li>
+            <li><a href="http://www.youtube.com/caixaenginyers?sub_confirmation=1" aria-label="Segueix-nos a Youtube" title="Segueix-nos a Youtube"><i class="icon-youtube-play" title="Youtube">&nbsp;</i></a></li>
+            <li class="separator" aria-hidden="true"></li>
+            <li class="blog"><a href="https://blog.caixa-enginyers.com/" aria-label="Síguenos en nuestro Blog" title="Síguenos en nuestro Blog"><span class="icon-blog"></span>Blog</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="legal-mobile">
+        <li><a href="../tablon-de-anuncios/index.html" aria-label="accedeix al tauler d'anuncis" data-broken-link="true">Tauler d'anuncis</a></li>
+        <li><a href="../politica-de-cookies/index.html" aria-label="accedeix a la política de cookies" data-broken-link="true">Política de cookies</a></li>
+        <li><a href="../aviso-legal/index.html" aria-label="accedeix a l'avís legal" data-broken-link="true">Avís legal</a></li>
+        <li><a href="../seguridad/index.html" aria-label="accedeix a seguretat" data-broken-link="true">Seguretat Online</a></li>
+        <li><a href="../privacidad/index.html" aria-label="accedeix a privacitat" data-broken-link="true">Privacitat</a></li>
+        <li><a href="https://cajaingenieros.integrityline.com/?lang=ca" aria-label="accedeix a canal denúncies">Canal denúncies</a></li>
+      </ul>
+      <p class="app-cta">Descarrega-la ara<br> <strong><a class="mobile-banking" href="../ca/banca-digital/index.html#BancaMovil" data-broken-link="true">Banca MOBILE</a></strong></p>
+    </div>
+    <p class="copyright">© Caixa Enginyers 2026</p>
+  </div>
+</footer>
+<script src="../assets/index.js" defer></script>
+<script>/* body.scroll-mark: theme scroll flag (observed on live, stardust/replica/motion/accidentes.json); index.js only sets it with the home bullets */
+window.addEventListener('scroll', () => document.body.classList.toggle('scroll-mark', window.scrollY > 0), { passive: true });</script>
+</body>
+</html>

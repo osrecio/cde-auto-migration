@@ -1,0 +1,11 @@
+{
+  "/acceso-bo": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-26T20:43:09.705Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

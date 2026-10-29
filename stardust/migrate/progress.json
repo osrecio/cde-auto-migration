@@ -1,0 +1,49 @@
+{
+ "units": {
+  "plan": {
+   "status": "done",
+   "kind": "plan",
+   "templates": [
+    "landing",
+    "static",
+    "form",
+    "program"
+   ],
+   "pages": 10,
+   "startedAt": "2026-10-26T18:58:51Z",
+   "endedAt": "2026-10-26T18:58:55Z",
+   "verdict": "4 Path A archetypes (index, accesibilidad, acceso-bo, accidentes) + 6 program siblings Path A′ after C-archetype program"
+  },
+  "archetypes": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "landing",
+    "static",
+    "form",
+    "program"
+   ],
+   "pages": 4,
+   "startedAt": "2026-10-26T18:58:55Z",
+   "endedAt": "2026-10-26T18:59:07Z",
+   "verdict": "rendered 4, unchanged 0, refused 0, passthrough 0"
+  },
+  "program": {
+   "status": "done",
+   "kind": "render",
+   "templates": [
+    "program"
+   ],
+   "pages": 6,
+   "startedAt": "2026-10-26T20:56:39Z",
+   "endedAt": "2026-10-26T22:51:00Z",
+   "verdict": "rendered 6/6 Path A′ on the program encoder; content-fidelity per page, deviations in _meta.json; presence 0 missing / 0 hidden"
+  },
+  "report": {
+   "status": "pending",
+   "kind": "report",
+   "templates": [],
+   "pages": 10
+  }
+ }
+}

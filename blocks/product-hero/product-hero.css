@@ -1,0 +1,707 @@
+/* product-hero: photo band 500px (cover) + white 70% panel over the left half of the 1148
+   column, centred vertically (source main.css .slider .item / .slide-content.left.align-middle).
+   Spacing mirrors the source's empty paragraphs (one = 22.857px line + 10px margin). */
+.product-hero {
+  --product-hero-spacer: 32.857px;
+
+  margin-bottom: 10px;
+  color: var(--ce-ink);
+}
+
+.product-hero .product-hero-item {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.product-hero .product-hero-media {
+  position: absolute;
+  inset: 0;
+}
+
+.product-hero .product-hero-media p {
+  height: 100%;
+  margin: 0;
+}
+
+.product-hero .product-hero-media picture {
+  display: block;
+  height: 100%;
+}
+
+.product-hero .product-hero-media img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.product-hero .product-hero-panel {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  width: calc(50% - (100% - var(--ce-container)) / 2);
+  margin-left: calc((100% - var(--ce-container)) / 2);
+  padding: 20px;
+  transform: translateY(-50%);
+}
+
+.product-hero .product-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: #fff;
+  opacity: 0.7;
+}
+
+.product-hero .product-hero-text {
+  display: flow-root;
+}
+
+.product-hero .product-hero-text p {
+  margin: calc(var(--product-hero-spacer) + 10px) 0 10px;
+  font-size: 22px;
+}
+
+.product-hero .product-hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  margin: calc(2 * var(--product-hero-spacer) + 10px) 0 20px;
+}
+
+.product-hero .product-hero-ctas p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.product-hero .product-hero-ctas a:any-link {
+  margin-bottom: 20px;
+}
+
+@media (width <= 991px) {
+  .product-hero .product-hero-item {
+    height: auto;
+  }
+
+  .product-hero .product-hero-media {
+    display: none;
+  }
+
+  .product-hero .product-hero-panel {
+    position: relative;
+    top: auto;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    transform: none;
+  }
+}
+
+/* ---- program sibling variants (additive; the default panel above is /accidentes) ----    variants restyle the same nodes per composition: specificity order follows the variant */
+
+/* stylelint-disable no-descending-specificity */
+
+/* tight: the source puts the lede right under the h1 and one 22px spacer before the CTA */
+.product-hero.tight .product-hero-text p {
+  margin-top: 0;
+}
+
+.product-hero.tight .product-hero-ctas {
+  margin: 51.43px 0 0;
+}
+
+/* clear: headerLeft slide — no white panel, text on the left 2/3 of the column */
+.product-hero.clear .product-hero-panel {
+  width: calc(var(--ce-container) * 2 / 3);
+  padding: 20px 0;
+}
+
+.product-hero.clear .product-hero-bg {
+  display: none;
+}
+
+/* risk: risk indicator box + statement (source slide1 rich-text) */
+.product-hero.risk .product-hero-text .product-hero-caption {
+  margin: 0 0 5px;
+  font-size: 12px;
+  line-height: 1.4286;
+}
+
+.product-hero.risk .product-hero-risk {
+  width: 382px;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #000;
+  outline: 2px solid #fff;
+  background: #fff;
+}
+
+.product-hero.risk .product-hero-text .product-hero-risk p {
+  margin: 0 0 10px;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.1;
+}
+
+.product-hero.risk .product-hero-text .product-hero-risk .product-hero-risk-figure {
+  margin: 0;
+  color: #434343;
+  font-size: 50px;
+  line-height: 1.4286;
+}
+
+.product-hero.risk .product-hero-risk-figure::first-letter {
+  color: #d8d8d8;
+}
+
+.product-hero.risk h1 {
+  margin: 30px 0 20px;
+  font-size: 36px;
+}
+
+.product-hero.risk .product-hero-text > p:not(.product-hero-caption) {
+  margin: 0 0 30px;
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+.product-hero.risk .product-hero-ctas {
+  margin: 0;
+}
+
+.product-hero.risk .product-hero-ctas p {
+  margin-bottom: 10px;
+}
+
+/* dark / banner: the slide is a full-width banner image painted at its natural size, the
+   text column on the left (source nested portlet, background auto at a fixed position) */
+.product-hero:is(.dark, .banner) .product-hero-item {
+  height: auto;
+  min-height: var(--product-hero-height, 550px);
+}
+
+.product-hero:is(.dark, .banner) .product-hero-media img {
+  position: absolute;
+  top: var(--product-hero-img-top, -10px);
+  left: calc((100% - 1920px) * var(--product-hero-img-x, 0.4));
+  width: 1920px;
+  height: var(--product-hero-img-height, 600px);
+  object-fit: cover;
+}
+
+.product-hero:is(.dark, .banner) .product-hero-panel {
+  position: relative;
+  top: auto;
+  width: 559px;
+  padding: 0;
+  transform: none;
+}
+
+.product-hero:is(.dark, .banner) .product-hero-bg {
+  display: none;
+}
+
+.product-hero.dark {
+  color: #fff;
+}
+
+.product-hero.dark .product-hero-text {
+  padding: 33px 10px;
+}
+
+.product-hero.dark h3 {
+  margin: 0 15px 15px;
+  color: #f8f8f8;
+  font-family: var(--ce-font-light);
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.product-hero.dark h3:first-child,
+.product-hero.dark h3:has(+ h2) {
+  margin: 15px 15px 0;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.product-hero.dark:not(.tall) .product-hero-text > :is(h2, h3:has(+ h3)) {
+  display: none;
+}
+
+.product-hero.dark:not(.tall) .product-hero-text > h3:has(+ h3) {
+  margin: 10px 15px;
+  color: #f8f8f8;
+  font-family: var(--ce-font-light);
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+.product-hero.dark:not(.tall) .product-hero-text > h2:not(h1) {
+  margin: 0 15px;
+  color: #fff;
+  font-family: var(--ce-font);
+  font-size: 54px;
+  line-height: 1.2;
+}
+
+.product-hero.dark:not(.tall) .product-hero-text > h3:has(+ h3):not(:first-child) {
+  margin: 0 15px 5px;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.product-hero.dark h1 {
+  margin: 25px 15px 33px;
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.product-hero.dark .product-hero-ctas {
+  margin: 48px 0 0 10px;
+}
+
+.product-hero.dark .product-hero-ctas p {
+  margin: 0 0 10px;
+}
+
+/* tall: the patinet banner (650px, image 48% 50%, ticks in three columns) */
+.product-hero.dark.tall {
+  --product-hero-height: 650px;
+  --product-hero-img-top: -75px;
+  --product-hero-img-x: 0.48;
+  --product-hero-img-height: 800px;
+}
+
+.product-hero.dark.tall .product-hero-panel {
+  padding: 0 15px;
+}
+
+.product-hero.dark.tall .product-hero-text {
+  padding: 36px 0 0;
+}
+
+.product-hero.dark.tall h1 {
+  margin: 20px 0 30px;
+  font-family: var(--ce-font-light);
+  font-size: 50px;
+  line-height: 1;
+}
+
+.product-hero.dark.tall h1 strong {
+  font-size: 50px;
+}
+
+.product-hero.dark.tall h2 {
+  margin: 20px 0 32px;
+  color: #fff;
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+.product-hero.dark.tall .product-hero-text p {
+  margin: 0 0 40px;
+  font-family: var(--ce-font-light);
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.product-hero.dark.tall ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 -15px 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.product-hero.dark.tall li {
+  min-height: 39px;
+  padding: 0 15px 0 55px;
+  background: url('tick-yellow.png') 37px 0 no-repeat;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+.product-hero.dark.tall .product-hero-ctas {
+  margin: 25px 0 0 5px;
+}
+
+.product-hero.dark.tall .product-hero-ctas p {
+  margin: 0 0 16px;
+}
+
+.product-hero.dark.tall .product-hero-ctas + p {
+  margin: 0 0 10px 15px;
+  font-family: var(--ce-font);
+  font-size: 16px;
+  line-height: 1.4286;
+}
+
+.product-hero.dark.tall .product-hero-ctas + p a:any-link {
+  color: #f8f8f8;
+}
+
+/* banner: the Hipoteca Jove header (500px, image 25% 65%, check list) */
+.product-hero.banner {
+  --product-hero-height: 500px;
+  --product-hero-img-top: -195px;
+  --product-hero-img-x: 0.25;
+  --product-hero-img-height: 800px;
+}
+
+.product-hero.banner .product-hero-panel {
+  padding: 26px 0 0;
+}
+
+.product-hero.banner h1 {
+  margin: 20px 0 25px 15px;
+  font-family: var(--ce-font-light);
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.product-hero.banner .product-hero-text > p {
+  margin: 0 15px 25px;
+  font-family: var(--ce-font-light);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.product-hero.banner .product-hero-text > p strong {
+  font-family: var(--ce-font-light);
+  font-weight: 700;
+}
+
+.product-hero.banner ul {
+  margin: 0 0 10px;
+  padding: 0 0 0 40px;
+  list-style: none;
+  font-family: var(--ce-font-light);
+  font-size: 28px;
+  line-height: 1.1;
+}
+
+.product-hero.banner li {
+  margin: 0 0 15px -29px;
+  padding-left: 29px;
+  background: url('check-blue.png') 0 5px no-repeat;
+}
+
+.product-hero.banner li:last-child {
+  margin-bottom: 35px;
+}
+
+.product-hero.banner li p {
+  margin: 0 0 10px;
+  font-size: 28px;
+}
+
+.product-hero.banner li p + p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.product-hero.banner .product-hero-ctas {
+  margin: 0 0 0 15px;
+}
+
+.product-hero.banner .product-hero-ctas p {
+  margin: 0 0 20px;
+}
+
+@media (width <= 991px) {
+  .product-hero:is(.dark, .banner, .clear) .product-hero-item {
+    min-height: 0;
+  }
+
+  .product-hero.clear .product-hero-panel {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .product-hero.risk .product-hero-risk {
+    width: 150px;
+  }
+
+  .product-hero.dark:not(.tall) .product-hero-panel {
+    padding: 0;
+  }
+
+  /* the source portlet background repeats at its natural size under the restacked text */
+  .product-hero.dark .product-hero-item {
+    background: var(--product-hero-tile) var(--product-hero-tile-pos, 40% 20%) / 1920px auto
+      repeat;
+  }
+
+  .product-hero.dark.tall {
+    --product-hero-tile-pos: 48% 50%;
+  }
+
+  .product-hero.dark .product-hero-media {
+    visibility: hidden;
+  }
+
+  .product-hero.dark:not(.tall) .product-hero-text {
+    padding-bottom: 0;
+  }
+
+  /* the source's mobile copies (hidden-md hidden-lg) show below 992px, beside the desktop ones */
+  .product-hero.dark:not(.tall) .product-hero-text > :is(h2, h3:has(+ h3)) {
+    display: block;
+  }
+
+  .product-hero:is(.dark, .banner) .product-hero-media {
+    display: block;
+  }
+
+  .product-hero:is(.dark, .banner) .product-hero-panel {
+    width: 100%;
+    padding: 15px;
+  }
+
+
+  /* source: one ul per tick (line box 21.6, margin-bottom 10), marker 40px left of text */
+  .product-hero.dark.tall ul {
+    grid-template-columns: 1fr;
+    margin-bottom: 0;
+  }
+
+  .product-hero.dark.tall li {
+    min-height: 21.594px;
+    margin-bottom: 10px;
+    background-position: 30px 0;
+  }
+
+  .product-hero.dark.tall .product-hero-text {
+    padding: 15px 0 33px;
+  }
+
+  .product-hero.dark.tall .product-hero-ctas p {
+    margin-bottom: 10px;
+  }
+
+  .product-hero.dark.tall .product-hero-ctas a:any-link {
+    margin-bottom: 0;
+  }
+}
+
+/* source mobile copy of the lede (d-md-none): 22px, margin-bottom 25 */
+@media (width <= 767px) {
+  .product-hero.dark.tall .product-hero-text > p:first-of-type {
+    margin-bottom: 25px;
+    font-size: 22px;
+  }
+}
+
+/* carousel: several slides (source Owl slider .slider #…-carousel: items stacked, only the
+   active one shown, autoHeight; fadeOut 1000 ms; owl-dots overlap the slide by 35px, the
+   pause/play button sits 30px right of the last dot) */
+.product-hero.product-hero-carousel {
+  position: relative;
+}
+
+.product-hero-carousel .product-hero-stage {
+  position: relative;
+  display: grid;
+  overflow: hidden;
+}
+
+.product-hero-carousel .product-hero-stage > .product-hero-item {
+  grid-area: 1 / 1;
+  min-width: 0;
+  max-height: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.product-hero-carousel .product-hero-stage > .product-hero-item.active,
+.product-hero-carousel .product-hero-stage > .product-hero-item.fading-out {
+  max-height: none;
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+}
+
+.product-hero-carousel .product-hero-stage > .product-hero-item.fading-out {
+  z-index: 2;
+  animation: product-hero-fade-out 1000ms both;
+}
+
+@keyframes product-hero-fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.product-hero .product-hero-options {
+  display: none;
+}
+
+.product-hero-carousel .product-hero-dots {
+  position: relative;
+  z-index: 2;
+  margin-top: -35px;
+  line-height: 22.857px;
+  text-align: center;
+}
+
+.product-hero-carousel .product-hero-dot {
+  display: inline-block;
+  width: 24px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  vertical-align: baseline;
+  cursor: pointer;
+}
+
+.product-hero-carousel .product-hero-dot span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  border-radius: 30px;
+  background: var(--ce-dot);
+}
+
+.product-hero-carousel .product-hero-dot.active span,
+.product-hero-carousel .product-hero-dot:hover span {
+  background: var(--ce-blue);
+}
+
+.product-hero-carousel .product-hero-pause,
+.product-hero-carousel .product-hero-resume {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  z-index: 2;
+  width: 25px;
+  height: 25px;
+  margin: 0 0 0 30px;
+  padding: 0 0 0 1px;
+  border: 0;
+  border-radius: 50%;
+  background: #fff;
+  color: #164194;
+  line-height: 22px;
+  text-align: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.product-hero-carousel .product-hero-pause[hidden],
+.product-hero-carousel .product-hero-resume[hidden] {
+  display: none;
+}
+
+.product-hero-carousel .product-hero-pause:hover,
+.product-hero-carousel .product-hero-resume:hover {
+  opacity: 1;
+}
+
+.product-hero-carousel .product-hero-glyph::before {
+  font-family: var(--ce-font-icon);
+  font-size: 12px;
+  content: "\f04c";
+}
+
+.product-hero-carousel .product-hero-resume .product-hero-glyph::before {
+  content: "\f04b";
+}
+
+/* light slide (source .slide-content.left align-middle, transparent panel, white copy:
+   h1 60px margin 20/35, 28px lines, bold 28px line at 130%, .contents margin-top 20) */
+.product-hero .product-hero-item.product-hero-light .product-hero-panel {
+  width: calc(50% - (100% - var(--ce-container)) / 2);
+  padding: 20px;
+}
+
+.product-hero .product-hero-item.product-hero-light .product-hero-bg {
+  display: none;
+}
+
+.product-hero .product-hero-item.product-hero-light .product-hero-text {
+  color: #fff;
+}
+
+.product-hero .product-hero-item.product-hero-light :is(h1, h2) {
+  margin: 20px 0 35px;
+  color: #fff;
+  font-size: 60px;
+  line-height: 1.1;
+}
+
+.product-hero .product-hero-item.product-hero-light
+  .product-hero-text > p:not(.product-hero-caption) {
+  margin: 0 0 15px;
+  font-size: 28px;
+  line-height: 1.4286;
+}
+
+.product-hero .product-hero-item.product-hero-light
+  .product-hero-text > p:has(> strong:only-child) {
+  margin-bottom: 45px;
+  line-height: 1.3;
+}
+
+.product-hero .product-hero-item.product-hero-light .product-hero-ctas {
+  margin: 20px 0 0;
+}
+
+.product-hero .product-hero-item.product-hero-light .product-hero-ctas p {
+  margin: 0 0 10px;
+}
+
+.product-hero .product-hero-item.product-hero-light .product-hero-ctas a:any-link {
+  margin-bottom: 0;
+}
+
+@media (width <= 1200px) {
+  .product-hero .product-hero-item.product-hero-light .product-hero-panel {
+    margin: 0;
+    padding: 15px;
+  }
+}
+
+@media (width <= 991px) {
+  .product-hero .product-hero-item.product-hero-light .product-hero-panel {
+    width: 100%;
+  }
+
+  /* source slide1: the CTA p closes on the empty .contents (margin-top 20) only */
+  .product-hero.risk .product-hero-ctas p {
+    margin-bottom: 0;
+  }
+}
+
+@media (width <= 767px) {
+  .product-hero-carousel .product-hero-dots {
+    margin-top: 0;
+  }
+
+  .product-hero-carousel .product-hero-pause,
+  .product-hero-carousel .product-hero-resume {
+    bottom: 3px;
+  }
+}
+
+@media (width <= 480px) {
+  .product-hero .product-hero-item.product-hero-light :is(h1, h2) {
+    font-size: 42px;
+  }
+}
