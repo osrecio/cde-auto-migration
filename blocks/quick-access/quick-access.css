@@ -1,0 +1,50 @@
+/* quick-access: source .ce-quick .scrollmenu (centred nowrap row, 6% gaps, 80px icons) */
+.quick-access {
+  padding: 56px 0 22.86px;
+}
+
+.quick-access .quick-access-row {
+  overflow: auto hidden;
+  background: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.quick-access .quick-access-item {
+  display: inline-block;
+  margin-right: 6%;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.quick-access .quick-access-item:last-child {
+  margin-right: 0;
+}
+
+.quick-access .quick-access-item:hover {
+  border-color: #ededed;
+}
+
+.quick-access .quick-access-item p {
+  margin-bottom: 10px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.quick-access .quick-access-item a {
+  position: relative;
+}
+
+.quick-access .quick-access-item picture {
+  display: block;
+}
+
+.quick-access .quick-access-item img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+main > .section.quick-access-container {
+  margin-top: 20px;
+}

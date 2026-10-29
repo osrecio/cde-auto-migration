@@ -1,0 +1,27 @@
+{
+  "type": "form",
+  "archetype": "acceso-bo",
+  "url": "https://www.caixaenginyers.com/acceso-bo",
+  "prototype": "stardust/prototypes/acceso-bo-proposed.html",
+  "css": ["stardust/prototypes/canon.css", "stardust/prototypes/acceso-bo.css"],
+  "js": ["stardust/prototypes/index.js"],
+  "iterations": { "1440": 3, "360": 3 },
+  "gates": {
+    "1440": { "pixel": "0.30%", "heightDelta": 2, "contentDiff": "0 red, 0 nothing-lost yellow (7 advisory: iframe sr-only labels 'Usuari:'/'Clau d'accés:' + attribute extras)", "visualDiff": "none", "clip": 0, "overflow": "ok" },
+    "360": { "pixel": "1.47%", "heightDelta": 2, "contentDiff": "0 red, 0 nothing-lost yellow (7 advisory)", "visualDiff": "none", "clip": 0, "overflow": "ok" }
+  },
+  "capProbe": "PASS",
+  "residuals": [
+    { "band": "360 header", "cause": "chrome-parity deltas inherited from the gated home canon header (hidden mobile search/menu probe artefacts, Grup Caixa Enginyers padding) — identical on index-360 iter3", "size": "8 deltas, pixel-neutral", "permanent": true },
+    { "band": "360 footer", "cause": "'Descarrega-la ara' paddingTop 0 → 22.857px, inherited from canon footer (same delta on index-360)", "size": "Δy -24px on one footer text; page Δh 2px", "permanent": true },
+    { "band": "footer 1440/360", "cause": "page height 2px shorter (sub-pixel line-height rounding)", "size": "2px", "permanent": true },
+    { "band": "login box", "cause": "source renders the form in a cross-origin iframe (bancaonline.caixaenginyers.com); recreated inline with the iframe's lifted CSS, form posts to the source banking host (identificacion.action, target _top); RSA PIN encryption/doSubmit JS not ported", "size": "pixel-neutral", "permanent": true }
+  ],
+  "motion": {
+    "observed": ["carousel autoplay 6000ms + fadeOut animateOut", "dot click", "pause/play", "theme .15s link colour/border/box-shadow transitions", "body scroll-mark / html gtm-captacion-visible / portlet open classes"],
+    "implemented": ["carousel autoplay/fadeOut/dots/pause-play via index.js (shared)", ".15s transitions on slide links + play/pause", "Entrar hover/focus colours from iframe CSS"],
+    "dead": ["dot/pause pokes produced no sampled frame change on live", "play-icon hover (no measured diff)", "gtm-captacion-visible (analytics)", "portlet 'open' (Liferay internal)", "body scroll-mark (no visual effect on this page)"]
+  },
+  "canonBackports": [],
+  "passed": true
+}

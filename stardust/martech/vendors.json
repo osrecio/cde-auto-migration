@@ -1,0 +1,41 @@
+{
+ "pages": 4,
+ "vendors": [
+  {
+   "host": "consent.cookiefirst.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "www.caixaenginyers.com",
+   "pages": 4,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "www.opinator.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "bancaonline.caixaenginyers.com",
+   "pages": 4,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "dataLayer": 4
+ },
+ "cspHosts": []
+}

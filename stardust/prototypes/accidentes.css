@@ -1,0 +1,137 @@
+/* accidentes.css — product/service detail ("program") archetype modules. canon.css is loaded first.
+   Modules are page-agnostic so the product siblings reuse them: .product-hero, .product-body (.two-col,
+   .pricing, .list-bullet), .product-cta, .product-legal, .related (3-card band), .request (form + aside).
+   Values: live computed styles (stardust/replica/gates/accidentes-measure-live*.json, 1440 + 360),
+   main.css (.slider, .recommended-products, .box, .list-bullet, .portlet) and the inline styles of the
+   Liferay web contents. Box model: border-box everywhere (as canon; the source's clay reboot). */
+
+#main-content { margin-top: 5px; }
+#main-content.product-page ~ #footer { margin-top: 30px; }   /* canon back-port candidate: product template footer gap is 30 (live main end 3646 → footer 3676 @1440) */
+.product-page > * { width: 1148px; max-width: 100%; margin-left: auto; margin-right: auto; margin-bottom: 10px; }   /* .portlet-column-only 1148 column; .portlet margin-bottom 10 */
+.product-page > .product-hero { width: auto; }
+.product-cta, .product-legal, .request__head { display: flow-root; }   /* Liferay flex rows/columns keep the last child margin inside */
+.center { text-align: center; }
+.fs22 { font-size: 22px; }
+.fs12 { font-size: 12px; }
+.hl { font-size: 22px; color: #0f4d82; }
+
+/* ---- product-hero: photo item 500px, white 70% panel left on the 1148 column, centred vertically
+   (main.css .slider .item / .slide-content.left.align-middle; inline width calc(50% - (100% - 1148px)/2)) */
+.product-hero__item { position: relative; height: 500px; background: 50% 50% / cover no-repeat; }
+.product-hero__panel { position: absolute; top: 50%; left: 0; z-index: 1; width: calc(50% - (100% - 1148px) / 2); margin-left: calc((100% - 1148px) / 2); padding: 20px; transform: translateY(-50%); color: var(--ce-ink); }
+.product-hero__bg { position: absolute; inset: 0; z-index: -1; background: #fff; opacity: .7; }
+.product-hero__ctas .btn { margin-bottom: 20px; }
+.product-hero__contents { clear: left; margin-top: 20px; }
+
+/* ---- product-body: rich text; .two-col = .row > .col-12.col-md-6 ×2 (gutter 30) */
+.two-col { display: flex; flex-wrap: wrap; margin: 0 -15px; }
+.two-col > div { flex: 0 0 50%; max-width: 50%; padding: 0 15px; }
+.two-col__head p { text-align: center; }
+.separator { display: block; margin: 0 auto; }
+.list-bullet { list-style: none; padding: 5px; }
+.list-bullet li { padding-left: 15px; margin-bottom: 10px; background: transparent url('assets/media/yellow-bullet.png') 0 7px no-repeat; }
+.pricing { display: flex; flex-wrap: wrap; margin: 0 -15px; }
+.pricing > .pricing__card { flex: 0 0 calc(50% - 30px); max-width: calc(50% - 30px); margin: 0 15px 20px; padding: 20px; background: #f8f8f8; }   /* .col-md-6 > .box.p-20.m-b-20.bg-lightgray */
+.pricing__val { color: #0f4d82; }
+.pricing__amount { font-size: 27px; color: #0f4d82; }
+
+/* ---- product-cta */
+.product-cta { text-align: center; }
+
+/* ---- related: "Productes relacionats" (centred h2 inline-block margin 35px 0) + .recommended-products */
+.related__head { margin-bottom: 10px; text-align: center; }   /* <center> line box */
+.related__title { display: inline-block; margin: 35px 0; }
+.related__grid { display: flex; flex-wrap: wrap; margin: 0 -10px; }
+.related__card { display: block; flex: 0 0 calc(33.3333% - 20px); max-width: calc(33.3333% - 20px); margin: 0 10px 30px;
+  color: #fff; background-color: var(--ce-blue); transition: all .3s ease-in-out; text-decoration: none; }
+.related__card:nth-child(odd) { background-color: #f9b03c; color: var(--ce-blue); }
+.related__card:hover, .related__card:focus { box-shadow: 0 0 10px 6px rgba(0, 0, 0, .3); color: inherit; }
+.related__card:nth-child(odd):hover { color: var(--ce-blue); }
+.related__card:nth-child(even):hover { color: #fff; }
+.related__sub { position: relative; display: block; margin: 0 0 0 25px; padding: 25px 28px 10px 0; border-bottom: 1px solid currentColor; font-size: 20px; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.related__card:hover .related__sub { text-decoration: underline; }
+.related__arrow { position: absolute; right: 20px; top: 34px; width: 16px; height: 16px; fill: currentColor; }
+.related__icon { display: block; height: 80px; }
+.related__icon img { margin: 20px 0 0 25px; max-height: 60px; }
+.related__name { margin: 20px 0 0; padding: 0 25px 30px; font-size: 36px; line-height: 50px; color: inherit; word-break: break-word; }
+.related__name span { display: block; }
+.related__name .top { font-family: var(--ce-font-light); font-size: 50px; }
+.related__name .bottom { font-size: 60px; }
+.related__name .fs53 { font-size: 53px; }
+
+/* ---- request: "Sol·licita'l ara" head + Liferay DDM form (col-md-8, padding-right 15) + contact aside (col-md-4, padding-left 15) */
+.request__head p:empty { margin: 0 0 10px; }
+.request__head h2 { margin: 20px 0 10px; }
+.request__cols { display: flex; }
+.request__form { flex: 0 0 66.6667%; max-width: 66.6667%; padding-right: 15px; color: #415465; }
+.request__aside { flex: 0 0 33.3333%; max-width: 33.3333%; padding-left: 15px; }
+.request__title { display: none; }   /* .lfr-ddm__default-page-header-title: display none in the theme */
+.request__intro { margin: 0 0 32px; }
+.request__desc { display: block; line-height: 32px; color: #6b6c7e; }
+.request__line { height: 1px; background: #cdced9; }
+.request__req { display: none; }     /* p.text-secondary: hidden on live */
+.req-mark { display: inline-block; padding-left: 4px; color: #ffc107; font-family: var(--ce-font-bold); font-size: 12px; line-height: 17.1429px; vertical-align: -4px; }   /* lands the line box 2px taller, as the live clay mark does */
+.req-mark svg { display: inline-block; width: 12px; height: 6px; margin-top: -3px; fill: currentColor; vertical-align: middle; }
+.request__grid { display: flex; flex-wrap: wrap; margin: 0 -15px; }
+.request__grid .field { flex: 0 0 50%; max-width: 50%; padding: 0 27px; margin-bottom: 16px; }   /* .col-ddm padding 15 + .form-group 12 */
+.field label[for] { display: inline-block; margin: 0 0 8px; font-family: var(--ce-font-bold); color: #415465; }
+.field input[type=text] { display: block; width: 100%; height: 50px; padding: 10px 25px; border: 1px solid #d9d9d9; border-radius: 0; background: #fff; color: #415465; font: 16px/24px var(--ce-font); }
+.request__group { margin-top: 17px; padding: 0 12px; }
+.consent__label { display: inline-block; margin: 0 0 8px; }   /* label.ddm-label: inline-block, lh 22.857, mb 8 */
+.check { display: flex; align-items: flex-start; gap: 8px; min-height: 50px; margin: 0 0 16px; font-family: var(--ce-font-bold); font-size: 14px; line-height: 24px; color: #717171; }
+.check input { appearance: none; flex: 0 0 16px; width: 16px; height: 16px; margin: 4px 0 0; border: 1px solid #cdced9; border-radius: 4px; background: #fff; }
+.check input:checked { background: var(--ce-blue); border-color: var(--ce-blue); }
+.field--switch { display: flow-root; padding: 0 0 48px; }
+.switch__legend { margin: 10px 0; font-family: var(--ce-font-bold); color: #415465; }
+.switch { display: inline-flex; align-items: center; margin: 0 0 8px; color: #415465; cursor: pointer; }
+.switch input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.switch__bar { position: relative; flex: 0 0 58px; height: 25px; }
+.switch__bar::before { content: ""; position: absolute; left: 0; top: 0; width: 50px; height: 25px; border: 1px solid #cdced9; border-radius: 13px; background: #fff; transition: background-color .1s ease-in; }
+.switch__handle { position: absolute; left: 4px; top: 4px; width: 17px; height: 17px; border-radius: 50%; background: #cdced9; transition: left .1s ease-in; }
+.switch input:checked + .switch__bar::before { background: var(--ce-blue); border-color: var(--ce-blue); }
+.switch input:checked + .switch__bar .switch__handle { left: 29px; background: #fff; }
+.switch__label { flex: 1 1 auto; line-height: 16px; }
+.request__submit { padding: 20px 12px 0; }
+.request__submit .btn { margin-bottom: 20px; }
+
+/* contact aside: .row (text-align center) > .col-md-1 | .col-md-2 icon | .col-md-9 text */
+.channel { display: flex; margin: 0 -15px; text-align: center; }
+.channel > div { padding: 0 15px; }
+.channel__pad { flex: 0 0 8.3333%; max-width: 8.3333%; }
+.channel__icon { flex: 0 0 16.6667%; max-width: 16.6667%; }
+.channel__text { flex: 0 0 75%; max-width: 75%; }
+.channel__link { font-size: 24px; }
+.channel__link--sm { font-size: 18px; color: #0f4d82; }
+.effect { transition: all .5s ease-in-out; }
+.effect.tada { position: relative; top: 0; }
+.effect.tada:hover, .effect.tada:focus { animation: tada .5s; top: -10px; }
+@keyframes tada { 0% { transform: scale(1); } 10%, 20% { transform: scale(.9) rotate(-3deg); } 30%, 50%, 70%, 90% { transform: scale(1.1) rotate(3deg); } 40%, 60%, 80% { transform: scale(1.1) rotate(-3deg); } 100% { transform: scale(1) rotate(0); } }
+
+/* ---- <992 (main.css @media max-width 991px): main shell padding 0 15; hero restacks without the photo */
+@media (max-width: 991px) {
+  #main-content { margin-top: 0; padding: 0 15px; }
+  .product-page > * { width: auto; }
+  .product-hero__item { height: auto; background-image: none !important; }
+  .product-hero__panel { position: relative; top: auto; width: 100%; margin: 0; padding: 15px; transform: none; }
+}
+/* ---- <768 (col-md-* collapse): two-col, pricing, related cards, form columns and fields stack */
+@media (max-width: 767px) {
+  .two-col > div, .request__grid .field, .channel__pad, .channel__icon, .channel__text { flex-basis: 100%; max-width: 100%; }
+  .pricing > .pricing__card { flex-basis: calc(100% - 30px); max-width: calc(100% - 30px); }
+  .related__grid { margin: 0 -15px; }
+  .related__card { flex-basis: 100%; max-width: 100%; margin: 0 0 30px; }
+  .request__cols { flex-wrap: wrap; }
+  .request__form, .request__aside { flex-basis: 100%; max-width: 100%; padding: 0; }
+  .channel { flex-wrap: wrap; }
+}
+
+/* ---- live-only-hidden slider shell + Liferay form chrome (kept for content parity, display none as on live) */
+.product-hero__slider { position: relative; }
+.play-slider, .pause-slider, .owl-nav.disabled, .owl-dots.disabled, .ddm-hidden { display: none; }
+.ctl-glyph { font-family: 'fontawesome-alloy'; font-size: 12px; color: var(--ce-blue); }
+.ctl-glyph--play::before { content: "\f04b"; }
+.ctl-glyph--pause::before { content: "\f04c"; }
+.icon-angle-right { font-family: 'fontawesome-alloy'; font-style: normal; }
+.icon-angle-right::before { content: "\f105"; }
+.related__card { cursor: pointer; }
+.related__arrow { position: absolute; right: 20px; top: 30px; width: auto; height: auto; font-size: 20px; font-weight: normal; line-height: 1; }

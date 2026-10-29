@@ -1,0 +1,115 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-26T18:59:21.979Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-27T00:37:06.465Z",
+  "templates": [
+    {
+      "id": "accesibilidad",
+      "representativeSlug": "accesibilidad",
+      "pages": [
+        "accesibilidad"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "accessibility-tabs",
+        "contact-band",
+        "page-hero"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "acceso-bo",
+      "representativeSlug": "acceso-bo",
+      "pages": [
+        "acceso-bo"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "hero-carousel",
+        "login-form",
+        "login-intro"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "accidentes",
+      "representativeSlug": "accidentes",
+      "pages": [
+        "accidentes"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "product-body",
+        "product-hero",
+        "product-legal",
+        "related-products",
+        "request-form"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "alta-band",
+        "hero-carousel",
+        "ingenium",
+        "news",
+        "quick-access",
+        "solutions"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "program",
+      "representativeSlug": "administraciones-publicas",
+      "pages": [
+        "administraciones-publicas",
+        "ahorro-vida",
+        "asesoramiento-negocios",
+        "asesoramiento-personalizado",
+        "asseguranca-patinet-electric",
+        "hipoteca-jove"
+      ],
+      "pageCount": 6,
+      "blocks": [],
+      "delivery": {
+        "verified": 6,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

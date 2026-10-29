@@ -1,0 +1,793 @@
+{
+ "source": "http://localhost:8791/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "ce-hero",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Inici"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Reproduir Control lliscant",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "PausaControl lliscant",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Busques un bon per a les teves INVERSIONS?"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "assessorament"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "SOM"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "LA RESPOSTA"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Som líders en en consultes sobre inversions"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "qualitat de servei"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Font: Estudi EQUOS de STIGA"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Busques un bon per a les teves INVERSIONS?"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "assessorament"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "SOM"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "LA RESPOSTA"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Som líders en en consultes sobre inversions"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "qualitat de servei"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Font: Estudi EQUOS de STIGA"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Uneix-t'hi ara!"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Nova"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Hipoteca Jove"
+    },
+    {
+     "role": "heading",
+     "order": 20,
+     "text": "Nova"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Hipoteca Jove"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Per a"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "menors de 36 anys"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "del preu de l'habitatge"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Fins al 90%"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "(el valor més baix entre el preu de compravenda i el de taxació)"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "A tornar"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "fins en 35 anys"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Per a"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "menors de 36 anys"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "del preu de l'habitatge"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Fins al 90%"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "(el valor més baix entre el preu de compravenda i el de taxació)"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "A tornar"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "fins en 35 anys"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Descobreix-la ara!"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "UN SMS AMB ENLLAÇ? UNA TRUCADA DE"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "CAIXA ENGINYERS?"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Desconfia."
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Els delinqüents envien missatges SMS i fan trucades fent-se passar per entitats financeres. en trucades telefòniques. Caixa Enginyers mai et trucarà per a demanar-te un codi SMS per telèfon. Si t'ho fan,"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "No cliquis en els enllaços ni proporcionis les teves dades"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "és una estafa."
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Si tens dubtes, canvia la clau d'accés a la Banca ONLINE i contacta amb nosaltres."
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Més informació"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "‹"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "›"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 19,
+   "repeats": [
+    {
+     "unitSelector": "DIV.owl-item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 15
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "ce-quick",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Accés ràpid"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "VULL CANVIAR-ME A CAIXA ENGINYERS",
+     "href": "https://www.caixaenginyers.com/soci-cooperatiu#onboarding"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "NECESSITO UN PRÉSTEC",
+     "href": "https://www.caixaenginyers.com/simulador-prestamos"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "VULL CALCULAR LA MEVA HIPOTECA",
+     "href": "https://www.caixaenginyers.com/calcula-hipoteca"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "VULL UNA TARGETA DE DÈBIT O CRÈDIT",
+     "href": "https://www.caixaenginyers.com/tarjetas"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "VULL REBRE ASSESSORAMENT",
+     "href": "https://www.caixaenginyers.com/asesoramiento-personalizado"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.scrollmenuboxes",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "ce-solutions",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Sol·lucions per a tothom"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "SOLUCIONS PER A TOTHOM"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "TINGUIS LES NECESSITATS QUE TINGUIS, TENIM SOLUCIONS PER A TU"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Famílies i particulars",
+     "href": "https://www.caixaenginyers.com/families-particulars"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Joves",
+     "href": "https://www.caixaenginyers.com/joves"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Sènior",
+     "href": "https://www.caixaenginyers.com/seniors"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Professionals",
+     "href": "https://www.caixaenginyers.com/professionals"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Empreses",
+     "href": "https://www.caixaenginyers.com/empreses"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Banca institucional",
+     "href": "https://www.caixaenginyers.com/institucions"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.seg-col",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "ce-alta",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Obrir compte on line"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Bloque alta socio home - Imagen Movil"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Bloque alta socio home - Pasos alta"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "DONA'T D'ALTA ONLINE I OBRE EL TEU PRIMER COMPTE!"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "01."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Afegeix les teves dades personals"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "02."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Verifica la teva identitat amb el teu DNI"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "al obrir el compte"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "03."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Completa les teves preferències i, ja ho tens!"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Lightbox alta online HOME"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Vull crear ara el meu compte online",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "×"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Prem “Continuar” si vols sol·licitar fer-te soci/a i obrir el teu primer compte a . En 10 minuts ho tindràs llest!"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Caixa Enginyers"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Recorda que aquest procés és de Caixa Enginyers"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "només per a nous socis"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Continuar",
+     "href": "https://altasocio.caixaenginyers.com/ca"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "I, si el que vols és obrir un compte amb més de 2 titulars, o un compte d'Empresa, pots fer-ho emplenant aquest ."
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "formulari",
+     "href": "https://www.caixaenginyers.com/soci-cooperatiu#formulario"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Consulta les condicions del , de les i de la , així com els ."
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "compte corrent",
+     "href": "https://www.caixaenginyers.com/documents/20143/1452113/Tarifes_compte+corrent.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "targetes",
+     "href": "https://www.caixaenginyers.com/documents/20143/1452113/06-Tarjetas+y+utilizaci%C3%B3n+de+cajeros_cat.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Banca ONLINE",
+     "href": "https://www.caixaenginyers.com/documents/20143/1543075/Info_precontractual_Banca_Online_CA.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "requisits per a l'exempció de la comissió de manteniment del compte",
+     "href": "https://www.caixaenginyers.com/documents/20143/1452113/Condicions+Exempci%C3%B3+Comptes+Corrents.pdf"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 12,
+   "repeats": [
+    {
+     "unitSelector": "TR.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.center",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "ce-ingenium",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ingenium Shopping"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Banner Ingenium HOME mini"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Vols més avantatges?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Sabies que només per ser soci o sòcia de tindràs en més de 130 comerços amb ?"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Caixa Enginyers"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "descomptes"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Ingenium Shopping"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Veure totes les ofertes",
+     "href": "https://www.caixaenginyers.com/ingenium"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Vols més avantatges?"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Sabies que només per ser soci o sòcia de tindràs en més de 130 comerços amb ?"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Caixa Enginyers"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "descomptes"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Ingenium Shopping"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Veure totes les ofertes",
+     "href": "https://www.caixaenginyers.com/ingenium"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "STRONG.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "STRONG.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "ce-news",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Noticies i informes"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Título seccion noticias nova web"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "ESTIGUES AL DIA"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Consulta les últimes notícies i totes les nostres publicacions"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Publicador de continguts"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Caixa Enginyers impulsa el servei de Cashback a Bonpreu i Esclat amb més de 13.600 operacions en els darrers 12 mesos"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "05/08/2026"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Caixa Enginyers celebra la segona edició del Dia dels socis i sòcies centrada en la ciberseguretat i la prevenció de riscos digitals"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "30/09/2026"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "El servei de Banca Mòbil de Caixa Enginyers celebra dos anys apropant els serveis financers a municipis sense oficina bancària"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "05/10/2026"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Boton consulta todas las noticias"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Consulta totes les notícies a la Sala de Premsa",
+     "href": "https://www.caixaenginyers.com/ca/web/grupo/sala-prensa"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Publicaciones"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Focus"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Focus"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Una mirada a l'actualitat"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "macroeconòmica"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "i del moment"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "financera"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "LI.news-item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

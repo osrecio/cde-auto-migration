@@ -1,0 +1,45 @@
+{
+  "_provenance": { "writtenBy": "stardust:dynamics", "writtenAt": "2026-10-27T00:30:00Z" },
+  "method": "Curated rows of stardust/dynamic-features.md rebuilt as EDS blocks (header, request-form, login-form) and the martech scaffold; replayed on the published aem.live origin.",
+  "features": [
+    {
+      "id": "chrome-menu", "feature": "Header Accés popup (banca online login dialog) + menus", "class": "M", "pages": 10,
+      "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "verifiedBy": "filled in by the replay",
+      "checks": [
+        { "type": "click-dialog", "path": "/", "trigger": "header a[aria-haspopup=\"dialog\"]" },
+        { "type": "dom-count", "path": "/", "selector": "header .nav-top > li.nav-item", "min": 1 }
+      ]
+    },
+    {
+      "id": "chrome-search", "feature": "Header site search", "class": "S", "pages": 10,
+      "disposition": "index-backed", "reproducibility": "self", "status": "interim",
+      "owner": "Site-wide search index: the box submits to the source results page until the owner decides on an index for the new host.",
+      "checks": [ { "type": "dom-count", "path": "/", "selector": "header form.search[action*=\"general-search\"]", "min": 1 } ]
+    },
+    {
+      "id": "request-form", "feature": "Product request form (name, surname, NIF, email, phone, postcode, consent)", "class": "F", "pages": 6,
+      "disposition": "rebuild-native", "reproducibility": "needs-backend", "status": "scaffolded-awaiting-owner",
+      "owner": "Endpoint for regulated-pii submissions (NIF, phone, email): UI rebuilt, submission shows a 'no backend connected' message until the owner names the endpoint.",
+      "checks": [ { "type": "dom-count", "path": "/hipoteca-jove", "selector": ".request-form form.request-form-form input", "min": 5 } ]
+    },
+    {
+      "id": "sign-in", "feature": "Online-banking sign-in form (/acceso-bo)", "class": "X", "pages": 1,
+      "disposition": "embed-passthrough", "reproducibility": "needs-backend", "status": "interim",
+      "owner": "Confirm the banking host the login posts to (bancaonline.caixaenginyers.com today). Not submitted by the replay: it would send a login attempt to the production bank.",
+      "checks": [ { "type": "dom-count", "path": "/acceso-bo", "selector": ".login-form form[method=\"post\"][action*=\"bancaonline.caixaenginyers.com\"] input", "min": 2 } ]
+    },
+    {
+      "id": "i18n-locale-variants", "feature": "Locale variants ca / es", "class": "I18N", "pages": 10,
+      "disposition": "rebuild-native", "reproducibility": "needs-business-decision", "status": "interim",
+      "owner": "The es tree is outside this run's scope; the language switch links to the source site.",
+      "checks": []
+    },
+    {
+      "id": "platform-plumbing", "feature": "Liferay JS resolver, YUI html classes, dataLayer global", "class": "A", "pages": 10,
+      "disposition": "static-snapshot", "reproducibility": "self", "status": "done",
+      "verifiedBy": "platform plumbing that renders no content; dataLayer name kept in the martech contract",
+      "checks": []
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+ "source": "http://127.0.0.1:8794/accesibilidad-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "acc-portlet",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Slider cabecera accesibilidad"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Reproduir Control lliscant",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "PausaControl lliscant",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Informació d'accessibilitat"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Data de revisió: 12/06/2026"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "‹"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "›"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "acc-portlet",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Intro Accesibilidad"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "A Caixa Enginyers, entenem que l' per garantir que totes les persones puguin relacionar-se amb els nostres productes, serveis i canals . Reconeixem la diversitat de capacitats, experiències i necessitats dels nostres socis i sòcies, i assumim el compromís d'eliminar qualsevol barrera física, digital, comunicativa o organitzativa que pugui limitar la seva experiència."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "accessibilitat universal és un pilar fonamental"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "de manera autònoma, segura i en igualtat de condicions"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "En aquest sentit, a Caixa Enginyers d'interacció amb els socis i sòcies, d'acord amb els requisits i terminis de la Llei 11/2023."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "treballem per oferir accessibilitat en tots els nostres canals"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "A continuació, es presenten els principals en accessibilitat i els per a cadascun dels àmbits següents:"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "avenços"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "pròxims passos"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "acc-portlet",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Pestañas Accesibilidad CI"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Canals digitals (Seleccionat)",
+     "href": "#c_667671914-feature-tab1"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Caixers",
+     "href": "#c_667671914-feature-tab2"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Mitjans de pagament",
+     "href": "#c_667671914-feature-tab3"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Documentació",
+     "href": "#c_667671914-feature-tab4"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Atenció al client",
+     "href": "#c_667671914-feature-tab5"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Canals digitals",
+     "href": "#c_667671914-feature-tab1"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Treballem per garantir que tots els nostres canals digitals ofereixin una experiència accessible, clara i adequada per a qualsevol persona usuària, complint així els criteris d'accessibilitat física, sensorial i cognitiva. A continuació, s'adjunten les declaracions d'accessibilitat de cadascun dels nostres canals digitals, emeses per proveïdors certificats amb l'objectiu d'informar sobre el grau d'accessibilitat aconseguit:"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Declaració d'accessibilitat de la BancaONLINE",
+     "href": "https://ilunionaccede.es/DeclaracionView/e8df4acc-e221-4250-8ef8-aab0c896a850"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Declaració d'accessibilitat del web públic",
+     "href": "https://www.caixaenginyers.com/documents/20143/661324156/Diplomacajaingenieros2.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Caixers",
+     "href": "#c_667671914-feature-tab2"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Actualment, , excepte els situats a les oficines següents, que no disposen de sortida d'àudio per a auriculars per oferir assistència guiada per veu, i que es canviaran pròximament:"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "el 94 % dels nostres caixers són físicament accessibles"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Oficina de la rambla de Catalunya, 8, de Barcelona"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Oficina del carrer Comte Borrell, 202, de Barcelona"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Oficina de la rambla de l’Hospital, 4, de Vic"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Els caixers ja permeten fer totes les transaccions de manera accessible , com ara navegació simplificada, navegació guiada per veu o pantalles amb alt contrast."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "aplicant criteris d'accessibilitat visual, auditiva, física i cognitiva"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Mitjans de pagament",
+     "href": "#c_667671914-feature-tab3"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Des de gener de 2025, els plàstics de les targetes ja tenen la mossa (funció que permet identificar com inserir la targeta), per la qual cosa . Totes les targetes no accessibles en circulació es canviaran progressivament per les noves targetes amb mossa."
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "totes les targetes que emetem compleixen els requisits corresponents"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "A més, el proveïdor extern que ens ofereix el servei dels nostres TPV està treballant actualment en la substitució progressiva de tot el parc de TPV perquè puguin incloure el programari que permeti el mode accessible. Aquest que explica com està organitzat l'espai del TPV, on són els botons numèrics i els botons del menú."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "nou programari ofereix a les persones usuàries l'opció d'escoltar una locució"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Documentació",
+     "href": "#c_667671914-feature-tab4"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Treballem perquè tota la documentació dirigida a les nostres sòcies i socis sigui més clara, segons el Marc Comú Europeu de Referència per a les llengües (MCER). A més, garantim que els documents estiguin en format PDF accessible (complint l'estàndard PDF/UA) per facilitar-ne la lectura i la navegació correctes amb lectors de pantalla."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "amb un llenguatge que no superi el nivell B2"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Actualment, . La resta de la documentació s'adapta a poc a poc, donant prioritat a la que correspon als productes més sol·licitats."
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "la documentació relacionada amb els nostres productes més contractats i amb l'operativa bàsica ja utilitza un llenguatge accessible"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Atenció al client",
+     "href": "#c_667671914-feature-tab5"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Totes les nostres oficines són accessibles físicament, complint amb els requisits establerts per la legislació vigent."
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "A més, ."
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "la xarxa d'oficines ha rebut formació d'ILUNION sobre com actuar i atendre les persones clientes amb necessitats d'accessibilitat"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 12,
+   "repeats": [
+    {
+     "unitSelector": "DIV.r-tabs-accordion-title",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.r-tabs-panel",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.r-tabs-tab",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "acc-portlet",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Contacto Accesibilidad"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Contacte d'accessibilitat"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Qualsevol dubte, reclamació o sol·licitud sobre accessibilitat es pot adreçar al Servei d'Atenció al Soci/Client (SAC) per les vies següents:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Envia'ns un"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "correu electrònic",
+     "href": "mailto:serveiatenciosoci@caixa-enginyers.com?subject=Contacte%20%20accessibilitat"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Escriu-nos al"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "646 420 384",
+     "href": "https://wa.me/34646420384"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "el nostre canal de WhatsApp, de dilluns a divendres de"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "8:30 a 18h"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Truca'ns al"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "900 300 321",
+     "href": "tel:900300321"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "de dilluns a divendres de"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "8:30 a 18h"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "I, si ets a l'estranger, contacta amb nosaltres al"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "+34 933 102 626",
+     "href": "tel:+34933102626"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col-channel",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

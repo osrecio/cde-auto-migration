@@ -1,0 +1,151 @@
+/* account-signup: source .ce-alta (phone 1/3 | title + 3 steps + CTA 2/3; lightbox) */
+main > .section.account-signup-container {
+  margin-top: 20px;
+}
+
+.account-signup .account-signup-row {
+  display: flex;
+}
+
+.account-signup .account-signup-media {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 20px 15px 30px 0;
+  text-align: center;
+}
+
+.account-signup .account-signup-media img {
+  width: 280px;
+  height: auto;
+}
+
+.account-signup .account-signup-body {
+  flex: 0 0 66.6667%;
+  max-width: 66.6667%;
+  padding: 20px 0 0 15px;
+}
+
+.account-signup .account-signup-title p {
+  margin: 15px 15px 20px 0;
+  color: #000;
+  font-size: 1.8em;
+  line-height: 1.2em;
+}
+
+/* the source steps are a presentation table (2px border-spacing, top-aligned cells) */
+.account-signup .account-signup-steps {
+  display: table;
+  width: 100%;
+  margin: 0 0 20px;
+  border-spacing: 2px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.account-signup .account-signup-step {
+  display: table-row;
+}
+
+.account-signup .account-signup-num,
+.account-signup .account-signup-txt {
+  display: table-cell;
+  vertical-align: top;
+  background: #fff;
+}
+
+.account-signup .account-signup-num {
+  width: 30px;
+  padding: 0;
+}
+
+.account-signup .account-signup-num p {
+  margin: 0;
+  color: var(--ce-yellow);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4286;
+  text-align: center;
+}
+
+.account-signup .account-signup-txt {
+  padding: 10px 10px 10px 15px;
+}
+
+.account-signup .account-signup-txt p {
+  margin: 8px 0 0;
+  color: #000;
+  font-family: var(--ce-font-light);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4286;
+}
+
+.account-signup .account-signup-cta {
+  margin-top: 30px;
+}
+
+.account-signup .account-signup-cta p {
+  margin: 0 0 10px;
+}
+
+.account-signup .account-signup-dialog {
+  width: min(600px, calc(100% - 20px));
+  padding: 0;
+  border: 1px solid rgb(0 0 0 / 20%);
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+}
+
+.account-signup .account-signup-dialog::backdrop {
+  background: rgb(0 0 0 / 50%);
+}
+
+.account-signup .account-signup-dialog-head {
+  padding: 15px;
+  text-align: right;
+}
+
+.account-signup .account-signup-close {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #000;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.account-signup .account-signup-close:hover {
+  opacity: 0.5;
+}
+
+.account-signup .account-signup-dialog-body {
+  padding: 0 15px 15px;
+}
+
+.account-signup .account-signup-dialog-body p:has(> :is(strong, em):only-child),
+.account-signup .account-signup-dialog-body p.button-wrapper {
+  text-align: center;
+}
+
+@media (width <= 767px) {
+  .account-signup .account-signup-row {
+    flex-wrap: wrap;
+  }
+
+  .account-signup .account-signup-media,
+  .account-signup .account-signup-body {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .account-signup .account-signup-media {
+    padding: 20px 0 30px;
+  }
+
+  .account-signup .account-signup-body {
+    padding: 20px 0;
+  }
+}

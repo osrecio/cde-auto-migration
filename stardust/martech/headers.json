@@ -1,0 +1,7 @@
+{
+ "cache-control": "private, no-cache, no-store, must-revalidate",
+ "server": "---",
+ "strict-transport-security": "max-age=31536000; includeSubDomains",
+ "x-content-type-options": "nosniff",
+ "x-frame-options": "SAMEORIGIN"
+}

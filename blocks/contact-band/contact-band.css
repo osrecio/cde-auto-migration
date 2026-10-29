@@ -1,0 +1,108 @@
+/* contact-band: live portlet decorator (#F8F8F8, padding 50px 0, margin-bottom -50px) around
+   the "contacte-accessibilitat" article; bootstrap col-md-1 / col-md-3 grid >= 768px. */
+main > .section > .contact-band-wrapper {
+  max-width: none;
+  margin-bottom: 10px;
+}
+
+.contact-band {
+  margin-bottom: -50px;
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.contact-band .contact-inner {
+  width: 1148px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.contact-band .contact-title p {
+  margin-bottom: 15px;
+  color: #164194;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1em;
+  text-align: center;
+}
+
+.contact-band .contact-intro p {
+  margin-bottom: 50px;
+  color: #434343;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.contact-band .contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px 30px;
+}
+
+.contact-band .contact-spacer,
+.contact-band .contact-col {
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.contact-band .contact-spacer {
+  flex: 0 0 calc(100% / 12);
+  max-width: calc(100% / 12);
+}
+
+.contact-band .contact-col {
+  flex: 0 0 25%;
+  max-width: 25%;
+  margin-bottom: 15px;
+}
+
+.contact-band .contact-channel {
+  padding: 5px;
+  color: #434343;
+  text-align: center;
+}
+
+.contact-band .channel-media p {
+  margin: 0;
+}
+
+.contact-band .channel-media img {
+  margin-bottom: 15px;
+}
+
+.contact-band .channel-lead p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+.contact-band .channel-notes p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+.contact-band .channel-solo .channel-lead p {
+  margin-bottom: 10px;
+}
+
+.contact-band .contact-channel a:any-link {
+  color: #164194;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.contact-band .contact-channel a:focus-visible {
+  outline: 3px solid #9a5700;
+  outline-offset: 3px;
+}
+
+@media (width <= 767px) {
+  .contact-band .contact-spacer,
+  .contact-band .contact-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

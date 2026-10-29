@@ -1,0 +1,190 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-26T18:59:28.310Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-26T18:59:28.310Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "administraciones-publicas",
+    "ahorro-vida",
+    "asesoramiento-negocios",
+    "asesoramiento-personalizado",
+    "asseguranca-patinet-electric",
+    "hipoteca-jove",
+    "accesibilidad",
+    "acceso-bo",
+    "accidentes",
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "administraciones-publicas",
+      "path": "/administraciones-publicas",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "ahorro-vida",
+      "path": "/ahorro-vida",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "asesoramiento-negocios",
+      "path": "/asesoramiento-negocios",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "asesoramiento-personalizado",
+      "path": "/asesoramiento-personalizado",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "asseguranca-patinet-electric",
+      "path": "/asseguranca-patinet-electric",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "hipoteca-jove",
+      "path": "/hipoteca-jove",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "accesibilidad",
+      "path": "/accesibilidad",
+      "templateId": "accesibilidad",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "page-hero",
+          "edsBlockName": "page-hero"
+        },
+        {
+          "id": "accessibility-tabs",
+          "edsBlockName": "accessibility-tabs"
+        },
+        {
+          "id": "contact-band",
+          "edsBlockName": "contact-band"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "acceso-bo",
+      "path": "/acceso-bo",
+      "templateId": "acceso-bo",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "login-intro",
+          "edsBlockName": "login-intro"
+        },
+        {
+          "id": "login-form",
+          "edsBlockName": "login-form"
+        },
+        {
+          "id": "hero-carousel",
+          "edsBlockName": "hero-carousel"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "accidentes",
+      "path": "/accidentes",
+      "templateId": "accidentes",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "product-hero",
+          "edsBlockName": "product-hero"
+        },
+        {
+          "id": "product-body",
+          "edsBlockName": "product-body"
+        },
+        {
+          "id": "product-legal",
+          "edsBlockName": "product-legal"
+        },
+        {
+          "id": "related-products",
+          "edsBlockName": "related-products"
+        },
+        {
+          "id": "request-form",
+          "edsBlockName": "request-form"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "quick-access",
+          "edsBlockName": "quick-access"
+        },
+        {
+          "id": "solutions",
+          "edsBlockName": "solutions"
+        },
+        {
+          "id": "alta-band",
+          "edsBlockName": "alta-band"
+        },
+        {
+          "id": "ingenium",
+          "edsBlockName": "ingenium"
+        },
+        {
+          "id": "news",
+          "edsBlockName": "news"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-carousel",
+          "edsBlockName": "hero-carousel",
+          "convertedBy": "acceso-bo"
+        }
+      ]
+    }
+  ]
+}

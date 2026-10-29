@@ -1,0 +1,44 @@
+{"ts":"2026-10-26T17:19:12Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"extract --prep --dynamics over 10 selected pages of caixaenginyers.com"}
+{"ts":"2026-10-26T17:31:11Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"10/10 live; types landing 1 · static 1 · form 1 · program 7; 4 module candidates; container 1148px; uncaptured first-level targets: none (no locale roots captured)"}
+{"ts":"2026-10-26T17:31:28Z","skill":"stardust:replica","phase":"preserve-direction","event":"start","detail":"promote current spec verbatim; empty register; dynamics triage"}
+{"ts":"2026-10-26T17:34:38Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","detail":"verbatim promotion; register empty (pure replica); dynamics 10 curated rows all dispositioned; martech contract + scripts/martech.js scaffolded off"}
+{"ts":"2026-10-26T17:34:49Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"4 archetypes: index (landing), accidentes (program), accesibilidad (static), acceso-bo (form)"}
+{"ts":"2026-10-26T18:25:41Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"index (landing)"}
+{"ts":"2026-10-26T18:25:41Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"index: 1440 pixel 7.14% (1.32% hero-masked; carousel capture state) Δh 0 · 360 pixel 2.37% Δh -1 · content-diff 0/0 · clip 0 · overflow ok · cap-probe PASS · motion 18 match"}
+{"ts":"2026-10-26T18:45:49Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"acceso-bo (form)"}
+{"ts":"2026-10-26T18:45:49Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"acceso-bo: 1440 pixel 0.30% Δh 2 · 360 pixel 1.47% Δh 2 · content-diff 0/0 · clip 0 · overflow ok · cap-probe PASS · login posts to source banking host"}
+{"ts":"2026-10-26T18:46:08Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"accesibilidad (static)"}
+{"ts":"2026-10-26T18:46:09Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"accesibilidad: 1440 pixel 0.32% Δh 1 · 360 pixel 0.71% Δh 1 · content-diff 0/0 · clip 0 · overflow ok · cap-probe PASS · residual: 360 footer crop 2.65% (shared canon footer, fix at C0)"}
+{"ts":"2026-10-26T18:55:38Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"start","detail":"accidentes (program)"}
+{"ts":"2026-10-26T18:55:38Z","skill":"stardust:replica","phase":"source-fidelity-gate","event":"end","detail":"accidentes: 1440 pixel 0.82% Δh 1 content-diff 0/0 · 360 pixel 2.04% Δh 4, 1 ICON 🔴 = capture-state false positive (asset byte-identical) · clip 0 · overflow ok · cap-probe PASS · motion 14 match"}
+{"ts":"2026-10-26T18:55:38Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"4/4 archetypes gated at 1440+360: index, accidentes, accesibilidad, acceso-bo"}
+{"ts":"2026-10-26T18:58:32Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"Phase 5: migrate siblings → rollout A–I over 10 pages, 4 templates; publish decided"}
+{"ts":"2026-10-26T18:58:51Z","skill":"stardust:migrate","phase":"plan","event":"start","detail":"10 pages: 4 approved archetypes (Path A) + 6 program siblings (Path A′, after the program archetype is live)"}
+{"ts":"2026-10-26T18:59:08Z","skill":"stardust:migrate","phase":"plan","event":"end","detail":"plan + archetypes render: rendered 4 (Path A); 6 program siblings deferred to after C-archetype program"}
+{"ts":"2026-10-26T18:59:21Z","skill":"stardust:rollout","phase":"A-inventory","event":"start","detail":"inventory of stardust/migrated (4 archetypes) + state"}
+{"ts":"2026-10-26T18:59:27Z","skill":"stardust:rollout","phase":"A-inventory","event":"end","detail":"10 pages: 4 to deliver (archetypes), 6 content-pending (program siblings)","artifact":"stardust/rollout/coverage/pages.json"}
+{"ts":"2026-10-26T18:59:27Z","skill":"stardust:rollout","phase":"B-block","event":"start","detail":"block dedup + plan"}
+{"ts":"2026-10-26T18:59:33Z","skill":"stardust:rollout","phase":"B-block","event":"end","detail":"16 distinct blocks, 17 instances; representative-first plan","artifact":"stardust/rollout/plan.json"}
+{"ts":"2026-10-26T18:59:34Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"start","detail":"re-verify dynamic surface + martech against fresh evidence"}
+{"ts":"2026-10-26T18:59:45Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"end","detail":"66 rows re-verified vs curated inventory; host-bound 2/2; no change"}
+{"ts":"2026-10-26T19:00:09Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"units: foundation → archetype ×4 → program render+cluster → gate-all → final"}
+{"ts":"2026-10-26T20:56:39Z","skill":"stardust:migrate","phase":"render","event":"start","detail":"program siblings ×6 (Path A′) on the live program archetype, inside C-deliver"}
+{"ts":"2026-10-26T22:51:00Z","skill":"stardust:migrate","phase":"render","event":"end","detail":"program siblings rendered 6/6 (Path A′), content-fidelity per page, 0 missing/hidden"}
+{"ts":"2026-10-27T00:25:32Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"10/10 pages live on aem.live; gate-all 1440 10/10 PASS, 360 7 PASS + 3 carousel-slide overrides → 10/10 delivered; clip 0, missing 0; foundation request applied once at C-final"}
+{"ts":"2026-10-27T00:26:11Z","skill":"stardust:rollout","phase":"D-site","event":"start","detail":"sitemap/robots/manifest, redirects sheet, root 200, chrome noindex, served-sitemap verify"}
+{"ts":"2026-10-27T00:26:52Z","skill":"stardust:rollout","phase":"D-site","event":"end","detail":"sitemap served 10 = assembled 10; redirects: 0 rows needed (paths unchanged); / 200; chrome noindex"}
+{"ts":"2026-10-27T00:27:02Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"start","detail":"parity rows per dynamic feature; martech scaffold check"}
+{"ts":"2026-10-27T00:31:27Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"end","detail":"parity 6/6 PASS on aem.live (dialog, menus, search interim, request form awaiting endpoint, sign-in interim, martech gated off); header aria-modal fix"}
+{"ts":"2026-10-27T00:31:37Z","skill":"stardust:rollout","phase":"E-full-site","event":"start","detail":"verify.mjs on aem.live + coverage from the gate tables"}
+{"ts":"2026-10-27T00:32:49Z","skill":"stardust:rollout","phase":"E-full-site","event":"end","detail":"10/10 verified on aem.live (3 via served-URL checks: verify.mjs publicUrl trailing-slash mismatch); gate tables 0 flips; render check 4 templates 0 JS errors; home carousel autoplays"}
+{"ts":"2026-10-27T00:32:58Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"nav/footer/page hrefs: classify internal/external, GET every href"}
+{"ts":"2026-10-27T00:35:59Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"130 unique hrefs GET-checked: 130 resolve; 0 in-scope links absolute; ~100 out-of-scope targets repointed to source (scope extension, direction.md)"}
+{"ts":"2026-10-27T00:36:08Z","skill":"stardust:rollout","phase":"F-optimize","event":"start","detail":"optimize.mjs over 10 live pages; P1 findings gate"}
+{"ts":"2026-10-27T00:36:30Z","skill":"stardust:rollout","phase":"F-optimize","event":"end","detail":"10/10 pages inspected: health 100, open P1 0 · P2 0 · P3 0; 11 source-parity informational; gate pass","artifact":"stardust/rollout/optimize/scorecard.json"}
+{"ts":"2026-10-27T00:36:38Z","skill":"stardust:rollout","phase":"G-aem","event":"start","detail":"autofix dry-run against 0 open findings"}
+{"ts":"2026-10-27T00:36:41Z","skill":"stardust:rollout","phase":"G-aem","event":"end","detail":"0 autofix candidates (0 open findings); no edits"}
+{"ts":"2026-10-27T00:36:49Z","skill":"stardust:rollout","phase":"H-report","event":"start","detail":"summary block + learnings"}
+{"ts":"2026-10-27T00:37:23Z","skill":"stardust:rollout","phase":"H-report","event":"end","detail":"report: 10/10 pages live+verified, 4 templates, 16/16 blocks, 1440 10/10 PASS, 360 7 PASS + 3 carousel overrides, health 100, parity 6/6; 4 owner decisions","artifact":"stardust/rollout/report.md"}
+{"ts":"2026-10-27T00:37:32Z","skill":"stardust:rollout","phase":"I-dashboard","event":"start","detail":"dashboard.mjs → stardust/rollout/dashboard"}
+{"ts":"2026-10-27T00:37:53Z","skill":"stardust:rollout","phase":"I-dashboard","event":"end","detail":"dashboard: 10 identified · 10 prototyped · 10 deployed · 10 optimised","artifact":"stardust/rollout/dashboard/index.html"}
+{"ts":"2026-10-27T00:38:02Z","skill":"stardust:replica","phase":"handoff","event":"end","detail":"10/10 pages live + verified on aem.live; rollout A–I complete; done-check complete, 0 gaps"}

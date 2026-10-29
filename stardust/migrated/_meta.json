@@ -1,0 +1,524 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero-carousel",
+    "quick-access",
+    "solutions",
+    "alta-band",
+    "ingenium",
+    "news"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "ce-hero",
+    "ce-quick",
+    "ce-solutions",
+    "ce-alta",
+    "ce-ingenium",
+    "ce-news",
+    "award"
+  ],
+  "canonShas": {
+    "header": "6f4f98fdb433",
+    "footer": "e8b64ea4bd26",
+    "css": "9dc32436c0b9"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Caixa Enginyers",
+    "description": "Caixa Enginyers és la cooperativa de crèdit de tots els professionals que busquen els millors serveis i el millor tracte personalitzat.",
+    "canonical": null,
+    "lang": "ca-ES"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Caixa Enginyers",
+    "description": "Caixa Enginyers és la cooperativa de crèdit de tots els professionals que busquen els millors serveis i el millor tracte personalitzat.",
+    "url": "https://www.caixaenginyers.com/"
+  },
+  "migratedAt": "2026-10-26T18:58:56Z",
+  "designMdSha": "9e6f16c2ea26",
+  "designJsonSha": "f96b124b2d3a",
+  "sourceCurrentSha": "e71a443985c6",
+  "sourceProposedSha": "971b98edc02d",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "published preview gate-all 1440 1.47% Δh -1 PASS (hero masked 600 rows), 360 delivered via all-360/overrides.json carousel-slide (below-hero realigned 1.79%); per-dot slide parity 1440 1.08/0.03/1.78%, 360 0.14/0.14/4.86%; header/footer crops 0.26/0.39% (1440), 0.42/0.15% (360); clip 0, MISSING 0 / HIDDEN 0; block-roundtrip --ew 0 structural, EW 59/59"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 82,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.caixaenginyers.com/recuperacion-clave-acceso",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/soci-cooperatiu",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/soci-cooperatiu",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/oficinas-y-cajeros",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/seguretat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/web/grupo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/web/grupo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/web/fundacion",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/particulars",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/families-particulars",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/joves",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/seniors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/professionals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/el-teu-dia",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/hipoteques-i-prestecs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/estalvi-inversio",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/assegurances-i-riscos",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/bolsa-y-mercados",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/les-meves-finances",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ceapropa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ingenium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ingenium-renting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/banca-personal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/tarjetas1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/servicios-digitales1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ingenium1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/asesoramiento-personalizado",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/publicaciones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/tallers-i-trobades",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/sgdc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/web/fondosinversion",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/planes-de-pensiones1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/bolsa-y-mercados1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/hipotecas1",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/prestamos",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/assessorament-assegurances",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/empreses",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/targetes-professionals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/servicios-digitales",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ingenium-pro_ca",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/asesoramiento-negocios",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/renting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/prestec-eco-pro",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/web/fondosinversion",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/planes-de-pensiones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/pla-autcat-futur-autonoms-ppos",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/previsio-social-empresarial",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/bolsa-y-mercados2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/seguros-negocios",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ciberseguro",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/asseguranca-proteccio-autonoms",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/institucions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/administraciones-publicas",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/banca-institucional",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/soci-cooperatiu",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/hipoteca-jove",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/seguretat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/soci-cooperatiu#onboarding",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/simulador-prestamos",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/calcula-hipoteca",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/tarjetas",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/asesoramiento-personalizado",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/families-particulars",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/families-particulars",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/families-particulars",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/joves",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/joves",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/joves",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/seniors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/seniors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/seniors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/professionals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/professionals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/professionals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/empreses",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/empreses",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/empreses",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/institucions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/institucions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/institucions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/soci-cooperatiu#formulario",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/documents/20143/1452113/Tarifes_compte+corrent.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/documents/20143/1452113/06-Tarjetas+y+utilizaci%C3%B3n+de+cajeros_cat.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/documents/20143/1543075/Info_precontractual_Banca_Online_CA.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/documents/20143/1452113/Condicions+Exempci%C3%B3+Comptes+Corrents.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ingenium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ingenium",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/web/grupo/sala-prensa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/publicaciones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/web/grupo/quienes-somos",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/web/fundacion/salut-financera",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/web/grupo/10-principios-banca-cooperativa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/web/grupo/trabaja-con-nosotros",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/seguretat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/faqs-otp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/testamentaria",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/tallers-i-trobades",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/calcula-hipoteca",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/simulador-prestamos",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/empreses",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/les-meves-finances",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/iso",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/politica-de-cookies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/privacidad",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/aviso-legal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/tablon-de-anuncios",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/contactar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/oficinas-y-cajeros",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/tablon-de-anuncios",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/politica-de-cookies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/aviso-legal",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/seguridad",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/privacidad",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/banca-digital#BancaMovil",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}
