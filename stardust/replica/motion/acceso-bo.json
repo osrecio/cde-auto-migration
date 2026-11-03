@@ -1,0 +1,412 @@
+{
+  "url": "https://www.caixaenginyers.com/acceso-bo",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 806,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 806,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "",
+      "position": "relative",
+      "height": "205px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".owl-dot:nth-child(2)",
+      "frames": [
+        {
+          "t": 26675.299999998882,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 26903.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 27117.799999998882,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 27340.799999998882,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".pause-slider",
+      "frames": [
+        {
+          "t": 28497.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 28728.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 28943.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 29158.799999998882,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".btn-inv",
+      "error": "not found"
+    },
+    {
+      "sel": ".owl-video-play-icon",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(67, 67, 67)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.1s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(67, 67, 67)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.1s"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "fadeOut",
+        "el": "div.slider.completo > div.owl-carousel.owl-theme.owl-loaded > div.owl-stage-outer.owl-height > div.owl-stage > div.owl-item.animated.owl-animated-out",
+        "txt": "UN SMS AMB ENLLAÇ? UNA TRUCADA DE CAIXA ENGINYERS?",
+        "y": 767
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "color",
+        "el": "div.owl-stage-outer.owl-height > div.owl-stage > div.owl-item.active > div.slide4.item > a",
+        "y": 0,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "color",
+        "el": "div.owl-stage-outer.owl-height > div.owl-stage > div.owl-item > div.slide3.item > a",
+        "y": 0,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "color",
+        "el": "div.owl-stage-outer.owl-height > div.owl-stage > div.owl-item.active > div.slide4.item > a",
+        "y": 400,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "color",
+        "el": "div.owl-stage-outer.owl-height > div.owl-stage > div.owl-item.active > div.slide4.item > a",
+        "y": 300,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "color",
+        "el": "div.owl-stage-outer.owl-height > div.owl-stage > div.owl-item.active > div.slide4.item > a",
+        "y": 767,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.portlet-body > div > div.journal-content-article > div.slider.completo > a.play-slider",
+        "y": 768,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.portlet-body > div > div.journal-content-article > div.slider.completo > a.play-slider",
+        "y": 768,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.portlet-body > div > div.journal-content-article > div.slider.completo > a.play-slider",
+        "y": 768,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "div.portlet-body > div > div.journal-content-article > div.slider.completo > a.play-slider",
+        "y": 768,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.portlet-body > div > div.journal-content-article > div.slider.completo > a.play-slider",
+        "y": 768,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scroll-mark"
+        ],
+        "el": "html.ltr.yui3-js-enabled > body.chrome.controls-visible.webpublica",
+        "y": 400
+      },
+      {
+        "added": [
+          "gtm-captacion-visible"
+        ],
+        "el": "html.ltr.yui3-js-enabled.gtm-captacion-visible",
+        "y": 800
+      },
+      {
+        "added": [
+          "gtm-captacion-visible"
+        ],
+        "el": "html.ltr.yui3-js-enabled.gtm-captacion-visible",
+        "y": 767
+      },
+      {
+        "added": [
+          "scroll-mark"
+        ],
+        "el": "html.ltr.yui3-js-enabled.gtm-captacion-visible > body.chrome.controls-visible.webpublica",
+        "y": 767
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.journal-content-article > div.slider.completo > div.owl-carousel.owl-theme.owl-loaded > div.owl-dots > button.owl-dot.active",
+        "y": 767
+      },
+      {
+        "added": [
+          "animated",
+          "owl-animated-out",
+          "fadeOut"
+        ],
+        "el": "div.slider.completo > div.owl-carousel.owl-theme.owl-loaded > div.owl-stage-outer.owl-height > div.owl-stage > div.owl-item.animated.owl-animated-out",
+        "y": 767
+      },
+      {
+        "added": [
+          "fadeOut"
+        ],
+        "el": "div.slider.completo > div.owl-carousel.owl-theme.owl-loaded > div.owl-stage-outer.owl-height > div.owl-stage > div.owl-item.animated.owl-animated-out",
+        "y": 767
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.slider.completo > div.owl-carousel.owl-theme.owl-loaded > div.owl-stage-outer.owl-height > div.owl-stage > div.owl-item.active",
+        "y": 767
+      },
+      {
+        "added": [
+          "open"
+        ],
+        "el": "div.portlet-layout.row > div.col-lg-12.portlet-column.portlet-column-only > div.portlet-dropzone.portlet-column-content.portlet-column-content-only > div.portlet-boundary.portlet-boundary_com_liferay_journal_content_web_portlet_JournalContentPortlet_.portlet-static > section.portlet.open",
+        "y": 768
+      }
+    ]
+  }
+}

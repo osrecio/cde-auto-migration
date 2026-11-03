@@ -1,0 +1,391 @@
+{
+  "types": {
+    "landing": {
+      "archetype": "index",
+      "url": "https://www.caixaenginyers.com/",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/index.css"
+      ],
+      "js": "stardust/prototypes/index.js",
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "2.37%",
+          "heightDelta": -1,
+          "contentDiff": "0 red / 0 nothing-lost (2 advisory EDITABLE COUNT)",
+          "visualDiff": "0 flags",
+          "clip": "Clipped: 0",
+          "overflow": "ok (360 = viewport)",
+          "chromeParity": "23 deltas, all on the off-canvas mobile menu (x=-360) or the footer region offset from the hero autoHeight",
+          "chromeCrop": {
+            "header": "0.98%",
+            "footer": "1.26%"
+          },
+          "evidence": "stardust/replica/gates/index-360/ (iter3 --full, post-motion pixel)"
+        },
+        "1440": {
+          "pixel": "7.14%",
+          "pixelHeroMasked": "1.32% (--mask 210:600, hero carousel slide nondeterministic)",
+          "heightDelta": 0,
+          "contentDiff": "0 red / 0 nothing-lost (2 advisory EDITABLE COUNT)",
+          "visualDiff": "0 flags",
+          "clip": "Clipped: 0",
+          "overflow": "ok (1440 = viewport)",
+          "chromeParity": "quiet (header+footer)",
+          "chromeCrop": {
+            "header": "0.27%",
+            "footer": "1.40%"
+          },
+          "evidence": "stardust/replica/gates/index-1440/ (iter3 --full, post-motion pixel)"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        {
+          "band": "1440 y 210-810 (hero)",
+          "cause": "owl carousel autoplay 6000ms: live capture froze on slide 2 (Hipoteca Jove), prototype renders the captured DOM's initial state (slide 3, 'UN SMS AMB ENLLAÇ?'); nondeterministic live state",
+          "size": "~5.8 pts of the 7.14% (masked number 1.32%); slide 3 vs extract screenshot (same slide) 3.36% crop",
+          "permanent": true
+        },
+        {
+          "band": "1440 y 850-890 / 360 y 760-800 (left edge)",
+          "cause": "third-party consent-settings floating button (CookieFirst fingerprint icon) present on live after consent; not part of the site design (martech scaffolded off)",
+          "size": "~37x37 px, chunk 1 only",
+          "permanent": true
+        },
+        {
+          "band": "360 off-canvas menu (x=-360)",
+          "cause": "mobile drawer (heading-right + #navigation) approximated: offscreen, not in any pixel band; chrome-parity reports position/padding deltas for 9 items",
+          "size": "0 px visible",
+          "permanent": false
+        },
+        {
+          "band": "360 footer chrome-parity",
+          "cause": "region Δy +141 inherited from the hero autoHeight (measurement run caught slide 1/2 on live); pixel crop at the gate's own captures 1.26%",
+          "size": "offset only",
+          "permanent": true
+        }
+      ],
+      "captureState": [
+        {
+          "element": ".slider (hero carousel)",
+          "freeze": "initial slide 3 rendered static in markup; build capture taken before the first 6s tick",
+          "restoreAtDelivery": "owl autoplay, autoplayTimeout 6000ms, rewind, animateOut fadeOut (1000ms), autoHeight; dots + pause/play controls"
+        }
+      ],
+      "motion": {
+        "observed": [
+          "carousel autoplay + fadeOut (animated owl-animated-out fadeOut)",
+          "bullets scroll-spy (.active, dot width/height/background 0.5s)",
+          "body.scroll-mark on scroll",
+          "Accés modal (.show fade .15s, html.modal-open, section .open)",
+          "language dropdown (.show, .open)",
+          "Productes i serveis mega panel (hover + click)",
+          "search launcher panel (click)",
+          ".btn-primary hover (background/color 150ms)",
+          ".bullets a hover color",
+          "modal close button border/box-shadow transitions"
+        ],
+        "implemented": [
+          "carousel autoplay 6000ms rewind + fadeOut 1000ms + dots + pause/play",
+          "bullets scroll-spy",
+          "body.scroll-mark",
+          "Accés modal (show/fade/scroll-lock/focus/Esc)",
+          "language dropdown",
+          "mega panel hover/click",
+          "search panel",
+          "btn-primary hover",
+          "bullets a hover colour",
+          "modal close transitions"
+        ],
+        "dead": [
+          "header scroll-morph (static header)",
+          "hover on .segmento/.news-item/.quick-access-content/.scrollmenuboxes/#navigation tabs/#boton-fijo (no measured diff)",
+          "widget sampling of .owl-dot/.pause-slider/lang/cecaTrigger (no track motion; state-class changes only)"
+        ],
+        "notImplemented": [
+          "html.gtm-captacion-visible (GTM analytics marker, martech scaffolded off)",
+          "mobile hamburger / off-canvas drawer toggle and bullets click-to-scroll: never exercised by the instruments (chrome-explore found no header root at 390) — open item: observe at delivery before implementing"
+        ],
+        "compare": "motion-compare: 18 parity, 3 missing (gtm marker; bullets-a hover + color-duration and box-shadow advisory), 0 extra"
+      },
+      "fonts": "Lato (OFL) self-hosted under the theme's family names latoregular/latobold/latolight; fontawesome-alloy self-hosted; 'Lato, Verdana' and 'Lato, Helvetica' stacks lifted verbatim (fall back identically on both sides)",
+      "passed": true
+    },
+    "form": {
+      "type": "form",
+      "archetype": "acceso-bo",
+      "url": "https://www.caixaenginyers.com/acceso-bo",
+      "prototype": "stardust/prototypes/acceso-bo-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/acceso-bo.css"
+      ],
+      "js": [
+        "stardust/prototypes/index.js"
+      ],
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "1.47%",
+          "heightDelta": 2,
+          "contentDiff": "0 red, 0 nothing-lost yellow (7 advisory)",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "ok"
+        },
+        "1440": {
+          "pixel": "0.30%",
+          "heightDelta": 2,
+          "contentDiff": "0 red, 0 nothing-lost yellow (7 advisory: iframe sr-only labels 'Usuari:'/'Clau d'accés:' + attribute extras)",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "ok"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        {
+          "band": "360 header",
+          "cause": "chrome-parity deltas inherited from the gated home canon header (hidden mobile search/menu probe artefacts, Grup Caixa Enginyers padding) — identical on index-360 iter3",
+          "size": "8 deltas, pixel-neutral",
+          "permanent": true
+        },
+        {
+          "band": "360 footer",
+          "cause": "'Descarrega-la ara' paddingTop 0 → 22.857px, inherited from canon footer (same delta on index-360)",
+          "size": "Δy -24px on one footer text; page Δh 2px",
+          "permanent": true
+        },
+        {
+          "band": "footer 1440/360",
+          "cause": "page height 2px shorter (sub-pixel line-height rounding)",
+          "size": "2px",
+          "permanent": true
+        },
+        {
+          "band": "login box",
+          "cause": "source renders the form in a cross-origin iframe (bancaonline.caixaenginyers.com); recreated inline with the iframe's lifted CSS, form posts to the source banking host (identificacion.action, target _top); RSA PIN encryption/doSubmit JS not ported",
+          "size": "pixel-neutral",
+          "permanent": true
+        }
+      ],
+      "motion": {
+        "observed": [
+          "carousel autoplay 6000ms + fadeOut animateOut",
+          "dot click",
+          "pause/play",
+          "theme .15s link colour/border/box-shadow transitions",
+          "body scroll-mark / html gtm-captacion-visible / portlet open classes"
+        ],
+        "implemented": [
+          "carousel autoplay/fadeOut/dots/pause-play via index.js (shared)",
+          ".15s transitions on slide links + play/pause",
+          "Entrar hover/focus colours from iframe CSS"
+        ],
+        "dead": [
+          "dot/pause pokes produced no sampled frame change on live",
+          "play-icon hover (no measured diff)",
+          "gtm-captacion-visible (analytics)",
+          "portlet 'open' (Liferay internal)",
+          "body scroll-mark (no visual effect on this page)"
+        ]
+      },
+      "canonBackports": [],
+      "passed": true
+    },
+    "static": {
+      "type": "static",
+      "archetype": "accesibilidad",
+      "url": "https://www.caixaenginyers.com/accesibilidad",
+      "prototype": "stardust/prototypes/accesibilidad-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/accesibilidad.css"
+      ],
+      "js": [
+        "stardust/prototypes/accesibilidad.js"
+      ],
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.71%",
+          "heightDelta": 1,
+          "contentDiff": "0 red / 0 nothing-lost / 2 advisory",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "9 deltas, all inherited from the shared canon header/footer (same set as index-360 iter3); header crop 0.98%, footer crop 2.65%"
+        },
+        "1440": {
+          "pixel": "0.32%",
+          "heightDelta": 1,
+          "contentDiff": "0 red / 0 nothing-lost / 2 advisory",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "ok",
+          "chromeParity": "within tolerance"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        {
+          "band": "360 header",
+          "cause": "shared canon mobile header: live #banner region is 0-height (fixed chrome) vs 125px in flow; hidden search/menu items offset; Grup Caixa Enginyers padding 25px→0 — identical to index-360 iter3",
+          "size": "header crop 0.98%",
+          "permanent": false
+        },
+        {
+          "band": "360 footer y2446–2986",
+          "cause": "shared canon mobile footer: ~1px vertical offsets, phone-icon gap in the 900 300 321 pill, .app-cta padding-top 22.857px vs live 0 (text lands at the same y)",
+          "size": "footer crop 2.65%",
+          "permanent": false
+        },
+        {
+          "band": "content-diff header/footer",
+          "cause": "EDITABLE COUNT advisory 8 vs 9 (header) and 14 vs 15 (footer) — inherited chrome markup from index-proposed.html",
+          "size": "advisory",
+          "permanent": false
+        },
+        {
+          "band": "motion",
+          "cause": "gtm-captacion-visible / scroll-mark class mutations are analytics triggers (GTM), not design — not implemented",
+          "size": "n/a",
+          "permanent": true
+        }
+      ],
+      "motion": {
+        "observed": [
+          "tab hover: li background + a color, 150ms transition",
+          "tab click: r-tabs-state-active/default swap",
+          "header scroll-morph dead",
+          "#tab2 widget sample dead on live (no frame change)"
+        ],
+        "implemented": [
+          "hover colors + color/background/border/box-shadow .15s ease-in-out transition on tab anchors",
+          "tab click activation with (Seleccionat) + tabindex/aria-selected moves",
+          "<768 accordion: starts collapsed (instrument-observed load state), title click toggles"
+        ],
+        "dead": [
+          "header scroll-morph",
+          "gtm-captacion-visible",
+          "scroll-mark"
+        ]
+      },
+      "decisions": [
+        "Mobile accordion load state = all panels collapsed: that is what the gate's live capture shows (responsiveTabs startCollapsed:'accordion'); a later measure.mjs pass once saw panel 1 open — timing-dependent on live.",
+        "Header copied from index-proposed.html minus the hr-fundacio block (absent on this page's live header); section bullets omitted (home-only).",
+        "Hero slider play/pause/nav/dots kept in markup but display:none, as on live (#hiyr_-pause/play-slider {display:none}, owl-nav/dots disabled)."
+      ],
+      "canonBackports": [],
+      "passed": true
+    },
+    "program": {
+      "type": "program",
+      "archetype": "accidentes",
+      "url": "https://www.caixaenginyers.com/accidentes",
+      "prototype": "stardust/prototypes/accidentes-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/accidentes.css"
+      ],
+      "js": "stardust/prototypes/index.js (header behaviours, unchanged) + inline body.scroll-mark toggle",
+      "modules": {
+        "product-hero": "photo item 500px (cover) + white 70% panel on the 1148 column, h1 + lede + pill CTAs; <992 restacks without photo",
+        "product-body": "rich text; .two-col (col-md-6 x2), .separator, .list-bullet (yellow bullet), .pricing cards (.box bg #f8f8f8, Modalitat)",
+        "product-cta": "centred primary button",
+        "product-legal": "12px small print",
+        "related": "'Productes relacionats' centred inline-block h2 + 3-card band (odd #f9b03c / even #164194, hover shadow .3s)",
+        "request": "'Sol·licita'l ara' head + Liferay DDM form recreation (6 text fields, consent checkbox, data toggle, Envia) + contact aside (3 channel rows)"
+      },
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "2.04%",
+          "heightDelta": 4,
+          "contentDiff": "1 red (ICON DIFF, instrument false positive — see residuals) / 0 nothing-lost (2 auto-accepted, 3 advisory)",
+          "visualDiff": "0 flags",
+          "clip": "Clipped: 0",
+          "overflow": "ok (360 = viewport)",
+          "chromeParity": "22 deltas, all on the off-canvas mobile menu or the footer block offset — same set as the gated home archetype",
+          "chromeCrop": {
+            "header": "0.98%",
+            "footer": "0.89%"
+          },
+          "evidence": "stardust/replica/gates/accidentes-360/ (iter3 --full, content-diff-recheck.txt, postmotion pixel 2.04%)"
+        },
+        "1440": {
+          "pixel": "0.82%",
+          "heightDelta": 1,
+          "contentDiff": "0 red / 0 nothing-lost (3 auto-accepted, 3 advisory)",
+          "visualDiff": "0 flags",
+          "clip": "Clipped: 0",
+          "overflow": "ok (1440 = viewport)",
+          "chromeParity": "quiet (header+footer)",
+          "chromeCrop": {
+            "header": "0.24%",
+            "footer": "0.59%"
+          },
+          "evidence": "stardust/replica/gates/accidentes-1440/ (iter3 --full, postmotion pixel 0.82%)"
+        }
+      },
+      "capProbe": "PASS",
+      "residuals": [
+        {
+          "band": "360 related card 2 (y~3800)",
+          "cause": "content-diff ICON DIFF on 'Targeta de crèdit' icon: the live-side element signature is flat rgb(239,239,239) (a live fixed overlay occludes the card during the 360 element capture); the rehosted file is md5-identical to the source (393b34bf…), same 45x48 box and position",
+          "size": "1 finding, 0 px",
+          "permanent": true
+        },
+        {
+          "band": "360 form consent checkbox",
+          "cause": "live .custom-checkbox 75px vs build 72px at 3 wrapped lines (clay control padding not lifted)",
+          "size": "3 px (Δh 4 at 360)",
+          "permanent": false
+        },
+        {
+          "band": "motion",
+          "cause": "gtm-captacion-visible class is added by Google Tag Manager (martech), not design — not implemented",
+          "size": "1 class mutation",
+          "permanent": true
+        }
+      ],
+      "motion": {
+        "observed": "hover related card (box-shadow .3s), hover img.effect.tada (tada .5s + top), hover .btn (.15s colours), toggle switch click (dead on live), body.scroll-mark, gtm-captacion-visible",
+        "implemented": "related-card hover, tada hover, btn hover (canon), toggle visual state, body.scroll-mark",
+        "dead": "toggle-switch poke (no sampled change on live), header scroll-morph",
+        "compare": "14 parity, 1 missing (gtm-captacion-visible, martech), 0 extra"
+      },
+      "canonBackports": [
+        "#footer margin-top 30px on the product template (live main end → footer gap is 30, canon has 40 for home) — applied in accidentes.css as `#main-content.product-page ~ #footer`",
+        "header: product pages carry no .hr-fundacio ('Fundació') button — removed from this page's header markup (template-family difference, not a canon CSS change)"
+      ],
+      "passed": true,
+      "passedNote": "1440 clean; 360 single 🔴 is a proven capture-state false positive (byte-identical asset)",
+      "captureState": [
+        {
+          "width": 360,
+          "item": "related-products card icon \"Targeta de crèdit\" (documents/20143/5e9dfecc-…)",
+          "finding": "content-diff ICON DIFF 🔴",
+          "evidence": "source file fetched 2026-10-26 is byte-identical (cmp) to stardust/prototypes/assets/media/rp-premier.png; the live 360 capture paints the slot flat #efefef — a live-side capture state, not a build defect",
+          "decision": "capture-state residual, logged (coordinator, hands-off); not an owner acceptance"
+        }
+      ]
+    }
+  }
+}

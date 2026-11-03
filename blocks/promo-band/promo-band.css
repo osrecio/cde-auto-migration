@@ -1,0 +1,110 @@
+/* promo-band: source .ce-ingenium (350px band, image centred at natural size, copy right) */
+main > .section.promo-band-container {
+  margin-top: 30px;
+}
+
+main > .section > .promo-band-wrapper {
+  max-width: none;
+}
+
+.promo-band {
+  position: relative;
+  display: grid;
+  align-items: center;
+  min-height: 350px;
+}
+
+.promo-band .promo-band-media {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.promo-band .promo-band-media img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1180px;
+  max-width: none;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+.promo-band .promo-band-inner {
+  position: relative;
+  display: flex;
+  width: 1178px;
+  max-width: calc(100% + 30px);
+  margin: 0 auto;
+}
+
+.promo-band .promo-band-spacer,
+.promo-band .promo-band-copy {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.promo-band .promo-band-copy {
+  padding: 15px 0;
+  color: #fff;
+}
+
+.promo-band .promo-band-copy p {
+  margin-bottom: 30px;
+  font-family: var(--ce-font-light);
+  font-size: 1.6em;
+  line-height: 1.2em;
+}
+
+.promo-band .promo-band-copy p:first-child {
+  margin: 20px 0;
+  font-family: var(--ce-font);
+  font-size: 2.2em;
+  line-height: 1em;
+}
+
+.promo-band .promo-band-copy :is(strong em, em strong),
+.promo-band .promo-band-copy em:has(> strong) {
+  color: #fab03b;
+  font-style: normal;
+}
+
+.promo-band .promo-band-copy p.button-wrapper {
+  margin: 0 0 10px;
+  font-family: var(--ce-font);
+  font-size: 16px;
+  line-height: var(--body-line-height);
+}
+
+.promo-band .promo-band-copy p.button-wrapper a {
+  margin-bottom: 10px;
+}
+
+@media (width <= 767px) {
+  .promo-band .promo-band-inner {
+    display: block;
+    width: auto;
+    max-width: none;
+    min-height: 350px;
+    margin: 0 0 10px;
+    background-color: rgb(34 50 109 / 70%);
+  }
+
+  .promo-band .promo-band-spacer {
+    display: none;
+  }
+
+  .promo-band .promo-band-copy {
+    max-width: none;
+    padding: 15px 35px;
+  }
+
+  .promo-band .promo-band-copy p:first-child {
+    font-size: 2em;
+    line-height: 1.1em;
+  }
+
+  .promo-band .promo-band-copy br {
+    display: none;
+  }
+}

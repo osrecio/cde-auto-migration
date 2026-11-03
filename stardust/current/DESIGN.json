@@ -1,0 +1,540 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-26T17:30:00Z",
+    "mode": "prep",
+    "sources": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/assets/css/main.css",
+      "stardust/current/assets/css/fonts.css",
+      "stardust/current/pages/*.json"
+    ]
+  },
+  "name": "Caixa d'Enginyers — current state",
+  "colors": {
+    "background": "#ffffff",
+    "text": "#434343",
+    "primary": "#164194",
+    "secondary": "#4568aa",
+    "accent": "#415465",
+    "surface": "#ececec",
+    "border": "#d9d9d9",
+    "navy": "#1b2443",
+    "navy-deep": "#173050",
+    "amber": "#fab03b",
+    "link-blue": "#0d56c9",
+    "sky": "#88d4ff",
+    "green": "#7eba28",
+    "muted": "#7d7d7d"
+  },
+  "typography": {
+    "families": {
+      "regular": "latoregular",
+      "bold": "latobold",
+      "light": "latolight",
+      "icons": "fontawesome-alloy"
+    },
+    "fallback": "Lato, Helvetica, Arial, sans-serif",
+    "h1": {
+      "fontFamily": "latolight|latoregular",
+      "fontSize": "60px",
+      "fontWeight": 500
+    },
+    "h2": {
+      "fontFamily": "latoregular",
+      "fontSize": "45px",
+      "fontWeight": 500
+    },
+    "h3": {
+      "fontFamily": "latoregular",
+      "fontSize": "36px",
+      "fontWeight": 500
+    },
+    "body": {
+      "fontFamily": "latoregular",
+      "fontSize": "16px"
+    },
+    "button": {
+      "fontFamily": "latobold",
+      "fontSize": "16px"
+    },
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [
+        100,
+        60,
+        58,
+        56,
+        54,
+        50,
+        45,
+        42,
+        40,
+        38,
+        36,
+        34,
+        32,
+        30,
+        28,
+        26,
+        25,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        13,
+        12,
+        10,
+        9
+      ]
+    }
+  },
+  "rounded": {
+    "hairline": "1px",
+    "pill": "25px",
+    "card": "10px",
+    "circle": "50%",
+    "small": "5px",
+    "tab-top": "8px 8px 0 0"
+  },
+  "spacing": {},
+  "components": {
+    "button-primary": {
+      "background": "#164194",
+      "color": "#ffffff",
+      "radius": "25px",
+      "font": "latobold 16px"
+    },
+    "button-secondary": {
+      "background": "#ffffff",
+      "color": "#164194",
+      "radius": "25px",
+      "font": "latobold 16px"
+    }
+  },
+  "extensions": {
+    "motifs": {
+      "shadows": [
+        "rgba(14,63,126,.04) 0 0 0 1px, …(card ring)",
+        "rgba(50,50,93,.25) 0 6px 12px -2px, …"
+      ],
+      "gradients": []
+    },
+    "componentStyle": {
+      "platform": "Liferay DXP (webpublica theme)",
+      "iconFont": "fontawesome-alloy"
+    },
+    "voice": {
+      "language": "ca",
+      "heroHeadline": "Un SMS amb enllaç? Una trucada de Caixa Enginyers?",
+      "ctaSamples": [
+        "Més informació",
+        "Sol·licita més informació",
+        "Envia"
+      ]
+    },
+    "systemComponents": [
+      {
+        "id": "site-header",
+        "pages": 10,
+        "note": "top utility bar (Accés, Dona't d'alta, Oficines i caixers, Seguretat Online, CA), segment tabs (Particulars, Personal&Premium, Empreses, Institucions), blue sub-nav band + search"
+      },
+      {
+        "id": "site-footer",
+        "pages": 10,
+        "note": "light grey 4-column link grid (Informació corporativa, Accessibilitat i seguretat, Et pot interessar, Eines) + navy contact column + legal row"
+      }
+    ],
+    "modules": [
+      {
+        "id": "candidate-related-products",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text"
+          },
+          {
+            "name": "cards",
+            "type": "list"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "accidentes"
+          },
+          {
+            "slug": "asesoramiento-negocios"
+          },
+          {
+            "slug": "asesoramiento-personalizado"
+          },
+          {
+            "slug": "asseguranca-patinet-electric"
+          }
+        ],
+        "signal": "h2 'Productes relacionats' on 4 pages"
+      },
+      {
+        "id": "candidate-request-form",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text"
+          },
+          {
+            "name": "form",
+            "type": "form"
+          },
+          {
+            "name": "contact-aside",
+            "type": "list"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "accidentes"
+          },
+          {
+            "slug": "asesoramiento-negocios"
+          },
+          {
+            "slug": "asesoramiento-personalizado"
+          },
+          {
+            "slug": "administraciones-publicas"
+          },
+          {
+            "slug": "hipoteca-jove"
+          },
+          {
+            "slug": "asseguranca-patinet-electric"
+          }
+        ],
+        "signal": "h2 'Sol·licita'l ara'/'Vull informació' + CTA 'Envia' on 6 pages"
+      },
+      {
+        "id": "candidate-focus-carousel",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "slides",
+            "type": "list"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index"
+          },
+          {
+            "slug": "acceso-bo"
+          }
+        ],
+        "signal": "'Focus' banner carousel on 2 pages"
+      },
+      {
+        "id": "candidate-product-hero",
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text"
+          },
+          {
+            "name": "lede",
+            "type": "text"
+          },
+          {
+            "name": "ctas",
+            "type": "link"
+          },
+          {
+            "name": "background",
+            "type": "image"
+          }
+        ],
+        "instances": [
+          {
+            "slug": "accidentes"
+          },
+          {
+            "slug": "ahorro-vida"
+          },
+          {
+            "slug": "asesoramiento-negocios"
+          },
+          {
+            "slug": "hipoteca-jove"
+          },
+          {
+            "slug": "administraciones-publicas"
+          }
+        ],
+        "signal": "full-bleed photo hero with h1 + lede + pill CTA on program pages"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1148px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1148,
+          "via": "max-width",
+          "selector": "div.portlet-boundary.portlet-static > section.portlet > div.portlet-content > div.portlet-content-container",
+          "pages": [
+            "https://www.caixaenginyers.com/",
+            "https://www.caixaenginyers.com/accesibilidad",
+            "https://www.caixaenginyers.com/acceso-bo",
+            "https://www.caixaenginyers.com/accidentes"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1118,
+          "via": "fixed",
+          "selector": "div.portlet-body > div > div.journal-content-article > p",
+          "pages": [
+            "https://www.caixaenginyers.com/",
+            "https://www.caixaenginyers.com/accesibilidad"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1090,
+          "via": "fixed",
+          "selector": "div > div.journal-content-article > p > strong",
+          "pages": [
+            "https://www.caixaenginyers.com/accidentes"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 797,
+          "via": "fixed",
+          "selector": "div > div.journal-content-article > p > strong",
+          "pages": [
+            "https://www.caixaenginyers.com/accidentes"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 765,
+          "via": "fixed",
+          "selector": "div.portlet-body > div.columns-2 > div.portlet-layout.row > div.col-md-8.portlet-column",
+          "pages": [
+            "https://www.caixaenginyers.com/",
+            "https://www.caixaenginyers.com/accidentes"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 735,
+          "via": "fixed",
+          "selector": "div.portlet-body > div > div.journal-content-article > p",
+          "pages": [
+            "https://www.caixaenginyers.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 689,
+          "via": "fixed",
+          "selector": "table > tbody > tr > td",
+          "pages": [
+            "https://www.caixaenginyers.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 660,
+          "via": "fixed",
+          "selector": "div.form-group > div.custom-control.custom-checkbox > label > span.custom-control-label",
+          "pages": [
+            "https://www.caixaenginyers.com/accidentes"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 589,
+          "via": "fixed",
+          "selector": "div.journal-content-article > div.d-none.d-sm-block > div.row > div.col-12.col-md-6",
+          "pages": [
+            "https://www.caixaenginyers.com/",
+            "https://www.caixaenginyers.com/accidentes"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 491,
+          "via": "fixed",
+          "selector": "div.row > div.col-12.col-md-6 > p > span",
+          "pages": [
+            "https://www.caixaenginyers.com/accidentes"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 467,
+          "via": "fixed",
+          "selector": "div.portlet-body > ul.news-list.list-unstyled > li.news-item.row > div.col-12.col-md-8",
+          "pages": [
+            "https://www.caixaenginyers.com/",
+            "https://www.caixaenginyers.com/accidentes"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 443,
+          "via": "fixed",
+          "selector": "#ddmFormM6YlQWl8 > div.lfr-ddm__default-page-header > span",
+          "pages": [
+            "https://www.caixaenginyers.com/accidentes"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 393,
+          "via": "fixed",
+          "selector": "div > div.journal-content-article > div.row > div.col-12.col-md-4",
+          "pages": [
+            "https://www.caixaenginyers.com/",
+            "https://www.caixaenginyers.com/accidentes"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 364,
+          "via": "fixed",
+          "selector": "div.journal-content-article > center > p > a.btn.btn-secondary",
+          "pages": [
+            "https://www.caixaenginyers.com/",
+            "https://www.caixaenginyers.com/accidentes"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 343,
+          "via": "fixed",
+          "selector": "#quickAccesLink0_div9_tabl_",
+          "pages": [
+            "https://www.caixaenginyers.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 298,
+          "via": "fixed",
+          "selector": "#quickAccesLink0_div16_tabl_",
+          "pages": [
+            "https://www.caixaenginyers.com/",
+            "https://www.caixaenginyers.com/accesibilidad",
+            "https://www.caixaenginyers.com/accidentes"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 274,
+          "via": "fixed",
+          "selector": "div.col-12.col-md-4 > div.segmento > div.box.p-0 > div.text-overlay",
+          "pages": [
+            "https://www.caixaenginyers.com/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 252,
+          "via": "fixed",
+          "selector": "#quickAccesLink0_div14_tabl_",
+          "pages": [
+            "https://www.caixaenginyers.com/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.caixaenginyers.com/",
+          "section": 0,
+          "selector": "body.chrome.controls-visible > div.bullets",
+          "px": null
+        },
+        {
+          "url": "https://www.caixaenginyers.com/",
+          "section": 1,
+          "selector": "#wrapper",
+          "px": 1148
+        },
+        {
+          "url": "https://www.caixaenginyers.com/accesibilidad",
+          "section": 0,
+          "selector": "#banner",
+          "px": null
+        },
+        {
+          "url": "https://www.caixaenginyers.com/accesibilidad",
+          "section": 1,
+          "selector": "#content",
+          "px": 1148
+        },
+        {
+          "url": "https://www.caixaenginyers.com/accesibilidad",
+          "section": 2,
+          "selector": "#footer",
+          "px": null
+        },
+        {
+          "url": "https://www.caixaenginyers.com/acceso-bo",
+          "section": 0,
+          "selector": "#banner",
+          "px": null
+        },
+        {
+          "url": "https://www.caixaenginyers.com/acceso-bo",
+          "section": 1,
+          "selector": "#content",
+          "px": 1148
+        },
+        {
+          "url": "https://www.caixaenginyers.com/acceso-bo",
+          "section": 2,
+          "selector": "#footer",
+          "px": null
+        },
+        {
+          "url": "https://www.caixaenginyers.com/accidentes",
+          "section": 0,
+          "selector": "#banner",
+          "px": null
+        },
+        {
+          "url": "https://www.caixaenginyers.com/accidentes",
+          "section": 1,
+          "selector": "#content",
+          "px": 1148
+        },
+        {
+          "url": "https://www.caixaenginyers.com/accidentes",
+          "section": 2,
+          "selector": "#footer",
+          "px": null
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-10-26T17:26:01.284Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.caixaenginyers.com/",
+          "https://www.caixaenginyers.com/accesibilidad",
+          "https://www.caixaenginyers.com/acceso-bo",
+          "https://www.caixaenginyers.com/accidentes"
+        ]
+      }
+    }
+  }
+}
