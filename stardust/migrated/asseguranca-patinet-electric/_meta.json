@@ -1,0 +1,114 @@
+{
+  "slug": "asseguranca-patinet-electric",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "accidentes",
+  "modules": [
+    "product-hero",
+    "product-body",
+    "product-legal",
+    "request-form",
+    "related-products"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "div",
+    "div",
+    "div",
+    "div",
+    "div"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": null,
+    "css": "9dc32436c0b9"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Assegurança de patinet elèctric",
+    "description": "Assegurança de patinet elèctric. Mou-te lliure, mou-te segur.",
+    "canonical": null,
+    "lang": "ca"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Assegurança de patinet elèctric",
+    "description": "Assegurança de patinet elèctric. Mou-te lliure, mou-te segur.",
+    "url": "https://www.caixaenginyers.com/asseguranca-patinet-electric"
+  },
+  "migratedAt": "2026-10-26T22:17:23Z",
+  "designMdSha": "9e6f16c2ea26",
+  "designJsonSha": "f96b124b2d3a",
+  "sourceCurrentSha": "e1754412c8f4",
+  "sourceProposedSha": "9612fd664bc5",
+  "fidelityTier": "sibling",
+  "archetypeSource": "accidentes",
+  "archetypeSha": "da6ffc809b8a",
+  "variants": [
+    "product-hero.dark product-hero.tall product-legal.medium request-form.plain"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance.mjs vs /accidentes: exit 2, deltas budgeted as block variants (stardust/rollout/units/program-variance.json)",
+    "delivery-lint": "delivery-lint 0 P0 / 0 P1 / 0 P2",
+    "media-reconcile": "media-reconcile --apply: all images hosted (media ledger, scope asseguranca-patinet-electric)",
+    "pixel-gate-1440": "gate-all published preview PASS 3.81% Δh 18 (runs/2026-10-26T22-16-42-838Z), clip 0, MISSING 0 / HIDDEN 0",
+    "content-count": "gate-all content-presence MISSING 0 / HIDDEN 0 at 1440 and 360; drops covered by contentDeviations[]; content-diff body-level (source has no <main>) dominated by chrome/cookie findings",
+    "content-fidelity": "gate-all session 4: 360 + 1440 PASS (stardust/replica/gates/all-{360,1440}/asseguranca-patinet-electric), MISSING 0 HIDDEN 0, clip 0"
+  },
+  "contentDeviations": [
+    {
+      "kind": "transform",
+      "source": "Contractar-la ara (Banca Online login modal button)",
+      "target": "link https://www.caixaenginyers.com/soci-cooperatiu",
+      "reason": "login modal not rebuilt in the hero; the modal's non-member path kept"
+    },
+    {
+      "kind": "transform",
+      "source": "checkbox 'termes i condicions' javascript:void(0) modal",
+      "target": "https://www.caixaenginyers.com/privacidad",
+      "reason": "archetype request-form encoding; dynamic row 3 (no backend)"
+    }
+  ],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.caixaenginyers.com/soci-cooperatiu",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/web/grupo/detalle-grupo#bancaseguros",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/privacidad",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/oficinas-y-cajeros",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/seguro-moto",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/seguro-hogar",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "asseguranca-patinet-electric/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "asseguranca-patinet-electric/_meta.json",
+  "driverVersion": "1"
+}

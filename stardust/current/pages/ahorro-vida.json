@@ -1,0 +1,1265 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-26T17:20:16.950Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "ahorro-vida",
+  "url": "https://www.caixaenginyers.com/ahorro-vida",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-26T17:20:16.950Z",
+  "finalUrl": "https://www.caixaenginyers.com/ahorro-vida",
+  "title": "Estalvi vida - Caixa Enginyers",
+  "description": "Caixa Enginyers pensa en el teu futur. Estalvia ara i assegura't uns ingressos futurs.",
+  "og": {
+    "title": "Estalvi vida - Caixa Enginyers - webpublica",
+    "description": "Caixa Enginyers pensa en el teu futur. Estalvia ara i assegura't uns ingressos futurs.",
+    "image": null,
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h3",
+      "text": "Estalvi-Vida"
+    },
+    {
+      "tag": "h1",
+      "text": "Pack 14.5"
+    },
+    {
+      "tag": "h2",
+      "text": "Descobreix totes les possibilitats per estalviar"
+    },
+    {
+      "tag": "h3",
+      "text": "CDEPIES GO"
+    },
+    {
+      "tag": "h3",
+      "text": "PIESJove"
+    },
+    {
+      "tag": "h3",
+      "text": "Pla Individual d'Estalvi Sistemàtic"
+    },
+    {
+      "tag": "h3",
+      "text": "Pla Futur5 SIALP"
+    },
+    {
+      "tag": "h3",
+      "text": "Pla de Previsió Assegurat"
+    },
+    {
+      "tag": "h3",
+      "text": "Rendes vitalicies"
+    },
+    {
+      "tag": "h3",
+      "text": "Pack 14.5"
+    },
+    {
+      "tag": "h3",
+      "text": "Informació corporativa"
+    },
+    {
+      "tag": "h3",
+      "text": "Accessibilitat i seguretat"
+    },
+    {
+      "tag": "h3",
+      "text": "Et pot interessar"
+    },
+    {
+      "tag": "h3",
+      "text": "Eines"
+    }
+  ],
+  "body": [
+    "Accés",
+    "Particulars Families&Particulars Joves Sènior Professionals Productes i serveis El teu dia a dia Hipoteques i préstecs Estalvi i inversió Assegurances Mercats Les meves finances CEApropa Ingenium Shopping Renting",
+    "Families&Particulars",
+    "Joves",
+    "Sènior",
+    "Professionals",
+    "Productes i serveis El teu dia a dia Hipoteques i préstecs Estalvi i inversió Assegurances Mercats Les meves finances CEApropa Ingenium Shopping Renting",
+    "Personal&Premium El teu dia a dia Targetes Serveis digitals Ingenium Shopping Assessorament Assessorament personalitzat Focus Tallers i trobades Inversions Gestió de Carteres Fons d'inversió Plans de Pensions Mercats Hipoteques i préstecs Hipoteques Préstecs Assegurances",
+    "Empreses El teu dia a dia Targetes Professionals Serveis Digitals Ingenium Shopping PRO Finançament Assessorament Renting Préstec ECO Professionals Estalvi i inversió Fons d'inversió Plans de pensions Pla Autònoms, PPOS Previsió Mercats Assegurances Assessorament en assegurances Ciberassegurança Seguro Protección Autónomos",
+    "Institucions Administracions Públiques Banca Institucional",
+    "Indicador de risc de Pla Futur 5 SIALP, PIES Jove i PIES:",
+    "1/6",
+    "Aquest número és indicatiu del risc del producte, sent 1/6 indicatiu de menor risc i 6/6 de major risc.",
+    "Pensa en el teu futur, sense oblidar el teu present",
+    "Encara no ets soci?",
+    "Descobreix 3 maneres d'estalviar que combinen a la perfecció",
+    "I optimitza el teu estalvi fiscal",
+    "Vull saber-ne més",
+    "Més informació",
+    "Més informació",
+    "Més informació",
+    "Més informació",
+    "Més informació",
+    "Més informació",
+    "Pack 14.5",
+    "Més informació",
+    "Qui som",
+    "Salut financera",
+    "Banca Cooperativa",
+    "Treballa amb nosaltres",
+    "Seguretat online",
+    "Accés segur",
+    "Accessibilitat",
+    "Tramitació d'herència",
+    "Tallers i trobades",
+    "Calcula Hipoteca",
+    "Simulador Préstecs",
+    "Empreses",
+    "Les meves finances",
+    "Canal denúncies",
+    "ISO",
+    "Api Market",
+    "Política de cookies",
+    "Privacitat",
+    "Avís legal",
+    "Tauler d'anuncis",
+    "900 300 321",
+    "Contacte Contacte Oficines i caixers 900 300 321",
+    "Contacte",
+    "Oficines i caixers",
+    "Troba'ns a Blog",
+    "Blog",
+    "Descarrega-la ara Banca MOBILE",
+    "© Caixa Enginyers 2026"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Salta al contingut principal",
+      "href": "#main-content"
+    },
+    {
+      "label": "Accés",
+      "href": null
+    },
+    {
+      "label": "Dona't d'alta",
+      "href": "/soci-cooperatiu"
+    },
+    {
+      "label": "Oficines i caixers",
+      "href": "/oficinas-y-cajeros"
+    },
+    {
+      "label": "Seguretat Online",
+      "href": "/seguretat"
+    },
+    {
+      "label": "ca",
+      "href": null
+    },
+    {
+      "label": "Grup Caixa Enginyers",
+      "href": "/web/grupo"
+    },
+    {
+      "label": "Particulars",
+      "href": "https://www.caixaenginyers.com/particulars"
+    },
+    {
+      "label": "Families&Particulars",
+      "href": "https://www.caixaenginyers.com/families-particulars"
+    },
+    {
+      "label": "Joves",
+      "href": "https://www.caixaenginyers.com/joves"
+    },
+    {
+      "label": "Sènior",
+      "href": "https://www.caixaenginyers.com/seniors"
+    },
+    {
+      "label": "Professionals",
+      "href": "https://www.caixaenginyers.com/professionals"
+    },
+    {
+      "label": "Productes i serveis",
+      "href": "javascript:void(0)"
+    },
+    {
+      "label": "Personal&Premium",
+      "href": "https://www.caixaenginyers.com/banca-personal"
+    },
+    {
+      "label": "Empreses",
+      "href": "https://www.caixaenginyers.com/empreses"
+    },
+    {
+      "label": "Institucions",
+      "href": "https://www.caixaenginyers.com/institucions"
+    },
+    {
+      "label": "Inicia Cerca",
+      "href": "javascript:void(0)"
+    },
+    {
+      "label": "PausaControl lliscant",
+      "href": "javascript:void(0)"
+    },
+    {
+      "label": "Encara no ets soci?",
+      "href": "/ca/soci-cooperatiu"
+    },
+    {
+      "label": "Vull saber-ne més",
+      "href": "#formulario"
+    },
+    {
+      "label": "CDEPIES GO",
+      "href": "/piasgo"
+    },
+    {
+      "label": "Més informació",
+      "href": "/piasgo"
+    },
+    {
+      "label": "Més informació",
+      "href": null
+    },
+    {
+      "label": "PIESJove",
+      "href": "https://www.caixaenginyers.com/pias-joven"
+    },
+    {
+      "label": "Més informació",
+      "href": "https://www.caixaenginyers.com/pias-joven"
+    },
+    {
+      "label": "Més informació",
+      "href": null
+    },
+    {
+      "label": "Pla Individual d'Estalvi Sistemàtic",
+      "href": "https://www.caixaenginyers.com/plan-ahorro-pias"
+    },
+    {
+      "label": "Més informació",
+      "href": "https://www.caixaenginyers.com/plan-ahorro-pias"
+    },
+    {
+      "label": "Més informació",
+      "href": null
+    },
+    {
+      "label": "Pla Futur5 SIALP",
+      "href": "https://www.caixaenginyers.com/plan-sialp"
+    },
+    {
+      "label": "Més informació",
+      "href": "https://www.caixaenginyers.com/plan-sialp"
+    },
+    {
+      "label": "Més informació",
+      "href": null
+    },
+    {
+      "label": "Pla de Previsió Assegurat",
+      "href": "https://www.caixaenginyers.com/pla-previsio-assegurat"
+    },
+    {
+      "label": "Més informació",
+      "href": "https://www.caixaenginyers.com/pla-previsio-assegurat"
+    },
+    {
+      "label": "Més informació",
+      "href": null
+    },
+    {
+      "label": "Rendes vitalicies",
+      "href": "https://www.caixaenginyers.com/rendes-vitalicies"
+    },
+    {
+      "label": "Més informació",
+      "href": "https://www.caixaenginyers.com/rendes-vitalicies"
+    },
+    {
+      "label": "Més informació",
+      "href": null
+    },
+    {
+      "label": "Pack 14.5",
+      "href": "https://www.caixaenginyers.com/pack-previsio"
+    },
+    {
+      "label": "Més informació",
+      "href": "https://www.caixaenginyers.com/pack-previsio"
+    },
+    {
+      "label": "Més informació",
+      "href": null
+    },
+    {
+      "label": "Qui som",
+      "href": "/ca/web/grupo/quienes-somos"
+    },
+    {
+      "label": "Salut financera",
+      "href": "/ca/web/fundacion/salut-financera"
+    },
+    {
+      "label": "Banca Cooperativa",
+      "href": "/ca/web/grupo/10-principios-banca-cooperativa"
+    },
+    {
+      "label": "Treballa amb nosaltres",
+      "href": "/ca/web/grupo/trabaja-con-nosotros"
+    },
+    {
+      "label": "Seguretat online",
+      "href": "/seguretat"
+    },
+    {
+      "label": "Accés segur",
+      "href": "/faqs-otp"
+    },
+    {
+      "label": "Accessibilitat",
+      "href": "/accesibilidad"
+    },
+    {
+      "label": "Tramitació d'herència",
+      "href": "/testamentaria"
+    },
+    {
+      "label": "Tallers i trobades",
+      "href": "/tallers-i-trobades"
+    },
+    {
+      "label": "Calcula Hipoteca",
+      "href": "/calcula-hipoteca"
+    },
+    {
+      "label": "Simulador Préstecs",
+      "href": "/simulador-prestamos"
+    },
+    {
+      "label": "Empreses",
+      "href": "/empreses"
+    },
+    {
+      "label": "Les meves finances",
+      "href": "/les-meves-finances"
+    },
+    {
+      "label": "Canal denúncies",
+      "href": "https://cajaingenieros.integrityline.com/"
+    },
+    {
+      "label": "ISO",
+      "href": "https://www.caixaenginyers.com/iso"
+    },
+    {
+      "label": "Api Market",
+      "href": "https://apimarket.caixaenginyers.com"
+    },
+    {
+      "label": "Política de cookies",
+      "href": "https://www.caixaenginyers.com/politica-de-cookies"
+    },
+    {
+      "label": "Privacitat",
+      "href": "https://www.caixaenginyers.com/privacidad"
+    },
+    {
+      "label": "Avís legal",
+      "href": "https://www.caixaenginyers.com/aviso-legal"
+    },
+    {
+      "label": "Tauler d'anuncis",
+      "href": "https://www.caixaenginyers.com/tablon-de-anuncios"
+    },
+    {
+      "label": "900 300 321",
+      "href": "tel:+34900300321"
+    },
+    {
+      "label": "Contacte",
+      "href": "/ca/contactar"
+    },
+    {
+      "label": "Oficines i caixers",
+      "href": "/ca/oficinas-y-cajeros"
+    },
+    {
+      "label": "Blog",
+      "href": "https://blog.caixa-enginyers.com/"
+    },
+    {
+      "label": "Banca MOBILE",
+      "href": "/ca/banca-digital#BancaMovil"
+    }
+  ],
+  "links": [
+    "https://www.caixaenginyers.com/ahorro-vida#main-content",
+    "https://www.caixaenginyers.com/",
+    "javascript:void(0)",
+    "https://www.caixaenginyers.com/acceso-bo",
+    "https://www.caixaenginyers.com/recuperacion-clave-acceso",
+    "https://www.caixaenginyers.com/ca/soci-cooperatiu",
+    "https://www.caixaenginyers.com/soci-cooperatiu",
+    "https://www.caixaenginyers.com/oficinas-y-cajeros",
+    "https://www.caixaenginyers.com/seguretat",
+    "https://www.caixaenginyers.com/ahorro-vida#",
+    "https://www.caixaenginyers.com/web/grupo",
+    "https://www.caixaenginyers.com/ca/web/grupo",
+    "https://www.caixaenginyers.com/particulars",
+    "https://www.caixaenginyers.com/families-particulars",
+    "https://www.caixaenginyers.com/joves",
+    "https://www.caixaenginyers.com/seniors",
+    "https://www.caixaenginyers.com/professionals",
+    "https://www.caixaenginyers.com/el-teu-dia",
+    "https://www.caixaenginyers.com/hipoteques-i-prestecs",
+    "https://www.caixaenginyers.com/estalvi-inversio",
+    "https://www.caixaenginyers.com/assegurances-i-riscos",
+    "https://www.caixaenginyers.com/bolsa-y-mercados",
+    "https://www.caixaenginyers.com/les-meves-finances",
+    "https://www.caixaenginyers.com/ceapropa",
+    "https://www.caixaenginyers.com/ingenium",
+    "https://www.caixaenginyers.com/ingenium-renting",
+    "https://www.caixaenginyers.com/banca-personal",
+    "https://www.caixaenginyers.com/tarjetas1",
+    "https://www.caixaenginyers.com/servicios-digitales1",
+    "https://www.caixaenginyers.com/ingenium1",
+    "https://www.caixaenginyers.com/asesoramiento-personalizado",
+    "https://www.caixaenginyers.com/publicaciones",
+    "https://www.caixaenginyers.com/tallers-i-trobades",
+    "https://www.caixaenginyers.com/sgdc",
+    "https://www.caixaenginyers.com/web/fondosinversion",
+    "https://www.caixaenginyers.com/planes-de-pensiones1",
+    "https://www.caixaenginyers.com/bolsa-y-mercados1",
+    "https://www.caixaenginyers.com/hipotecas1",
+    "https://www.caixaenginyers.com/prestamos",
+    "https://www.caixaenginyers.com/assessorament-assegurances",
+    "https://www.caixaenginyers.com/empreses",
+    "https://www.caixaenginyers.com/targetes-professionals",
+    "https://www.caixaenginyers.com/servicios-digitales",
+    "https://www.caixaenginyers.com/ingenium-pro_ca",
+    "https://www.caixaenginyers.com/asesoramiento-negocios",
+    "https://www.caixaenginyers.com/renting",
+    "https://www.caixaenginyers.com/prestec-eco-pro",
+    "https://www.caixaenginyers.com/planes-de-pensiones",
+    "https://www.caixaenginyers.com/pla-autcat-futur-autonoms-ppos",
+    "https://www.caixaenginyers.com/previsio-social-empresarial",
+    "https://www.caixaenginyers.com/bolsa-y-mercados2",
+    "https://www.caixaenginyers.com/seguros-negocios",
+    "https://www.caixaenginyers.com/ciberseguro",
+    "https://www.caixaenginyers.com/asseguranca-proteccio-autonoms",
+    "https://www.caixaenginyers.com/institucions",
+    "https://www.caixaenginyers.com/administraciones-publicas",
+    "https://www.caixaenginyers.com/banca-institucional",
+    "javascript:;",
+    "https://www.caixaenginyers.com/pack-previsio",
+    "https://www.caixaenginyers.com/ahorro-vida#formulario",
+    "https://www.caixaenginyers.com/piasgo",
+    "https://www.caixaenginyers.com/pias-joven",
+    "https://www.caixaenginyers.com/plan-ahorro-pias",
+    "https://www.caixaenginyers.com/plan-sialp",
+    "https://www.caixaenginyers.com/pla-previsio-assegurat",
+    "https://www.caixaenginyers.com/rendes-vitalicies",
+    "https://www.caixaenginyers.com/ca/web/grupo/quienes-somos",
+    "https://www.caixaenginyers.com/ca/web/fundacion/salut-financera",
+    "https://www.caixaenginyers.com/ca/web/grupo/10-principios-banca-cooperativa",
+    "https://www.caixaenginyers.com/ca/web/grupo/trabaja-con-nosotros",
+    "https://www.caixaenginyers.com/faqs-otp",
+    "https://www.caixaenginyers.com/accesibilidad",
+    "https://www.caixaenginyers.com/testamentaria",
+    "https://www.caixaenginyers.com/calcula-hipoteca",
+    "https://www.caixaenginyers.com/simulador-prestamos",
+    "https://cajaingenieros.integrityline.com/",
+    "https://www.caixaenginyers.com/iso",
+    "https://apimarket.caixaenginyers.com/",
+    "https://www.caixaenginyers.com/politica-de-cookies",
+    "https://www.caixaenginyers.com/privacidad",
+    "https://www.caixaenginyers.com/aviso-legal",
+    "https://www.caixaenginyers.com/tablon-de-anuncios",
+    "tel:+34900300321",
+    "https://www.caixaenginyers.com/ca/contactar",
+    "https://www.caixaenginyers.com/ca/oficinas-y-cajeros",
+    "https://www.facebook.com/caixadenginyers",
+    "https://www.instagram.com/caixaenginyers",
+    "https://twitter.com/caixaenginyers",
+    "http://www.linkedin.com/company/grupo-caja-de-ingenieros",
+    "http://www.youtube.com/caixaenginyers?sub_confirmation=1",
+    "https://blog.caixa-enginyers.com/",
+    "https://www.caixaenginyers.com/seguridad",
+    "https://cajaingenieros.integrityline.com/?lang=ca",
+    "https://www.caixaenginyers.com/ca/banca-digital#BancaMovil"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.caixaenginyers.com/documents/20143/665270951/Logo-CI-web-400x76-ca.png/7b34e417-557b-afc4-24a2-ffc497a991d1?t=1695823290277",
+        "alt": "Caixa Enginyers.  Anar a l'inici",
+        "w": 400,
+        "h": 76
+      },
+      {
+        "src": "https://www.caixaenginyers.com/documents/20143/766579/user.png/a8def29a-55d5-84bb-c8d4-c76653027946?t=1530781522965",
+        "alt": "",
+        "w": 20,
+        "h": 19
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=666551817&t=1791429608158",
+        "alt": "",
+        "w": 30,
+        "h": 20
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=666551751&t=1791429608161",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=666551835&t=1791429608162",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=666551908&t=1791429608163",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=666551774&t=1791429608164",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=666551780&t=1791429608166",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=667242000&t=1791429608167",
+        "alt": "",
+        "w": 48,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=666551829&t=1791429608168",
+        "alt": "",
+        "w": 45,
+        "h": 34
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1042114&t=1791429608169",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=666770113&t=1791429608170",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1044375&t=1791429608177",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1044445&t=1791429608178",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1044584&t=1791429608179",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1044653&t=1791429608186",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1750909&t=1791429608187",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1044775&t=1791429608188",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1044831&t=1791429608197",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1044889&t=1791429608197",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=15316826&t=1791429608198",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=3014341&t=1791429608199",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1045012&t=1791429608204",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1045083&t=1791429608206",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=667279446&t=1791429608214",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1043250&t=1791429608215",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1043424&t=1791429608217",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1043481&t=1791429608226",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1043791&t=1791429608228",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=665987972&t=1791429608229",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1043859&t=1791429608239",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=15319854&t=1791429608240",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=665492918&t=1791429608241",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=664429372&t=1791429608242",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1044041&t=1791429608243",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=1044261&t=1791429608250",
+        "alt": "",
+        "w": 45,
+        "h": 47
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=663250682&t=1791429608251",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/image/layout_icon?img_id=666025765&t=1791429608252",
+        "alt": "",
+        "w": 45,
+        "h": 48
+      },
+      {
+        "src": "https://www.caixaenginyers.com/documents/20143/c4e58581-8b8e-32ec-8fa9-cba496ac9473",
+        "alt": "",
+        "w": 208,
+        "h": 208
+      },
+      {
+        "src": "https://www.caixaenginyers.com/documents/20143/973bf5e0-7fc0-ea52-5494-22875d5c12e3",
+        "alt": "",
+        "w": 208,
+        "h": 208
+      },
+      {
+        "src": "https://www.caixaenginyers.com/documents/20143/10ccaf56-b016-259a-21cd-2dcf1f788898",
+        "alt": "",
+        "w": 208,
+        "h": 208
+      },
+      {
+        "src": "https://www.caixaenginyers.com/documents/20143/749d8840-5761-92f4-af3b-a55e15c3ae11",
+        "alt": "",
+        "w": 208,
+        "h": 208
+      },
+      {
+        "src": "https://www.caixaenginyers.com/documents/20143/f6b5761d-2e73-3f8a-9f4d-0a877a62663a",
+        "alt": "",
+        "w": 208,
+        "h": 208
+      },
+      {
+        "src": "https://www.caixaenginyers.com/documents/20143/c2495d02-20fe-25c3-19bf-981c2ae60596",
+        "alt": "",
+        "w": 208,
+        "h": 208
+      },
+      {
+        "src": "https://www.caixaenginyers.com/documents/20143/f0043c62-04ab-febf-dcc9-5268e5eca890",
+        "alt": "",
+        "w": 208,
+        "h": 208
+      },
+      {
+        "src": "https://www.caixaenginyers.com/documents/20143/761770/ico_phone_25x25.png",
+        "alt": "",
+        "w": 25,
+        "h": 25
+      },
+      {
+        "src": "https://www.caixaenginyers.com/documents/20143/761770/ico_phone_25x25.png",
+        "alt": "",
+        "w": 25,
+        "h": 25
+      }
+    ],
+    "allImgCount": 47,
+    "cssBackgrounds": [
+      "https://www.caixaenginyers.com/documents/20143/756568/img_cabecera_ahorrovida_NEW-min.jpg/2023f610-be8b-0413-686b-6397aeb2590a?t=1615449251476",
+      "https://www.caixaenginyers.com/documents/20143/756568/pack_1920x600.jpg/e30aa9cd-527b-f0a0-582a-d2d8a6bb68fd?t=1743142343011"
+    ],
+    "modals": [
+      "× Entrada socis Entrar de forma accessible Caja Ingenieros Login CECA El navegador no admet iframes inserits o està configurat per no mostrar-los. El contingut es pot veure a la pàgina d'origen: https://bancaonline.caixaenginyers.com/BEWeb/3025/6025/CABEm_0_fusionRestyling.action?DEDONDE=GENE&IDIOMA=02&. var iframeMobileSrc = 'https://bancaonline.caixaenginyers.com/BEWeb/3025/I025/inicio_identificacion_bm.action?DEDONDE=GENE&IDIOMA=02&'; var w = window.innerWidth; // Comprobar si estamos en movil if (w < 768) { if (iframeMobileSrc !== \"\") { document.getElementById(\"_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_iframe\").src = iframeMobileSrc; } } function _com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_monitorIframe() { var url = null; try { var iframe = document.getElementById('_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_iframe'); url = iframe.contentWindow.document.location.href; } catch (e) { return true; } var baseSrc = 'https://bancaonline.caixaenginyers.com/BEWeb/3025/6025/CABEm_0_fusionRestyling.action?'; var edniSrc = 'https://bancaonline.caixaenginyers.com/BEWeb/3025/6025/inicio_identificacion_dniRestyling.action?'; var iframeSrc = 'https://bancaonline.caixaenginyers.com/BEWeb/3025/6025/CABEm_0_fusionRestyling.action?DEDONDE=GENE&IDIOMA=02&'; if ((url == iframeSrc) || (url == iframeSrc + '/')) { } else if (Liferay.Util.startsWith(url, baseSrc)) { url = url.substring(baseSrc.length); _com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_updateHash(url); } else if (Liferay.Util.startsWith(url, edniSrc)) { url = url.substring(edniSrc.length); _com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_updateHash(url); } else { _com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_updateHash(url); } return true; } Liferay.provide( window, '_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_init', function() { var A = AUI(); var hash = document.location.hash.replace('#', ''); var hashObj = A.QueryString.parse(hash); hash = hashObj['_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_']; if (hash) { var src = ''; if (!(/^https?\\:\\/\\//.test(hash))) { src = 'https://bancaonline.caixaenginyers.com/BEWeb/3025/6025/CABEm_0_fusionRestyling.action?'; } src += hash; var iframe = A.one('#_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_iframe'); if (iframe) { iframe.attr('src', src); } } }, ['aui-base', 'querystring'] ); Liferay.provide( window, '_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_resizeIframe', function() { var A = AUI(); var iframe = A.one('#_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_iframe'); var height = A.Plugin.ResizeIframe.getContentHeight(iframe); if (height == null) { if (themeDisplay.isStateMaximized()) { height = A.getDoc().get('docHeight'); } } iframe.setStyle('height', height); }, ['aui-resize-iframe'] ); Liferay.provide( window, '_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_updateHash', function(url) { var A = AUI(); var hash = document.location.hash.replace('#', ''); var hashObj = A.QueryString.parse(hash); hashObj['_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_'] = url; var maximize = A.one('#p_p_id_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_ .portlet-maximize-icon a'); hash = A.QueryString.stringify(hashObj); if (maximize) { var href = maximize.attr('href'); href = href.split('#')[0]; maximize.attr('href', href + '#' + hash); } var restore = A.one('#p_p_id_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_ a.portlet-icon-back'); if (restore) { var href = restore.attr('href'); href = href.split('#')[0]; restore.attr('href', href + '#' + hash); } location.hash = hash; }, ['aui-base', 'querystring'] ); $('.modalCeca').on('hide.bs.modal', function () { var iframe = document.getElementById('_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_iframe'); iframe.src = iframe.src; }); _com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_init(); Has oblidat la teva clau d'accés? No sóc soci de Caixa Enginyers M'interessa",
+      "× Entrada socis Entrar de forma accessible Caja Ingenieros Login CECA El navegador no admet iframes inserits o està configurat per no mostrar-los. El contingut es pot veure a la pàgina d'origen: https://bancaonline.caixaenginyers.com/BEWeb/3025/6025/CABEm_0_fusionRestyling.action?DEDONDE=GENE&IDIOMA=02&. var iframeMobileSrc = 'https://bancaonline.caixaenginyers.com/BEWeb/3025/I025/inicio_identificacion_bm.action?DEDONDE=GENE&IDIOMA=02&'; var w = window.innerWidth; // Comprobar si estamos en movil if (w < 768) { if (iframeMobileSrc !== \"\") { document.getElementById(\"_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_iframe\").src = iframeMobileSrc; } } function _com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_monitorIframe() { var url = null; try { var iframe = document.getElementById('_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_iframe'); url = iframe.contentWindow.document.location.href; } catch (e) { return true; } var baseSrc = 'https://bancaonline.caixaenginyers.com/BEWeb/3025/6025/CABEm_0_fusionRestyling.action?'; var edniSrc = 'https://bancaonline.caixaenginyers.com/BEWeb/3025/6025/inicio_identificacion_dniRestyling.action?'; var iframeSrc = 'https://bancaonline.caixaenginyers.com/BEWeb/3025/6025/CABEm_0_fusionRestyling.action?DEDONDE=GENE&IDIOMA=02&'; if ((url == iframeSrc) || (url == iframeSrc + '/')) { } else if (Liferay.Util.startsWith(url, baseSrc)) { url = url.substring(baseSrc.length); _com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_updateHash(url); } else if (Liferay.Util.startsWith(url, edniSrc)) { url = url.substring(edniSrc.length); _com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_updateHash(url); } else { _com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_updateHash(url); } return true; } Liferay.provide( window, '_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_init', function() { var A = AUI(); var hash = document.location.hash.replace('#', ''); var hashObj = A.QueryString.parse(hash); hash = hashObj['_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_']; if (hash) { var src = ''; if (!(/^https?\\:\\/\\//.test(hash))) { src = 'https://bancaonline.caixaenginyers.com/BEWeb/3025/6025/CABEm_0_fusionRestyling.action?'; } src += hash; var iframe = A.one('#_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_iframe'); if (iframe) { iframe.attr('src', src); } } }, ['aui-base', 'querystring'] ); Liferay.provide( window, '_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_resizeIframe', function() { var A = AUI(); var iframe = A.one('#_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_iframe'); var height = A.Plugin.ResizeIframe.getContentHeight(iframe); if (height == null) { if (themeDisplay.isStateMaximized()) { height = A.getDoc().get('docHeight'); } } iframe.setStyle('height', height); }, ['aui-resize-iframe'] ); Liferay.provide( window, '_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_updateHash', function(url) { var A = AUI(); var hash = document.location.hash.replace('#', ''); var hashObj = A.QueryString.parse(hash); hashObj['_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_'] = url; var maximize = A.one('#p_p_id_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_ .portlet-maximize-icon a'); hash = A.QueryString.stringify(hashObj); if (maximize) { var href = maximize.attr('href'); href = href.split('#')[0]; maximize.attr('href', href + '#' + hash); } var restore = A.one('#p_p_id_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_ a.portlet-icon-back'); if (restore) { var href = restore.attr('href'); href = href.split('#')[0]; restore.attr('href', href + '#' + hash); } location.hash = hash; }, ['aui-base', 'querystring'] ); $('.modalCeca').on('hide.bs.modal', function () { var iframe = document.getElementById('_com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_iframe'); iframe.src = iframe.src; }); _com_cajaingenieros_portal_login_ceca_web_portlet_LoginCECAPortlet_INSTANCE_loginCECA_init(); Has oblidat la teva clau d'accés? No sóc soci de Caixa Enginyers M'interessa"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 13,
+    "mainTextLen": 39858,
+    "realImageCount": 47,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "consent.cookiefirst.com",
+        "path": "/sites/caixaenginyers.com-{uuid}/version.json",
+        "query": [
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 44,
+        "hits": 1,
+        "example": "https://consent.cookiefirst.com/sites/caixaenginyers.com-a931c1f3-5e66-45b8-888f-198e5408ec12/version.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "edge.cookiefirst.com",
+        "path": "/prod/location",
+        "query": [
+          "origin"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 66,
+        "hits": 1,
+        "example": "https://edge.cookiefirst.com/prod/location",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "ae",
+          "apvc",
+          "dl",
+          "dma",
+          "dma_cps",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://pagead2.googlesyndication.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.cookiefirst.com",
+        "path": "/sites/caixaenginyers.com-{uuid}/lang-widget-ca.json",
+        "query": [
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://consent.cookiefirst.com/sites/caixaenginyers.com-a931c1f3-5e66-45b8-888f-198e5408ec12/lang-widget-ca.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gcu",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.cookiefirst.com",
+        "path": "/sites/caixaenginyers.com-{uuid}/styles.css",
+        "query": [
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://consent.cookiefirst.com/sites/caixaenginyers.com-a931c1f3-5e66-45b8-888f-198e5408ec12/styles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "consent.cookiefirst.com",
+        "path": "/icons/default/common/fingerprint.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://consent.cookiefirst.com/icons/default/common/fingerprint.svg",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "pixels.spotify.com",
+        "path": "/v1/config/{hash}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://pixels.spotify.com/v1/config/05ad3e392f754d1a9208eb8417637283",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "pixels.spotify.com",
+        "path": "/v1/ingest",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://pixels.spotify.com/v1/ingest",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "5b8eef2687a9.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "status": 200,
+        "bytes": 2593,
+        "hits": 1,
+        "example": "https://5b8eef2687a9.w.hcaptcha.com/logo.png",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "cas.avalon.perfdrive.com",
+        "path": "/jsdata",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 211,
+        "hits": 1,
+        "example": "https://cas.avalon.perfdrive.com/jsdata",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "7316b4656c32.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "status": 200,
+        "bytes": 2593,
+        "hits": 1,
+        "example": "https://7316b4656c32.w.hcaptcha.com/logo.png",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "api.hcaptcha.com",
+        "path": "/checksiteconfig",
+        "query": [
+          "host",
+          "sc",
+          "sitekey",
+          "spst",
+          "swa",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://api.hcaptcha.com/checksiteconfig",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/rmkt/collect/935470322/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google-analytics.com/g/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "count": 6
+      },
+      {
+        "host": "consent.cookiefirst.com",
+        "count": 4
+      },
+      {
+        "host": "tag.oniad.com",
+        "count": 3
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 2
+      },
+      {
+        "host": "www.opinator.com",
+        "count": 1
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 1
+      },
+      {
+        "host": "pixel.byspotify.com",
+        "count": 1
+      },
+      {
+        "host": "track.adform.net",
+        "count": 1
+      },
+      {
+        "host": "hcaptcha.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.perfdrive.com",
+        "count": 1
+      },
+      {
+        "host": "newassets.hcaptcha.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 16,
+      "thirdPartyScriptHosts": 12,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/ahorro-vida.png",
+  "renderedHtml": "pages/ahorro-vida.html"
+}

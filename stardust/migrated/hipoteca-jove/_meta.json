@@ -1,0 +1,125 @@
+{
+  "slug": "hipoteca-jove",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "accidentes",
+  "modules": [
+    "product-hero",
+    "product-body",
+    "request-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "div",
+    "div",
+    "div",
+    "div"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": null,
+    "css": "9dc32436c0b9"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Hipoteca Jove - Caixa Enginyers",
+    "description": "Consulta ara la Hipoteca Jove de Caixa Enginyers, fins al 90% de finançament i fins a 35 anys de termini de devolució.",
+    "canonical": null,
+    "lang": "ca"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Hipoteca Jove - Caixa Enginyers",
+    "description": "Consulta ara la Hipoteca Jove de Caixa Enginyers, fins al 90% de finançament i fins a 35 anys de termini de devolució.",
+    "url": "https://www.caixaenginyers.com/hipoteca-jove"
+  },
+  "migratedAt": "2026-10-26T22:17:23Z",
+  "designMdSha": "9e6f16c2ea26",
+  "designJsonSha": "f96b124b2d3a",
+  "sourceCurrentSha": "1ab2d0088e31",
+  "sourceProposedSha": "091d3d23ba23",
+  "fidelityTier": "sibling",
+  "archetypeSource": "accidentes",
+  "archetypeSha": "da6ffc809b8a",
+  "variants": [
+    "product-hero.banner request-form.left product-body.small"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance.mjs vs /accidentes: exit 2, deltas budgeted as block variants (stardust/rollout/units/program-variance.json)",
+    "delivery-lint": "delivery-lint 0 P0 / 0 P1 / 0 P2",
+    "media-reconcile": "media-reconcile --apply: all images hosted (media ledger, scope hipoteca-jove)",
+    "pixel-gate-1440": "gate-all published preview PASS 4.34% Δh -62 (runs/2026-10-26T22-16-42-838Z), clip 0, MISSING 0 / HIDDEN 0",
+    "content-count": "gate-all content-presence MISSING 0 / HIDDEN 0 at 1440 and 360; drops covered by contentDeviations[]; content-diff body-level (source has no <main>) dominated by chrome/cookie findings",
+    "content-fidelity": "verbatim encoder from stardust/current/pages/hipoteca-jove.html (stardust/.work/program/probes/recipes.mjs); deviations logged; published gate 1440 4.34% Δh -62 (runs/2026-10-26T22-16-42-838Z)",
+    "pixel-gate-360": "gate-all published preview PASS 8.75% Δh 7 (runs/2026-10-26T22-33-32-605Z), clip 0, MISSING 0 / HIDDEN 0"
+  },
+  "contentDeviations": [
+    {
+      "kind": "transform",
+      "source": "strong inside the 'denominació social' link",
+      "target": "plain link text",
+      "reason": "delivery-lint one-cta-per-p (P1) on a two-link legal paragraph"
+    },
+    {
+      "kind": "transform",
+      "source": "checkbox 'termes i condicions' javascript:void(0) modal",
+      "target": "https://www.caixaenginyers.com/privacidad",
+      "reason": "archetype request-form encoding; dynamic row 3 (no backend)"
+    }
+  ],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.caixaenginyers.com/calcular-hipoteca",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/documents/20143/1543075/FIPRE_CA.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/calcular-hipoteca",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/privacidad",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/oficinas-y-cajeros",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/es/web/grupo/detalle-grupo#bancaseguros",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/es/web/grupo/detalle-grupo#bancaseguros",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/documents/20143/1452113/Condicions+Exempci%C3%B3+Comptes+Corrents.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/documents/20143/1452113/Condicions+Exempci%C3%B3+Comptes+Corrents.pdf",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "hipoteca-jove/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "hipoteca-jove/_meta.json",
+  "driverVersion": "1"
+}

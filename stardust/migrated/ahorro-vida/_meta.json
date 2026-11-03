@@ -1,0 +1,150 @@
+{
+  "slug": "ahorro-vida",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "accidentes",
+  "modules": [
+    "product-hero",
+    "product-body"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "div",
+    "div"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": null,
+    "css": "9dc32436c0b9"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Estalvi vida - Caixa Enginyers",
+    "description": "Caixa Enginyers pensa en el teu futur. Estalvia ara i assegura't uns ingressos futurs.",
+    "canonical": null,
+    "lang": "ca"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Estalvi vida - Caixa Enginyers",
+    "description": "Caixa Enginyers pensa en el teu futur. Estalvia ara i assegura't uns ingressos futurs.",
+    "url": "https://www.caixaenginyers.com/ahorro-vida"
+  },
+  "migratedAt": "2026-10-26T22:17:23Z",
+  "designMdSha": "9e6f16c2ea26",
+  "designJsonSha": "f96b124b2d3a",
+  "sourceCurrentSha": "575466836691",
+  "sourceProposedSha": "20cea11e68fe",
+  "fidelityTier": "sibling",
+  "archetypeSource": "accidentes",
+  "archetypeSha": "da6ffc809b8a",
+  "variants": [
+    "product-hero.clear product-hero.risk"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance.mjs vs /accidentes: exit 2, deltas budgeted as block variants (stardust/rollout/units/program-variance.json)",
+    "delivery-lint": "delivery-lint 0 P0 / 0 P1 / 0 P2",
+    "media-reconcile": "media-reconcile --apply: all images hosted (media ledger, scope ahorro-vida)",
+    "pixel-gate-1440": "gate-all published preview PASS 5.31% Δh 19, hero band masked 210:500 (runs/2026-10-26T22-16-42-838Z), clip 0, MISSING 0 / HIDDEN 0",
+    "content-count": "gate-all content-presence MISSING 0 / HIDDEN 0 at 1440 and 360; drops covered by contentDeviations[]; content-diff body-level (source has no <main>) dominated by chrome/cookie findings",
+    "content-fidelity": "gate-all session 4: 360 + 1440 PASS (stardust/replica/gates/all-{360,1440}/ahorro-vida), MISSING 0 HIDDEN 0, clip 0"
+  },
+  "contentDeviations": [
+    {
+      "kind": "drop",
+      "source": "hero slider slide 2 (Pack 14.5)",
+      "target": "first slide only",
+      "reason": "program encoder: product-hero has no carousel; keep the first slide (gate masks the rotating hero band)"
+    },
+    {
+      "kind": "restructure",
+      "source": "h3 Estalvi-Vida",
+      "target": "h1 Estalvi-Vida",
+      "reason": "first slide has no h1; delivery contract needs exactly one h1"
+    },
+    {
+      "kind": "transform",
+      "source": "product card h3 > a with <br>",
+      "target": "paragraph link set as h3 by product-body",
+      "reason": "the pipeline drops <br> inside headings"
+    }
+  ],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.caixaenginyers.com/ca/soci-cooperatiu",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/piasgo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/piasgo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/pias-joven",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/pias-joven",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/plan-ahorro-pias",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/plan-ahorro-pias",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/plan-sialp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/plan-sialp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/pla-previsio-assegurat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/pla-previsio-assegurat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/rendes-vitalicies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/rendes-vitalicies",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/pack-previsio",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/pack-previsio",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "ahorro-vida/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "ahorro-vida/_meta.json",
+  "driverVersion": "1"
+}

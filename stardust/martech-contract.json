@@ -1,0 +1,52 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-10-26T18:59:39.639Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.caixaenginyers.com"
+ ],
+ "consent": {
+  "cmp": null,
+  "model": "owner-decision",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": {
+   "pages": 0,
+   "of": 4,
+   "libraries": [
+    "tags/www.googletagmanager.com-gtm-GTM-P8567G5.js"
+   ]
+  }
+ },
+ "routes": [
+  {
+   "id": "google-tag-manager",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-P8567G5",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [],
+ "tagManagers": [
+  "Google Tag Manager"
+ ],
+ "dataLayers": [
+  "dataLayer"
+ ],
+ "tagNotes": {},
+ "rewrite": {
+  "library": null,
+  "rules": [],
+  "dataElements": [],
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": null
+}

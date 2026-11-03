@@ -1,0 +1,94 @@
+/* award: source .award (#boton-fijo fixed card + #boton-cerrar chip; 10px in-flow stub) */
+.award {
+  height: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.award .award-card {
+  position: fixed;
+  bottom: 10px;
+  left: 90%;
+  z-index: 200;
+  width: 300px;
+  padding: 15px 20px;
+  transform: translateX(-80%);
+  border-radius: 10px;
+  background: var(--ce-navy-deep);
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow:
+    rgb(50 50 93 / 25%) 0 6px 12px -2px,
+    rgb(0 0 0 / 30%) 0 3px 7px -3px;
+}
+
+.award .award-card::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.award .award-cup {
+  float: left;
+}
+
+.award .award-cup img {
+  max-width: 70px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.award .award-text p {
+  margin: 0;
+  color: #ececec;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+  text-align: left;
+}
+
+.award .award-text p:has(br) {
+  margin: 6px 0 15px;
+  color: #fff;
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.award .award-text strong,
+.award .award-text em {
+  font-family: inherit;
+  font-style: normal;
+  color: #f9b547;
+}
+
+.award .award-text em {
+  color: #f08f3e;
+}
+
+.award .award-close:any-link {
+  position: fixed;
+  bottom: 130px;
+  left: 92%;
+  z-index: 210;
+  width: 30px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #ececec;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.award .award-close:hover {
+  background-color: #ddd;
+}
+
+.award.award-closed .award-card,
+.award.award-closed .award-close {
+  display: none;
+}
