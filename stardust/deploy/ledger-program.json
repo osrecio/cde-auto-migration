@@ -1,0 +1,56 @@
+{
+  "/administraciones-publicas": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-26T23:16:05.016Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/ahorro-vida": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-26T23:28:55.703Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/asesoramiento-negocios": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-26T22:11:25.176Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/asesoramiento-personalizado": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-26T21:46:25.488Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/asseguranca-patinet-electric": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-26T23:30:48.986Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/hipoteca-jove": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-26T21:46:36.492Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

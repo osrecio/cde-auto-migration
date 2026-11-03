@@ -1,0 +1,94 @@
+/* segments: source .ce-solutions (pattern band, centred title/subtitle, 3 x 2 cards) */
+/* stylelint-disable no-descending-specificity -- distinct, non-overlapping subtrees */
+main > .section.segments-container {
+  margin-top: 40px;
+  padding-bottom: 22.84px;
+  background: url("./trama_bg_segmentos.png") 40% 0%;
+}
+
+.segments-container .default-content-wrapper p {
+  margin: 0 15px 20px;
+  color: #000;
+  font-size: 2em;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.segments-container .default-content-wrapper p + p {
+  font-family: var(--ce-font-light);
+  font-size: 1.4em;
+}
+
+.segments .segments-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.segments .segments-col {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  padding: 25px;
+}
+
+.segments .segments-card {
+  position: relative;
+  border-radius: 10px;
+  opacity: 1;
+  transition: 0.5s ease;
+  box-shadow:
+    rgb(14 63 126 / 4%) 0 0 0 1px,
+    rgb(42 51 69 / 4%) 0 1px 1px -0.5px,
+    rgb(42 51 70 / 4%) 0 3px 3px -1.5px,
+    rgb(42 51 70 / 4%) 0 6px 6px -3px,
+    rgb(14 63 126 / 4%) 0 12px 12px -6px,
+    rgb(14 63 126 / 4%) 0 24px 24px -12px;
+}
+
+.segments .segments-card:hover {
+  opacity: 0.3;
+}
+
+.segments .segments-media,
+.segments .segments-media picture {
+  display: block;
+}
+
+.segments .segments-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.segments .segments-label {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 80%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4286;
+  text-align: center;
+  text-shadow: 2px 2px 6px #000;
+}
+
+.segments .segments-label p {
+  margin: 0;
+}
+
+.segments .segments-label a:any-link,
+.segments .segments-label a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (width <= 767px) {
+  .segments .segments-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

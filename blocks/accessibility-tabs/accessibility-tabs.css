@@ -1,0 +1,230 @@
+/* accessibility-tabs: live responsiveTabs (main.css .r-tabs, fullwidth-fullcontent variant).
+   The wrapper escapes the 1148 column so the tab strip border runs full width. */
+
+/* intro default content sharing the section (live inline: latolight 20px/1.5 #434343;
+   wrapper margin 30px 0; last paragraph 50px — the three bottom margins collapse to 50px) */
+.accessibility-tabs-container .default-content-wrapper {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.accessibility-tabs-container .default-content-wrapper p {
+  margin-bottom: 20px;
+  color: #434343;
+  font-family: var(--ce-font-light);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.accessibility-tabs-container .default-content-wrapper strong {
+  font-family: var(--ce-font-bold);
+}
+
+main > .section > .accessibility-tabs-wrapper {
+  max-width: none;
+  margin-bottom: 10px;
+}
+
+.accessibility-tabs .tabs-nav {
+  display: flex;
+  margin: 0;
+  padding: 0 calc((100% - 1148px) / 2);
+  list-style: none;
+  border-bottom: 1px solid #d9dde0;
+}
+
+.accessibility-tabs .tabs-tab {
+  display: grid;
+  flex: 1;
+  margin-left: 5px;
+  text-align: center;
+  background-color: #d9dde0;
+  border: 1px solid transparent;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.accessibility-tabs .tabs-tab .tabs-anchor {
+  position: relative;
+  display: grid;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 20px;
+  color: #415465;
+  font-size: 20px;
+}
+
+.accessibility-tabs .tabs-label p {
+  display: inline;
+  margin: 0;
+}
+
+.accessibility-tabs .tabs-tab:hover,
+.accessibility-tabs .tabs-tab:focus {
+  background-color: #d9d9d9;
+}
+
+.accessibility-tabs .tabs-tab:hover .tabs-anchor {
+  color: #0f4d82;
+}
+
+.accessibility-tabs .tabs-tab.is-active {
+  background-color: #fff;
+  border: 1px solid #d9dde0;
+  border-bottom: 1px solid #fff;
+}
+
+.accessibility-tabs .tabs-tab.is-active .tabs-anchor {
+  color: #164194;
+  font-weight: bold;
+}
+
+.accessibility-tabs .tabs-tab.is-active .tabs-anchor::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.accessibility-tabs .tabs-tab.is-active + .tabs-tab + .tabs-tab {
+  border-left: 0;
+}
+
+.accessibility-tabs .tabs-title {
+  display: none;
+}
+
+.accessibility-tabs .tabs-panel {
+  display: none;
+  padding: 20px 0 50px;
+  overflow: hidden;
+}
+
+.accessibility-tabs .tabs-panel.is-active {
+  display: block;
+}
+
+/* the live article is followed by a <br>: one body line under it */
+.accessibility-tabs .tabs-content {
+  max-width: 1148px;
+  margin: 0 auto;
+  padding-bottom: calc(var(--body-line-height) * 1em);
+}
+
+.accessibility-tabs .tabs-text {
+  margin: 30px 15px 15px;
+  color: #1a1a1a;
+}
+
+.accessibility-tabs .tabs-text p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.accessibility-tabs .tabs-text ul + p {
+  margin-top: 30px;
+}
+
+.accessibility-tabs .tabs-text ul {
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
+.accessibility-tabs .tabs-text li {
+  margin-bottom: 5px;
+  font-family: var(--ce-font-light);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.accessibility-tabs .tabs-text li p {
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* declarations list: link items carry the bullet image and underlined links */
+.accessibility-tabs .tabs-text ul:has(a) {
+  list-style-image: url("ico_bullets_seguridad_online.png");
+}
+
+.accessibility-tabs .tabs-text ul:has(a) li {
+  line-height: var(--body-line-height);
+}
+
+.accessibility-tabs .tabs-text li::marker {
+  color: #164194;
+}
+
+.accessibility-tabs .tabs-text a:any-link {
+  color: #123a7a;
+  text-decoration: underline;
+}
+
+.accessibility-tabs .tabs-text a:focus-visible {
+  outline: 3px solid #9a5700;
+  outline-offset: 3px;
+}
+
+@media (width <= 1200px) {
+  .accessibility-tabs .tabs-nav {
+    padding: 0;
+  }
+
+  .accessibility-tabs .tabs-tab:first-child {
+    margin-left: 20px;
+  }
+
+  .accessibility-tabs .tabs-content {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (width <= 767px) {
+  .accessibility-tabs .tabs-nav {
+    display: none;
+  }
+
+  .accessibility-tabs .tabs-title {
+    display: block;
+  }
+
+  .accessibility-tabs .tabs-title .tabs-anchor {
+    display: block;
+    padding: 20px;
+    color: #434343;
+    font-size: 18px;
+    text-align: center;
+    background: transparent url("angle-down-blue.svg") 96% 50% / 13px auto no-repeat;
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .accessibility-tabs .tabs-title .tabs-anchor:hover,
+  .accessibility-tabs .tabs-title .tabs-anchor:focus {
+    background-color: #ededed;
+  }
+
+  .accessibility-tabs .tabs-title p {
+    margin: 0;
+  }
+
+  .accessibility-tabs .tabs-panel.is-active {
+    display: none;
+  }
+
+  .accessibility-tabs .tabs-panel.is-open {
+    display: block;
+  }
+
+  .accessibility-tabs .tabs-title.is-open .tabs-anchor {
+    background: transparent url("angle-up-blue.svg") 96% 50% / 13px auto no-repeat;
+    border-bottom: 0;
+  }
+}

@@ -1,0 +1,218 @@
+{
+ "source": "http://localhost:8795/acceso-bo-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "ce-login-intro",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Acceso BO"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Accés a Banca ONLINE"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Per entrar a la teva àrea privada Banca ONLINE només has d'informar el teu usuari i contrasenya."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Has oblidat la teva clau d'accés?",
+     "href": "https://www.caixaenginyers.com/recuperacion-clave-acceso"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "ce-login",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Cajetín acceso BO"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Usuari:"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Clau d'accés:"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.login-row",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "ce-hero",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "SLIDER - banners Home 20251021"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Reproduir Control lliscant",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "PausaControl lliscant",
+     "href": "javascript:void(0)"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "CE FonDipòsit"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Combina estalvi i inversió: una alternativa per a diversificar gràcies a la combinació de dos productes: Dipòsit a termini fix i Fons d'Inversió."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Una nova alternativa per als teus diners!"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Més informació"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Focus"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "ASSET MANAGEMENT & RESEARCH"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Una mirada a l'actualitat macroeconòmica i financera del moment"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Consulta'n els informes"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "FOCUS"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "ASSET MANAGEMENT & RESEARCH"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Una mirada a l'actualitat macroeconòmica i financera del moment"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Consulta'n els informes"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "UN SMS AMB ENLLAÇ? UNA TRUCADA DE"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "CAIXA ENGINYERS?"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Desconfia."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Els delinqüents envien missatges SMS i fan trucades fent-se passar per entitats financeres. en trucades telefòniques. Caixa Enginyers mai et trucarà per a demanar-te un codi SMS per telèfon. Si t'ho fan,"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "No cliquis en els enllaços ni proporcionis les teves dades"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "és una estafa."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Si tens dubtes, canvia la clau d'accés a la Banca ONLINE i contacta amb nosaltres."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Més informació"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "‹"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "›"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 17,
+   "repeats": [
+    {
+     "unitSelector": "DIV.owl-item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

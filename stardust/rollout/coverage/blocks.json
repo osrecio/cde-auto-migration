@@ -1,0 +1,335 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-26T18:59:28.116Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-27T00:37:06.465Z",
+  "blocks": [
+    {
+      "id": "accessibility-tabs",
+      "label": "accessibility-tabs",
+      "kind": "module",
+      "signature": "module:accessibility-tabs",
+      "source": null,
+      "usedByTemplates": [
+        "accesibilidad"
+      ],
+      "usedByPages": [
+        "accesibilidad"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "accessibility-tabs",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "alta-band",
+      "label": "alta-band",
+      "kind": "module",
+      "signature": "module:alta-band",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "account-signup",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "contact-band",
+      "label": "contact-band",
+      "kind": "module",
+      "signature": "module:contact-band",
+      "source": null,
+      "usedByTemplates": [
+        "accesibilidad"
+      ],
+      "usedByPages": [
+        "accesibilidad"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "contact-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-carousel",
+      "label": "hero-carousel",
+      "kind": "module",
+      "signature": "module:hero-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "acceso-bo",
+        "index"
+      ],
+      "usedByPages": [
+        "acceso-bo",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "hero-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "ingenium",
+      "label": "ingenium",
+      "kind": "module",
+      "signature": "module:ingenium",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "promo-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "login-form",
+      "label": "login-form",
+      "kind": "module",
+      "signature": "module:login-form",
+      "source": null,
+      "usedByTemplates": [
+        "acceso-bo"
+      ],
+      "usedByPages": [
+        "acceso-bo"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "login-form",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "login-intro",
+      "label": "login-intro",
+      "kind": "module",
+      "signature": "module:login-intro",
+      "source": null,
+      "usedByTemplates": [
+        "acceso-bo"
+      ],
+      "usedByPages": [
+        "acceso-bo"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "login-intro",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "news",
+      "label": "news",
+      "kind": "module",
+      "signature": "module:news",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "news",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "page-hero",
+      "label": "page-hero",
+      "kind": "module",
+      "signature": "module:page-hero",
+      "source": null,
+      "usedByTemplates": [
+        "accesibilidad"
+      ],
+      "usedByPages": [
+        "accesibilidad"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "page-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-body",
+      "label": "product-body",
+      "kind": "module",
+      "signature": "module:product-body",
+      "source": null,
+      "usedByTemplates": [
+        "accidentes"
+      ],
+      "usedByPages": [
+        "accidentes"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "product-body",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-hero",
+      "label": "product-hero",
+      "kind": "module",
+      "signature": "module:product-hero",
+      "source": null,
+      "usedByTemplates": [
+        "accidentes"
+      ],
+      "usedByPages": [
+        "accidentes"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "product-hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-legal",
+      "label": "product-legal",
+      "kind": "module",
+      "signature": "module:product-legal",
+      "source": null,
+      "usedByTemplates": [
+        "accidentes"
+      ],
+      "usedByPages": [
+        "accidentes"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "product-legal",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "quick-access",
+      "label": "quick-access",
+      "kind": "module",
+      "signature": "module:quick-access",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "quick-access",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "related-products",
+      "label": "related-products",
+      "kind": "module",
+      "signature": "module:related-products",
+      "source": null,
+      "usedByTemplates": [
+        "accidentes"
+      ],
+      "usedByPages": [
+        "accidentes"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "related-products",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "request-form",
+      "label": "request-form",
+      "kind": "module",
+      "signature": "module:request-form",
+      "source": null,
+      "usedByTemplates": [
+        "accidentes"
+      ],
+      "usedByPages": [
+        "accidentes"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "request-form",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "solutions",
+      "label": "solutions",
+      "kind": "module",
+      "signature": "module:solutions",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "segments",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+/* section-bullets: source .bullets (fixed right-hand scroll-spy dots, hidden <992) */
+.section-bullets {
+  position: fixed;
+  top: 50%;
+  right: 100px;
+  z-index: 9;
+  transform: translateY(-50%);
+}
+
+.section-bullets ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-bullets li {
+  text-align: right;
+}
+
+.section-bullets a:any-link {
+  padding: 5px 0;
+  line-height: 50px;
+  transition: color 0.15s ease-in-out;
+}
+
+.section-bullets a:hover {
+  color: var(--ce-blue);
+}
+
+.section-bullets .section-bullets-title {
+  display: none;
+  margin-right: 10px;
+  padding: 15px;
+  overflow: hidden;
+  background: #fff;
+  color: var(--ce-ink);
+  font-size: 14px;
+  line-height: 20px;
+  vertical-align: middle;
+  opacity: 0;
+  box-shadow: 0 0 15px 0 rgb(0 0 0 / 50%);
+  transition: all 0.5s;
+}
+
+.section-bullets .section-bullets-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-top: -2px;
+  border-radius: 50%;
+  background: var(--ce-tab);
+  line-height: 20px;
+  vertical-align: middle;
+  transition: all 0.5s;
+}
+
+.section-bullets a:is(:hover, :focus, .active) .section-bullets-title {
+  display: inline-block;
+  opacity: 1;
+}
+
+.section-bullets a:is(:hover, :focus, .active) .section-bullets-dot {
+  width: 12px;
+  height: 12px;
+  background: var(--ce-tab);
+}
+
+.section-bullets a.active .section-bullets-dot {
+  background: #f9b03c;
+}
+
+@media (width <= 1200px) {
+  .section-bullets {
+    right: 50px;
+  }
+}
+
+@media (width <= 991px) {
+  .section-bullets {
+    display: none;
+  }
+}

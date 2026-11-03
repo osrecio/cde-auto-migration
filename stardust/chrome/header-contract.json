@@ -1,0 +1,1335 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.caixaenginyers.com/",
+ "at": "2026-10-26T17:27:37.676Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": null,
+   "controls": [],
+   "scroll": [],
+   "states": 0,
+   "truncated": null,
+   "loads": 1
+  },
+  "1440": {
+   "root": "#banner",
+   "controls": [
+    {
+     "name": "Caixa Enginyers. Anar a l'inici",
+     "key": "caixa enginyers anar a linici",
+     "role": "link",
+     "kind": "link",
+     "sel": "#portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_logosite>div>div:nth-of-type(2)>div>div>div>h1>a",
+     "href": "https://www.caixaenginyers.com/",
+     "expanded": null,
+     "rect": [
+      141,
+      0,
+      410,
+      86
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Accés",
+     "key": "accés",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#wkdi_-cecaTrigger",
+     "expanded": null,
+     "rect": [
+      701,
+      0,
+      93,
+      51
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Entrar de forma accessible",
+          "href": "https://www.caixaenginyers.com/acceso-bo"
+         },
+         {
+          "text": "Has oblidat la teva clau d'accés?",
+          "href": "https://www.caixaenginyers.com/recuperacion-clave-acceso"
+         },
+         {
+          "text": "M'interessa",
+          "href": "https://www.caixaenginyers.com/ca/soci-cooperatiu"
+         }
+        ],
+        "headings": [
+         "Entrada socis"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Tancar el diàleg",
+         "M'interessa"
+        ],
+        "options": 0,
+        "rect": [
+         571,
+         56,
+         298,
+         476
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.modal"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.close"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.close"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.close"
+        },
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.close"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.close"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.close"
+        }
+       ],
+       "shot": "1440-001-Acc-s-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Entrar de forma accessible",
+          "href": "https://www.caixaenginyers.com/acceso-bo"
+         },
+         {
+          "text": "Has oblidat la teva clau d'accés?",
+          "href": "https://www.caixaenginyers.com/recuperacion-clave-acceso"
+         },
+         {
+          "text": "M'interessa",
+          "href": "https://www.caixaenginyers.com/ca/soci-cooperatiu"
+         }
+        ],
+        "headings": [
+         "Entrada socis"
+        ],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Tancar el diàleg",
+         "M'interessa"
+        ],
+        "options": 0,
+        "rect": [
+         571,
+         56,
+         298,
+         476
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.modal"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.close"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.close"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.close"
+        },
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.close"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.close"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.close"
+        }
+       ],
+       "shot": "1440-002-Acc-s-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Tancar el diàleg",
+       "key": "tancar el diàleg",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#wkdi_-cecaModal>div>div>button",
+       "expanded": null,
+       "rect": [
+        827,
+        56,
+        22,
+        22
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 5
+        },
+        "key": {
+         "opened": false,
+         "hides": 5
+        }
+       }
+      },
+      {
+       "name": "M'interessa",
+       "key": "minteressa",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#wkdi_-cecaModal>div>div>div:nth-of-type(3)>div:nth-of-type(2)>div>p>a",
+       "expanded": null,
+       "rect": [
+        658,
+        484,
+        124,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://www.caixaenginyers.com/ca/soci-cooperatiu"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.caixaenginyers.com/ca/soci-cooperatiu"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "Dona't d'alta",
+     "key": "donat dalta",
+     "role": "link",
+     "kind": "link",
+     "sel": "#tanv_-button",
+     "href": "https://www.caixaenginyers.com/soci-cooperatiu",
+     "expanded": null,
+     "rect": [
+      794,
+      0,
+      136,
+      52
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Oficines i caixers",
+     "key": "oficines i caixers",
+     "role": "link",
+     "kind": "link",
+     "sel": "#jjyz_-button",
+     "href": "https://www.caixaenginyers.com/oficinas-y-cajeros",
+     "expanded": null,
+     "rect": [
+      930,
+      0,
+      157,
+      52
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Seguretat Online",
+     "key": "seguretat online",
+     "role": "link",
+     "kind": "link",
+     "sel": "#qaac_-button",
+     "href": "https://www.caixaenginyers.com/seguretat",
+     "expanded": null,
+     "rect": [
+      1096,
+      1,
+      136,
+      50
+     ],
+     "actions": {}
+    },
+    {
+     "name": "ca",
+     "key": "ca",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#languagesDropdownMenuButton",
+     "expanded": "false",
+     "rect": [
+      1243,
+      9,
+      51,
+      34
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "es",
+          "href": "https://www.caixaenginyers.com/#"
+         },
+         {
+          "text": "ca",
+          "href": "https://www.caixaenginyers.com/#"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1242,
+         38,
+         48,
+         62
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.btn"
+        }
+       ],
+       "shot": "1440-003-ca-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "es",
+          "href": "https://www.caixaenginyers.com/#"
+         },
+         {
+          "text": "ca",
+          "href": "https://www.caixaenginyers.com/#"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1242,
+         38,
+         48,
+         62
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.btn"
+        }
+       ],
+       "shot": "1440-004-ca-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "es",
+       "key": "es",
+       "role": "toggle",
+       "kind": "locale",
+       "sel": "#portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet>div>div:nth-of-type(2)>div>div>ul>li:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        1242,
+        46,
+        48,
+        23
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://www.caixaenginyers.com/c/portal/update_language?redirect=%2F&groupId=20143&privateLayout=false&layoutId=1&languageId=es_ES"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.caixaenginyers.com/c/portal/update_language?redirect=%2F&groupId=20143&privateLayout=false&layoutId=1&languageId=es_ES"
+        }
+       }
+      },
+      {
+       "name": "ca",
+       "key": "ca",
+       "role": "toggle",
+       "kind": "locale",
+       "sel": "#portlet_com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet>div>div:nth-of-type(2)>div>div>ul>li:nth-of-type(2)>a",
+       "expanded": null,
+       "rect": [
+        1242,
+        69,
+        48,
+        23
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://www.caixaenginyers.com/"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.caixaenginyers.com/"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "Grup Caixa Enginyers",
+     "key": "grup caixa enginyers",
+     "role": "link",
+     "kind": "link",
+     "sel": "#gteg_-button",
+     "href": "https://www.caixaenginyers.com/web/grupo",
+     "expanded": null,
+     "rect": [
+      1124,
+      97,
+      170,
+      44
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Fundació",
+     "key": "fundació",
+     "role": "link",
+     "kind": "link",
+     "sel": "#wlzs_-button",
+     "href": "https://www.caixaenginyers.com/web/fundacion",
+     "expanded": null,
+     "rect": [
+      930,
+      97,
+      112,
+      52
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Particulars",
+     "key": "particulars",
+     "role": "link",
+     "kind": "link",
+     "sel": "#layout_1>a",
+     "href": "https://www.caixaenginyers.com/particulars",
+     "expanded": null,
+     "rect": [
+      131,
+      105,
+      125,
+      50
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Families&Particulars",
+     "key": "familiesparticulars",
+     "role": "link",
+     "kind": "link",
+     "sel": "#layout_149>a",
+     "href": "https://www.caixaenginyers.com/families-particulars",
+     "expanded": null,
+     "rect": [
+      146,
+      155,
+      173,
+      55
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Joves",
+     "key": "joves",
+     "role": "link",
+     "kind": "link",
+     "sel": "#layout_150>a",
+     "href": "https://www.caixaenginyers.com/joves",
+     "expanded": null,
+     "rect": [
+      322,
+      155,
+      64,
+      55
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Sènior",
+     "key": "sènior",
+     "role": "link",
+     "kind": "link",
+     "sel": "#layout_182>a",
+     "href": "https://www.caixaenginyers.com/seniors",
+     "expanded": null,
+     "rect": [
+      389,
+      155,
+      70,
+      55
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Professionals",
+     "key": "professionals",
+     "role": "link",
+     "kind": "link",
+     "sel": "#layout_152>a",
+     "href": "https://www.caixaenginyers.com/professionals",
+     "expanded": null,
+     "rect": [
+      462,
+      155,
+      120,
+      55
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Productes i serveis",
+     "key": "productes i serveis",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#layout_627>a",
+     "expanded": null,
+     "rect": [
+      585,
+      155,
+      188,
+      55
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "El teu dia a dia",
+          "href": "https://www.caixaenginyers.com/el-teu-dia"
+         },
+         {
+          "text": "Hipoteques i préstecs",
+          "href": "https://www.caixaenginyers.com/hipoteques-i-prestecs"
+         },
+         {
+          "text": "Estalvi i inversió",
+          "href": "https://www.caixaenginyers.com/estalvi-inversio"
+         },
+         {
+          "text": "Assegurances",
+          "href": "https://www.caixaenginyers.com/assegurances-i-riscos"
+         },
+         {
+          "text": "Mercats",
+          "href": "https://www.caixaenginyers.com/bolsa-y-mercados"
+         },
+         {
+          "text": "Les meves finances",
+          "href": "https://www.caixaenginyers.com/les-meves-finances"
+         },
+         {
+          "text": "CEApropa",
+          "href": "https://www.caixaenginyers.com/ceapropa"
+         },
+         {
+          "text": "Ingenium Shopping",
+          "href": "https://www.caixaenginyers.com/ingenium"
+         },
+         {
+          "text": "Renting",
+          "href": "https://www.caixaenginyers.com/ingenium-renting"
+         }
+        ],
+        "headings": [],
+        "images": 9,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         210,
+         1440,
+         176
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        }
+       ],
+       "shot": "1440-005-Productes-i-serveis-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "El teu dia a dia",
+          "href": "https://www.caixaenginyers.com/el-teu-dia"
+         },
+         {
+          "text": "Hipoteques i préstecs",
+          "href": "https://www.caixaenginyers.com/hipoteques-i-prestecs"
+         },
+         {
+          "text": "Estalvi i inversió",
+          "href": "https://www.caixaenginyers.com/estalvi-inversio"
+         },
+         {
+          "text": "Assegurances",
+          "href": "https://www.caixaenginyers.com/assegurances-i-riscos"
+         },
+         {
+          "text": "Mercats",
+          "href": "https://www.caixaenginyers.com/bolsa-y-mercados"
+         },
+         {
+          "text": "Les meves finances",
+          "href": "https://www.caixaenginyers.com/les-meves-finances"
+         },
+         {
+          "text": "CEApropa",
+          "href": "https://www.caixaenginyers.com/ceapropa"
+         },
+         {
+          "text": "Ingenium Shopping",
+          "href": "https://www.caixaenginyers.com/ingenium"
+         },
+         {
+          "text": "Renting",
+          "href": "https://www.caixaenginyers.com/ingenium-renting"
+         }
+        ],
+        "headings": [],
+        "images": 9,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         210,
+         1440,
+         176
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        },
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        }
+       ],
+       "shot": "1440-006-Productes-i-serveis-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "El teu dia a dia",
+          "href": "https://www.caixaenginyers.com/el-teu-dia"
+         },
+         {
+          "text": "Hipoteques i préstecs",
+          "href": "https://www.caixaenginyers.com/hipoteques-i-prestecs"
+         },
+         {
+          "text": "Estalvi i inversió",
+          "href": "https://www.caixaenginyers.com/estalvi-inversio"
+         },
+         {
+          "text": "Assegurances",
+          "href": "https://www.caixaenginyers.com/assegurances-i-riscos"
+         },
+         {
+          "text": "Mercats",
+          "href": "https://www.caixaenginyers.com/bolsa-y-mercados"
+         },
+         {
+          "text": "Les meves finances",
+          "href": "https://www.caixaenginyers.com/les-meves-finances"
+         },
+         {
+          "text": "CEApropa",
+          "href": "https://www.caixaenginyers.com/ceapropa"
+         },
+         {
+          "text": "Ingenium Shopping",
+          "href": "https://www.caixaenginyers.com/ingenium"
+         },
+         {
+          "text": "Renting",
+          "href": "https://www.caixaenginyers.com/ingenium-renting"
+         }
+        ],
+        "headings": [],
+        "images": 9,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         210,
+         1440,
+         176
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        },
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.has-children"
+        }
+       ],
+       "shot": "1440-007-Productes-i-serveis-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Personal&Premium",
+     "key": "personalpremium",
+     "role": "link",
+     "kind": "link",
+     "sel": "#layout_15>a",
+     "href": "https://www.caixaenginyers.com/banca-personal",
+     "expanded": null,
+     "rect": [
+      259,
+      105,
+      200,
+      50
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Empreses",
+     "key": "empreses",
+     "role": "link",
+     "kind": "link",
+     "sel": "#layout_151>a",
+     "href": "https://www.caixaenginyers.com/empreses",
+     "expanded": null,
+     "rect": [
+      463,
+      105,
+      115,
+      50
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Institucions",
+     "key": "institucions",
+     "role": "link",
+     "kind": "link",
+     "sel": "#layout_221>a",
+     "href": "https://www.caixaenginyers.com/institucions",
+     "expanded": null,
+     "rect": [
+      581,
+      105,
+      132,
+      50
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Inicia Cerca",
+     "key": "inicia cerca",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#globalSearchButton",
+     "expanded": null,
+     "rect": [
+      1259,
+      172,
+      25,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Cerca",
+          "href": "javascript:;"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         930,
+         165,
+         364,
+         37
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.search-launcher"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.search-launcher"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.search-launcher"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.search-launcher"
+        },
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.search-launcher"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.search-launcher"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.lfr-icon-item"
+        }
+       ],
+       "shot": "1440-008-Inicia-Cerca-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 1,
+       "panel": {
+        "links": [
+         {
+          "text": "Cerca",
+          "href": "javascript:;"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "text"
+        ],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         930,
+         165,
+         364,
+         37
+        ]
+       },
+       "expanded": null,
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "border-top-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.search-launcher"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.search-launcher"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-left-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.search-launcher"
+        },
+        {
+         "kind": "transition",
+         "prop": "box-shadow",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.search-launcher"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-right-color",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "a.search-launcher"
+        }
+       ],
+       "shot": "1440-009-Inicia-Cerca-key.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Cerca amb almenys 3 caràcters",
+       "key": "cerca amb almenys 3 caràcters",
+       "role": "input",
+       "kind": "search",
+       "sel": "#com_cajaingenieros_portal_generalsearch_web_portlet_GeneralSearchPortlet_INSTANCE_PWkTISzrz6FZkeywords",
+       "expanded": null,
+       "rect": [
+        946,
+        171,
+        307,
+        25
+       ],
+       "actions": {},
+       "search": {
+        "probe": "accés",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://www.caixaenginyers.com/resultados-busqueda/-/general-search/PWkTISzrz6FZ/search/{q}?"
+       }
+      },
+      {
+       "name": "Cerca",
+       "key": "cerca",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#com_cajaingenieros_portal_generalsearch_web_portlet_GeneralSearchPortlet_INSTANCE_PWkTISzrz6FZmainform>span>a",
+       "expanded": null,
+       "rect": [
+        1260,
+        171,
+        25,
+        25
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": true,
+         "hidden": 2,
+         "panel": {
+          "links": [
+           {
+            "text": "Inicia Cerca",
+            "href": "javascript:void(0)"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Inicia Cerca"
+          ],
+          "options": 0,
+          "rect": [
+           1259,
+           172,
+           25,
+           24
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": 150,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "a.search-launcher"
+          }
+         ],
+         "shot": "1440-010-Cerca-click.png"
+        },
+        "key": null
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": false,
+        "toggle": false
+       },
+       "children": []
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 205,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -1000,
+     "height": 205,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -700,
+     "height": 205,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 205,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 10,
+   "truncated": null,
+   "loads": 8
+  }
+ },
+ "probe": "accés"
+}

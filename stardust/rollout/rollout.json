@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-26T18:59:21.979Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.caixaenginyers.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "3a4f1d39",
+      "ref": "main"
+    },
+    "liveHost": "main--3a4f1d39--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 10,
+    "discovered": 479,
+    "capped": true,
+    "pageCap": 10
+  },
+  "lastRun": {
+    "at": "2026-10-27T00:37:06.465Z",
+    "pages": {
+      "total": 10,
+      "verified": 10,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 16,
+      "converted": 16,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

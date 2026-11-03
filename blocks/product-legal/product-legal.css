@@ -1,0 +1,39 @@
+/* product-legal: 12px small print (source .fs12 web content, own flex row → flow-root) */
+.product-legal {
+  display: flow-root;
+  margin-bottom: 10px;
+}
+
+.product-legal .product-legal-row {
+  display: flow-root;
+}
+
+.product-legal p {
+  font-size: 12px;
+  line-height: 22.857px;
+}
+
+.product-legal .product-legal-compact p {
+  line-height: 1.4286;
+}
+
+.product-legal .product-legal-style {
+  display: none;
+}
+
+/* ---- program sibling variants (additive) ---- */
+
+/* medium: 14px small print (source p font-size 14px) */
+.product-legal.medium p,
+.product-legal.ruled p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* ruled: footnotes between two rules (source hr … hr) */
+.product-legal.ruled {
+  margin-top: 20px;
+  padding: 20px 0 33px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}

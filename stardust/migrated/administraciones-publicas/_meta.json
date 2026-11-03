@@ -1,0 +1,138 @@
+{
+  "slug": "administraciones-publicas",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "accidentes",
+  "modules": [
+    "product-body",
+    "product-hero",
+    "product-legal",
+    "request-form"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "div",
+    "div",
+    "div",
+    "div",
+    "div"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": null,
+    "css": "9dc32436c0b9"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Administracions Públiques - Caixa Enginyers",
+    "description": null,
+    "canonical": null,
+    "lang": "ca"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Administracions Públiques - Caixa Enginyers",
+    "url": "https://www.caixaenginyers.com/administraciones-publicas"
+  },
+  "migratedAt": "2026-10-26T22:17:23Z",
+  "designMdSha": "9e6f16c2ea26",
+  "designJsonSha": "f96b124b2d3a",
+  "sourceCurrentSha": "927eac1708d4",
+  "sourceProposedSha": "cd5036cf91de",
+  "fidelityTier": "sibling",
+  "archetypeSource": "accidentes",
+  "archetypeSha": "da6ffc809b8a",
+  "variants": [
+    "product-body.alerts product-hero.dark product-legal.ruled request-form.left"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance.mjs vs /accidentes: exit 2, deltas budgeted as block variants (stardust/rollout/units/program-variance.json)",
+    "delivery-lint": "delivery-lint 0 P0 / 0 P1 / 0 P2",
+    "media-reconcile": "media-reconcile --apply: all images hosted (media ledger, scope administraciones-publicas)",
+    "pixel-gate-1440": "gate-all published preview PASS 5.82% Δh 30 (runs/2026-10-26T22-42-11-740Z), clip 0, MISSING 0 / HIDDEN 0",
+    "content-count": "gate-all content-presence MISSING 0 / HIDDEN 0 at 1440 and 360; drops covered by contentDeviations[]; content-diff body-level (source has no <main>) dominated by chrome/cookie findings",
+    "content-fidelity": "gate-all session 4: 360 + 1440 PASS (stardust/replica/gates/all-{360,1440}/administraciones-publicas), MISSING 0 HIDDEN 0, clip 0"
+  },
+  "contentDeviations": [
+    {
+      "kind": "restructure",
+      "source": "h2 Una gestió específica i de qualitat",
+      "target": "h1",
+      "reason": "page has no h1; delivery contract needs exactly one h1"
+    },
+    {
+      "kind": "transform",
+      "source": "risk-indicator nested tables",
+      "target": "paragraphs (scale digits, highlighted in strong)",
+      "reason": "nested tables cannot be authored inside a block cell"
+    },
+    {
+      "kind": "transform",
+      "source": "checkbox 'termes i condicions' javascript:void(0) modal",
+      "target": "https://www.caixaenginyers.com/privacidad",
+      "reason": "archetype request-form encoding; dynamic row 3 (no backend)"
+    }
+  ],
+  "assetsBundled": 16,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.caixaenginyers.com/pensiones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/pensiones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/-/caja-de-ingenieros-primera-entidad-bancaria-de-espana-en-adherirse-a-la-iniciativa-tobacco-free-finance-pledge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/web/fondosinversion/ratings-morningstar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/documents/20143/2554931/DFP_CLIMATE_CAT.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/web/fondosinversion",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/pensiones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/web/fondosinversion/nuestro-compromiso-isr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/ca/web/grupo/detalle-grupo#bancaseguros",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/privacidad",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.caixaenginyers.com/oficinas-y-cajeros",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "administraciones-publicas/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "administraciones-publicas/_meta.json",
+  "driverVersion": "1"
+}

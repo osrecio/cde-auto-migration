@@ -1,0 +1,126 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-10-26T20:01:31.824Z",
+ "source": "https://www.caixaenginyers.com/",
+ "build": "https://main--3a4f1d39--aemcoder.aem.page/drafts/foundation-shell",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 0,
+  "warn": 12,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "motion@1440 Accés [click]",
+   "width": 1440,
+   "path": "Accés",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates border-top-color; the build does not"
+  },
+  {
+   "key": "motion@1440 Accés [click]",
+   "width": 1440,
+   "path": "Accés",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates border-bottom-color; the build does not"
+  },
+  {
+   "key": "motion@1440 Accés [click]",
+   "width": 1440,
+   "path": "Accés",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates border-left-color; the build does not"
+  },
+  {
+   "key": "motion@1440 Accés [click]",
+   "width": 1440,
+   "path": "Accés",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates box-shadow; the build does not"
+  },
+  {
+   "key": "motion@1440 Accés [click]",
+   "width": 1440,
+   "path": "Accés",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates color; the build does not"
+  },
+  {
+   "key": "motion@1440 Accés [click]",
+   "width": 1440,
+   "path": "Accés",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates border-right-color; the build does not"
+  },
+  {
+   "key": "link-href@1440 ca [click]",
+   "width": 1440,
+   "path": "ca",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "2 link(s) point elsewhere: es: / → /es/drafts/foundation-shell; ca: / → /drafts/foundation-shell"
+  },
+  {
+   "key": "motion@1440 ca [click]",
+   "width": 1440,
+   "path": "ca",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates box-shadow; the build does not"
+  },
+  {
+   "key": "link-missing@1440 Fundació",
+   "width": 1440,
+   "path": "Fundació",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /web/fundacion not in the build header"
+  },
+  {
+   "key": "link-href@1440 Inicia Cerca [click]",
+   "width": 1440,
+   "path": "Inicia Cerca",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "1 link(s) point elsewhere: Cerca: ; → /resultados-busqueda/-/general-search/pwktiszrz6fz"
+  },
+  {
+   "key": "link-href@1440 Inicia Cerca > Cerca [click]",
+   "width": 1440,
+   "path": "Inicia Cerca > Cerca",
+   "action": "click",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "1 link(s) point elsewhere: Inicia Cerca: void(0) → /drafts/foundation-shell"
+  },
+  {
+   "key": "state-extra@1440 Inicia Cerca > Cerca [key]",
+   "width": 1440,
+   "path": "Inicia Cerca > Cerca",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  }
+ ]
+}
